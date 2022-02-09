@@ -1,0 +1,1746 @@
+ image_processing_test_sfun
+
+ Timestamp is 61fbca63 (Thu Feb  3 13:28:19 2022)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000fdc0H .text$mn                CODE
+ 0001:0000fdc0 00000012H .text$mn$00             CODE
+ 0001:0000fdd2 00000081H .text$x                 CODE
+ 0002:00000000 00000448H .idata$5                DATA
+ 0002:00000448 00000010H .00cfg                  DATA
+ 0002:00000458 00000008H .CRT$XCA                DATA
+ 0002:00000460 00000008H .CRT$XCZ                DATA
+ 0002:00000468 00000008H .CRT$XIA                DATA
+ 0002:00000470 00000008H .CRT$XIZ                DATA
+ 0002:00000478 00000008H .CRT$XPA                DATA
+ 0002:00000480 00000008H .CRT$XPZ                DATA
+ 0002:00000488 00000008H .CRT$XTA                DATA
+ 0002:00000490 00000010H .CRT$XTZ                DATA
+ 0002:00000498 00000000H .gfids$y                DATA
+ 0002:000004a0 00000260H .rdata                  DATA
+ 0002:00000700 00000218H .rdata$zzzdbg           DATA
+ 0002:00000918 00000008H .rtc$IAA                DATA
+ 0002:00000920 00000008H .rtc$IZZ                DATA
+ 0002:00000928 00000008H .rtc$TAA                DATA
+ 0002:00000930 00000008H .rtc$TZZ                DATA
+ 0002:00000938 000008c8H .xdata                  DATA
+ 0002:00001200 00000084H .edata                  DATA
+ 0002:00001284 0000012cH .idata$2                DATA
+ 0002:000013b0 00000018H .idata$3                DATA
+ 0002:000013c8 00000448H .idata$4                DATA
+ 0002:00001810 00000bbcH .idata$6                DATA
+ 0003:00000000 0000d5b0H .data                   DATA
+ 0003:0000d5b0 00000b50H .bss                    DATA
+ 0004:00000000 00000a8cH .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       image_processing_test_initializer 0000000180001000 f   image_processing_test_sfun.obj
+ 0001:00000010       image_processing_test_terminator 0000000180001010 f   image_processing_test_sfun.obj
+ 0001:00000020       load_image_processing_test_optimization_info 0000000180001020 f   image_processing_test_sfun.obj
+ 0001:000000d0       unload_image_processing_test_optimization_info 00000001800010d0 f   image_processing_test_sfun.obj
+ 0001:00000100       sf_image_processing_test_method_dispatcher 0000000180001100 f   image_processing_test_sfun.obj
+ 0001:00000150       sf_image_processing_test_process_check_sum_call 0000000180001150 f   image_processing_test_sfun.obj
+ 0001:00000640       sf_image_processing_test_get_eml_resolved_functions_info 0000000180001640 f   image_processing_test_sfun.obj
+ 0001:00000820       sf_image_processing_test_third_party_uses_info 0000000180001820 f   image_processing_test_sfun.obj
+ 0001:000009f0       sf_image_processing_test_jit_fallback_info 00000001800019f0 f   image_processing_test_sfun.obj
+ 0001:00000bc0       sf_image_processing_test_get_post_codegen_info 0000000180001bc0 f   image_processing_test_sfun.obj
+ 0001:00000da0       sf_image_processing_test_updateBuildInfo_args_info 0000000180001da0 f   image_processing_test_sfun.obj
+ 0001:00000f70       image_processing_test_register_exported_symbols 0000000180001f70 f   image_processing_test_sfun.obj
+ 0001:00000f80       sf_c4_image_processing_test_get_eml_resolved_functions_info 0000000180001f80 f   c4_image_processing_test.obj
+ 0001:00001000       sf_c4_image_processing_test_get_check_sum 0000000180002000 f   c4_image_processing_test.obj
+ 0001:000010d0       c4_image_processing_test_method_dispatcher 00000001800020d0 f   c4_image_processing_test.obj
+ 0001:000045f0       sf_c4_image_processing_test_third_party_uses_info 00000001800055f0 f   c4_image_processing_test.obj
+ 0001:00004660       sf_c4_image_processing_test_jit_fallback_info 0000000180005660 f   c4_image_processing_test.obj
+ 0001:000047f0       sf_c4_image_processing_test_updateBuildInfo_args_info 00000001800057f0 f   c4_image_processing_test.obj
+ 0001:00004b90       sf_c4_image_processing_test_get_post_codegen_info 0000000180005b90 f   c4_image_processing_test.obj
+ 0001:00005090       mexFunction                0000000180006090 f   image_processing_test_sfun_registry.obj
+ 0001:00007840       _ssSetInputPortDirectFeedThroughFcn 0000000180008840 f   image_processing_test_sfun_registry.obj
+ 0001:000079b0       _ssSetRWorkValueFcn        00000001800089b0 f   image_processing_test_sfun_registry.obj
+ 0001:00007a30       _ssGetRWorkValueFcn        0000000180008a30 f   image_processing_test_sfun_registry.obj
+ 0001:00007aa0       _ssSetIWorkValueFcn        0000000180008aa0 f   image_processing_test_sfun_registry.obj
+ 0001:00007b20       _ssGetIWorkValueFcn        0000000180008b20 f   image_processing_test_sfun_registry.obj
+ 0001:00007b90       _ssSetPWorkValueFcn        0000000180008b90 f   image_processing_test_sfun_registry.obj
+ 0001:00007c10       _ssGetPWorkValueFcn        0000000180008c10 f   image_processing_test_sfun_registry.obj
+ 0001:00007c80       _ssGetInputPortSignalFcn   0000000180008c80 f   image_processing_test_sfun_registry.obj
+ 0001:00008010       _ssGetInputPortBufferDstPortFcn 0000000180009010 f   image_processing_test_sfun_registry.obj
+ 0001:00008090       _ssGetInputPortSignalPtrsFcn 0000000180009090 f   image_processing_test_sfun_registry.obj
+ 0001:00008420       ssGetParameterTuningCompliance 0000000180009420 f   image_processing_test_sfun_registry.obj
+ 0001:00008490       ssGetDTypeIdFromMxArray    0000000180009490 f   image_processing_test_sfun_registry.obj
+ 0001:000085b0       ssWriteRTWMx2dMatParam     00000001800095b0 f   image_processing_test_sfun_registry.obj
+ 0001:00008640       ssWriteRTWMxVectParam      0000000180009640 f   image_processing_test_sfun_registry.obj
+ 0001:000086c0       ssWriteRTWParameters       00000001800096c0 f   image_processing_test_sfun_registry.obj
+ 0001:00008c80       ssWriteRTWParamSettings    0000000180009c80 f   image_processing_test_sfun_registry.obj
+ 0001:00009370       ssWriteRTWStr              000000018000a370 f   image_processing_test_sfun_registry.obj
+ 0001:000093d0       ssWriteRTWWorkVect         000000018000a3d0 f   image_processing_test_sfun_registry.obj
+ 0001:00009930       ssWarning                  000000018000a930 f   image_processing_test_sfun_registry.obj
+ 0001:00009a20       ssWriteRTWNameValuePair    000000018000aa20 f   image_processing_test_sfun_registry.obj
+ 0001:00009f20       _ssSetInputPortMatrixDimensions 000000018000af20 f   image_processing_test_sfun_registry.obj
+ 0001:0000a040       _ssSetOutputPortMatrixDimensions 000000018000b040 f   image_processing_test_sfun_registry.obj
+ 0001:0000a160       _ssSetInputPortVectorDimension 000000018000b160 f   image_processing_test_sfun_registry.obj
+ 0001:0000a210       _ssSetOutputPortVectorDimension 000000018000b210 f   image_processing_test_sfun_registry.obj
+ 0001:0000a2c0       ssIsRunTimeParamTunable    000000018000b2c0 f   image_processing_test_sfun_registry.obj
+ 0001:0000a330       ssGetSFuncBlockHandle      000000018000b330 f   image_processing_test_sfun_registry.obj
+ 0001:0000a3a0       _ssGetCurrentInputPortWidth 000000018000b3a0 f   image_processing_test_sfun_registry.obj
+ 0001:0000a4e0       _ssGetCurrentOutputPortWidth 000000018000b4e0 f   image_processing_test_sfun_registry.obj
+ 0001:0000a620       _ssGetCallSystemNumFcnCallDestinations 000000018000b620 f   image_processing_test_sfun_registry.obj
+ 0001:0000a690       ssGetIsZeroCrossControlDisabled 000000018000b690 f   image_processing_test_sfun_registry.obj
+ 0001:0000a700       ssSetIsInputPortUsedForContZcSignal 000000018000b700 f   image_processing_test_sfun_registry.obj
+ 0001:0000a770       ssSetZcSignalIsZcElementDisc 000000018000b770 f   image_processing_test_sfun_registry.obj
+ 0001:0000a820       ssSetZcSignalName          000000018000b820 f   image_processing_test_sfun_registry.obj
+ 0001:0000a890       ssSetZcSignalWidth         000000018000b890 f   image_processing_test_sfun_registry.obj
+ 0001:0000a900       ssSetZcSignalZcEventType   000000018000b900 f   image_processing_test_sfun_registry.obj
+ 0001:0000a970       ssSetZcSignalType          000000018000b970 f   image_processing_test_sfun_registry.obj
+ 0001:0000a9e0       ssSetZcSignalZcTol         000000018000b9e0 f   image_processing_test_sfun_registry.obj
+ 0001:0000aa50       ssSetZcSignalNeedsEventNotification 000000018000ba50 f   image_processing_test_sfun_registry.obj
+ 0001:0000aac0       ssCreateAndAddZcSignalInfo 000000018000bac0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ab30       ssCloneAndAddZcSignalInfo  000000018000bb30 f   image_processing_test_sfun_registry.obj
+ 0001:0000aba0       ssGetNumZcSignals          000000018000bba0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ac10       ssGetZcSignalVector        000000018000bc10 f   image_processing_test_sfun_registry.obj
+ 0001:0000ac80       ssGetZcSignalName          000000018000bc80 f   image_processing_test_sfun_registry.obj
+ 0001:0000acf0       ssGetZcSignalWidth         000000018000bcf0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ad60       ssGetZcSignalZcEventType   000000018000bd60 f   image_processing_test_sfun_registry.obj
+ 0001:0000add0       ssGetZcSignalZcEvents      000000018000bdd0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ae40       ssGetZcSignalType          000000018000be40 f   image_processing_test_sfun_registry.obj
+ 0001:0000aeb0       ssGetZcSignalZcTol         000000018000beb0 f   image_processing_test_sfun_registry.obj
+ 0001:0000af30       ssGetZcSignalNeedsEventNotification 000000018000bf30 f   image_processing_test_sfun_registry.obj
+ 0001:0000afa0       ssGetZcSignalIsZcElementDisc 000000018000bfa0 f   image_processing_test_sfun_registry.obj
+ 0001:0000b040       ssGetIsInputPortElementContinuous 000000018000c040 f   image_processing_test_sfun_registry.obj
+ 0001:0000b0e0       _ssGetAbsTol               000000018000c0e0 f   image_processing_test_sfun_registry.obj
+ 0001:0000b150       _ssSetStateAbsTol          000000018000c150 f   image_processing_test_sfun_registry.obj
+ 0001:0000b230       _ssSetInputPortReusableFcn 000000018000c230 f   image_processing_test_sfun_registry.obj
+ 0001:0000b330       _ssSetOutputPortReusableFcn 000000018000c330 f   image_processing_test_sfun_registry.obj
+ 0001:0000b430       _ssSetSymbolicDimsSupport  000000018000c430 f   image_processing_test_sfun_registry.obj
+ 0001:0000b4a0       _ssRegisterSymbolicDimsExpr 000000018000c4a0 f   image_processing_test_sfun_registry.obj
+ 0001:0000b520       _ssRegisterSymbolicDims    000000018000c520 f   image_processing_test_sfun_registry.obj
+ 0001:0000b5c0       _ssRegisterSymbolicDimsString 000000018000c5c0 f   image_processing_test_sfun_registry.obj
+ 0001:0000b640       _ssRegisterSymbolicDimsIntValue 000000018000c640 f   image_processing_test_sfun_registry.obj
+ 0001:0000b6b0       _ssRegisterSymbolicDimsPlus 000000018000c6b0 f   image_processing_test_sfun_registry.obj
+ 0001:0000b730       _ssRegisterSymbolicDimsMinus 000000018000c730 f   image_processing_test_sfun_registry.obj
+ 0001:0000b7b0       _ssRegisterSymbolicDimsMultiply 000000018000c7b0 f   image_processing_test_sfun_registry.obj
+ 0001:0000b830       _ssRegisterSymbolicDimsDivide 000000018000c830 f   image_processing_test_sfun_registry.obj
+ 0001:0000b8b0       _ssGetNumSymbolicDims      000000018000c8b0 f   image_processing_test_sfun_registry.obj
+ 0001:0000b920       _ssGetSymbolicDim          000000018000c920 f   image_processing_test_sfun_registry.obj
+ 0001:0000b9a0       _ssSetInputPortSymbolicDimsId 000000018000c9a0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ba10       _ssGetCompInputPortSymbolicDimsId 000000018000ca10 f   image_processing_test_sfun_registry.obj
+ 0001:0000ba80       _ssSetCompInputPortSymbolicDimsId 000000018000ca80 f   image_processing_test_sfun_registry.obj
+ 0001:0000baf0       _ssSetOutputPortSymbolicDimsId 000000018000caf0 f   image_processing_test_sfun_registry.obj
+ 0001:0000bb60       _ssGetCompOutputPortSymbolicDimsId 000000018000cb60 f   image_processing_test_sfun_registry.obj
+ 0001:0000bbd0       _ssSetCompOutputPortSymbolicDimsId 000000018000cbd0 f   image_processing_test_sfun_registry.obj
+ 0001:0000bc40       _ssSetCompDWorkSymbolicDimsId 000000018000cc40 f   image_processing_test_sfun_registry.obj
+ 0001:0000bcb0       sf_process_check_sum_call  000000018000ccb0 f   image_processing_test_sfun_registry.obj
+ 0001:0000bd00       sf_process_get_third_party_uses_info_call 000000018000cd00 f   image_processing_test_sfun_registry.obj
+ 0001:0000bf30       sf_process_get_jit_fallback_info_call 000000018000cf30 f   image_processing_test_sfun_registry.obj
+ 0001:0000c160       sf_process_get_post_codegen_info_call 000000018000d160 f   image_processing_test_sfun_registry.obj
+ 0001:0000c390       sf_process_get_updateBuildInfo_args_info_call 000000018000d390 f   image_processing_test_sfun_registry.obj
+ 0001:0000c5c0       sf_process_get_eml_resolved_functions_info_call 000000018000d5c0 f   image_processing_test_sfun_registry.obj
+ 0001:0000c7f0       sf_mex_unlock_call         000000018000d7f0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ca10       sf_machine_global_initializer_called 000000018000da10 f   image_processing_test_sfun_registry.obj
+ 0001:0000ca40       sf_machine_global_method_dispatcher 000000018000da40 f   image_processing_test_sfun_registry.obj
+ 0001:0000caa0       sf_machine_global_terminator 000000018000daa0 f   image_processing_test_sfun_registry.obj
+ 0001:0000cad0       sf_register_machine_exported_symbols 000000018000dad0 f   image_processing_test_sfun_registry.obj
+ 0001:0000caf0       callCustomFcn              000000018000daf0 f   image_processing_test_sfun_registry.obj
+ 0001:0000cb00       sf_machine_global_initializer 000000018000db00 f   image_processing_test_sfun_registry.obj
+ 0001:0000cb70       mdlGetSimState             000000018000db70 f   image_processing_test_sfun_registry.obj
+ 0001:0000cbb0       mdlSetSimState             000000018000dbb0 f   image_processing_test_sfun_registry.obj
+ 0001:0000d500       ProcessMexSfunctionEveryCall 000000018000e500 f   image_processing_test_sfun_registry.obj
+ 0001:0000e680       __local_stdio_printf_options 000000018000f680 f i image_processing_test_sfun_registry.obj
+ 0001:0000e690       _vsnprintf_l               000000018000f690 f i image_processing_test_sfun_registry.obj
+ 0001:0000e710       _vsprintf_l                000000018000f710 f i image_processing_test_sfun_registry.obj
+ 0001:0000e760       sprintf                    000000018000f760 f i image_processing_test_sfun_registry.obj
+ 0001:0000e7b0       mexfilerequiredapiversion  000000018000f7b0 f   c_mexapi_version.obj
+ 0001:0000e7d1       bwlookup_tbb_boolean       000000018000f7d1 f   libmwbwlookup_tbb:libmwbwlookup_tbb.dll
+ 0001:0000e7d7       dilate_binary_twod_tbb     000000018000f7d7 f   libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0001:0000e7dd       erode_binary_twod_tbb      000000018000f7dd f   libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0001:0000e7e3       sf_load_rtw_optimization_info 000000018000f7e3 f   sf_runtime:sf_runtime.dll
+ 0001:0000e7e9       sf_mex_decode              000000018000f7e9 f   sf_runtime:sf_runtime.dll
+ 0001:0000e7ef       sf_init_ChartRunTimeInfo   000000018000f7ef f   sf_runtime:sf_runtime.dll
+ 0001:0000e7f5       sf_free_ChartRunTimeInfo   000000018000f7f5 f   sf_runtime:sf_runtime.dll
+ 0001:0000e7fb       sfrtGetEmlrtCtx            000000018000f7fb f   sf_runtime:sf_runtime.dll
+ 0001:0000e801       sfrtGetCovrtInstance       000000018000f801 f   sf_runtime:sf_runtime.dll
+ 0001:0000e807       sf_get_chart_instance_ptr  000000018000f807 f   sf_runtime:sf_runtime.dll
+ 0001:0000e80d       sim_mode_is_rtw_gen        000000018000f80d f   sf_runtime:sf_runtime.dll
+ 0001:0000e813       sim_mode_is_external       000000018000f813 f   sf_runtime:sf_runtime.dll
+ 0001:0000e819       sf_clear_rtw_identifier    000000018000f819 f   sf_runtime:sf_runtime.dll
+ 0001:0000e81f       sf_get_time                000000018000f81f f   sf_runtime:sf_runtime.dll
+ 0001:0000e825       sfDoAnimationWrapper       000000018000f825 f   sf_runtime:sf_runtime.dll
+ 0001:0000e82b       setDataBrowseFcn           000000018000f82b f   sf_runtime:sf_runtime.dll
+ 0001:0000e831       setLegacyDebuggerFlag      000000018000f831 f   sf_runtime:sf_runtime.dll
+ 0001:0000e837       setDebuggerFlag            000000018000f837 f   sf_runtime:sf_runtime.dll
+ 0001:0000e83d       sf_warn_if_symbolic_dimension_param_changed 000000018000f83d f   sf_runtime:sf_runtime.dll
+ 0001:0000e843       sf_set_work_widths         000000018000f843 f   sf_runtime:sf_runtime.dll
+ 0001:0000e849       sfListenerCacheSimStruct   000000018000f849 f   sf_runtime:sf_runtime.dll
+ 0001:0000e84f       sfListenerLightTerminate   000000018000f84f f   sf_runtime:sf_runtime.dll
+ 0001:0000e855       sfListenerInitializeRuntimeVars 000000018000f855 f   sf_runtime:sf_runtime.dll
+ 0001:0000e85b       sf_mex_call                000000018000f85b f   sf_runtime:sf_runtime.dll
+ 0001:0000e861       sf_mex_error_message       000000018000f861 f   sf_runtime:sf_runtime.dll
+ 0001:0000e867       sf_mex_create              000000018000f867 f   sf_runtime:sf_runtime.dll
+ 0001:0000e86d       sf_mex_createcellmatrix    000000018000f86d f   sf_runtime:sf_runtime.dll
+ 0001:0000e873       sf_mex_setcell             000000018000f873 f   sf_runtime:sf_runtime.dll
+ 0001:0000e879       sf_mex_getcell             000000018000f879 f   sf_runtime:sf_runtime.dll
+ 0001:0000e87f       sf_mex_assign              000000018000f87f f   sf_runtime:sf_runtime.dll
+ 0001:0000e885       sf_mex_dup                 000000018000f885 f   sf_runtime:sf_runtime.dll
+ 0001:0000e88b       sf_mex_destroy             000000018000f88b f   sf_runtime:sf_runtime.dll
+ 0001:0000e891       sf_mex_import              000000018000f891 f   sf_runtime:sf_runtime.dll
+ 0001:0000e897       ssGetInputPortSignal_wrapper 000000018000f897 f   sf_runtime:sf_runtime.dll
+ 0001:0000e89d       ssGetOutputPortSignal_wrapper 000000018000f89d f   sf_runtime:sf_runtime.dll
+ 0001:0000e8a3       sf_get_ChartInfoStruct_CodeGen 000000018000f8a3 f   sf_runtime:sf_runtime.dll
+ 0001:0000e8a9       sf_get_hasSeparateUpdateOutputs 000000018000f8a9 f   sf_runtime:sf_runtime.dll
+ 0001:0000e8af       callMdlMethodAndReportError 000000018000f8af f   sf_runtime:sf_runtime.dll
+ 0001:0000e8b5       call_sf_machine_global_method_dispatcher 000000018000f8b5 f   sf_runtime:sf_runtime.dll
+ 0001:0000e8bb       getRuntimeInstanceInfoAsVoid 000000018000f8bb f   sf_runtime:sf_runtime.dll
+ 0001:0000e8c1       sf_mex_error_direct_call   000000018000f8c1 f   sf_runtime:sf_runtime.dll
+ 0001:0000e8c7       sf_clear_error_manager_info 000000018000f8c7 f   sf_runtime:sf_runtime.dll
+ 0001:0000e8cd       mxIsChar_800               000000018000f8cd f   libmx:libmx.dll
+ 0001:0000e8d3       mxGetScalar_800            000000018000f8d3 f   libmx:libmx.dll
+ 0001:0000e8d9       mxGetPr_800                000000018000f8d9 f   libmx:libmx.dll
+ 0001:0000e8df       mxDestroyArray_800         000000018000f8df f   libmx:libmx.dll
+ 0001:0000e8e5       mxCreateDoubleMatrix_800   000000018000f8e5 f   libmx:libmx.dll
+ 0001:0000e8eb       mxGetString_800            000000018000f8eb f   libmx:libmx.dll
+ 0001:0000e8f1       mxDuplicateArray_800       000000018000f8f1 f   libmx:libmx.dll
+ 0001:0000e8f7       mxSetCell_800              000000018000f8f7 f   libmx:libmx.dll
+ 0001:0000e8fd       mxSetField_800             000000018000f8fd f   libmx:libmx.dll
+ 0001:0000e903       mxCreateString_800         000000018000f903 f   libmx:libmx.dll
+ 0001:0000e909       mxCreateCellMatrix_800     000000018000f909 f   libmx:libmx.dll
+ 0001:0000e90f       mxCreateStructMatrix_800   000000018000f90f f   libmx:libmx.dll
+ 0001:0000e915       mxCalloc_800               000000018000f915 f   libmx:libmx.dll
+ 0001:0000e91b       mxGetM_800                 000000018000f91b f   libmx:libmx.dll
+ 0001:0000e921       mxGetClassID_800           000000018000f921 f   libmx:libmx.dll
+ 0001:0000e927       mxIsNumeric_800            000000018000f927 f   libmx:libmx.dll
+ 0001:0000e92d       mxIsComplex_800            000000018000f92d f   libmx:libmx.dll
+ 0001:0000e933       mxGetN_800                 000000018000f933 f   libmx:libmx.dll
+ 0001:0000e939       mxCreateDoubleScalar_800   000000018000f939 f   libmx:libmx.dll
+ 0001:0000e93f       mexMakeArrayPersistent_800 000000018000f93f f   libmex:libmex.dll
+ 0001:0000e945       mexErrMsgTxt_800           000000018000f945 f   libmex:libmex.dll
+ 0001:0000e94b       mexWarnMsgTxt_800          000000018000f94b f   libmex:libmex.dll
+ 0001:0000e951       mexCallMATLAB_800          000000018000f951 f   libmex:libmex.dll
+ 0001:0000e957       mexLock_800                000000018000f957 f   libmex:libmex.dll
+ 0001:0000e95d       mexUnlock_800              000000018000f95d f   libmex:libmex.dll
+ 0001:0000e963       mexIsLocked_800            000000018000f963 f   libmex:libmex.dll
+ 0001:0000e969       utMalloc                   000000018000f969 f   libut:libut.dll
+ 0001:0000e96f       utFree                     000000018000f96f f   libut:libut.dll
+ 0001:0000e975       muDoubleScalarIsNaN        000000018000f975 f   libmwmathutil:libmwmathutil.dll
+ 0001:0000e97b       emlrtLicenseCheckR2012b    000000018000f97b f   libemlrt:libemlrt.dll
+ 0001:0000e981       emlrtDynamicBoundsCheckR2012b 000000018000f981 f   libemlrt:libemlrt.dll
+ 0001:0000e987       emlrtIntegerCheckR2012b    000000018000f987 f   libemlrt:libemlrt.dll
+ 0001:0000e98d       covrtCreateStateflowInstanceData 000000018000f98d f   libcovrt:libcovrt.dll
+ 0001:0000e993       covrtDeleteStateflowInstanceData 000000018000f993 f   libcovrt:libcovrt.dll
+ 0001:0000e999       covrtTransInitFcn          000000018000f999 f   libcovrt:libcovrt.dll
+ 0001:0000e99f       covrtStateInitFcn          000000018000f99f f   libcovrt:libcovrt.dll
+ 0001:0000e9a5       covrtChartInitFcn          000000018000f9a5 f   libcovrt:libcovrt.dll
+ 0001:0000e9ab       covrtSigUpdateFcn          000000018000f9ab f   libcovrt:libcovrt.dll
+ 0001:0000e9b1       covrtEmlInitFcn            000000018000f9b1 f   libcovrt:libcovrt.dll
+ 0001:0000e9b7       covrtEmlFcnInitFcn         000000018000f9b7 f   libcovrt:libcovrt.dll
+ 0001:0000e9bd       covrtEmlFcnEval            000000018000f9bd f   libcovrt:libcovrt.dll
+ 0001:0000e9c4       __raise_securityfailure    000000018000f9c4 f   MSVCRT:gs_report.obj
+ 0001:0000e9f8       __report_gsfailure         000000018000f9f8 f   MSVCRT:gs_report.obj
+ 0001:0000eacc       __report_rangecheckfailure 000000018000facc f   MSVCRT:gs_report.obj
+ 0001:0000eae0       __report_securityfailure   000000018000fae0 f   MSVCRT:gs_report.obj
+ 0001:0000eb7c       __report_securityfailureEx 000000018000fb7c f   MSVCRT:gs_report.obj
+ 0001:0000ed70       __GSHandlerCheck           000000018000fd70 f   MSVCRT:gshandler.obj
+ 0001:0000ed90       __GSHandlerCheckCommon     000000018000fd90 f   MSVCRT:gshandler.obj
+ 0001:0000ee00       __security_check_cookie    000000018000fe00 f   MSVCRT:amdsecgs.obj
+ 0001:0000f170       _CRT_INIT                  0000000180010170 f   MSVCRT:dll_dllmain.obj
+ 0001:0000f178       _DllMainCRTStartup         0000000180010178 f   MSVCRT:dll_dllmain.obj
+ 0001:0000f224       __security_init_cookie     0000000180010224 f   MSVCRT:gs_support.obj
+ 0001:0000f2d0       DllMain                    00000001800102d0 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:0000f2f4       ?__scrt_initialize_type_info@@YAXXZ 00000001800102f4 f   MSVCRT:tncleanup.obj
+ 0001:0000f304       ?__scrt_uninitialize_type_info@@YAXXZ 0000000180010304 f   MSVCRT:tncleanup.obj
+ 0001:0000f310       __local_stdio_scanf_options 0000000180010310 f i MSVCRT:default_local_stdio_options.obj
+ 0001:0000f318       __scrt_initialize_default_local_stdio_options 0000000180010318 f   MSVCRT:default_local_stdio_options.obj
+ 0001:0000f334       ??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 0000000180010334 f i MSVCRT:utility.obj
+ 0001:0000f34c       ??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 000000018001034c f i MSVCRT:utility.obj
+ 0001:0000f36c       ?__crt_rotate_pointer_value@@YA_K_KH@Z 000000018001036c f i MSVCRT:utility.obj
+ 0001:0000f378       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180010378 f i MSVCRT:utility.obj
+ 0001:0000f3d8       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 00000001800103d8 f i MSVCRT:utility.obj
+ 0001:0000f410       NtCurrentTeb               0000000180010410 f i MSVCRT:utility.obj
+ 0001:0000f41c       __scrt_acquire_startup_lock 000000018001041c f   MSVCRT:utility.obj
+ 0001:0000f458       __scrt_dllmain_after_initialize_c 0000000180010458 f   MSVCRT:utility.obj
+ 0001:0000f48c       __scrt_dllmain_before_initialize_c 000000018001048c f   MSVCRT:utility.obj
+ 0001:0000f4a4       __scrt_dllmain_crt_thread_attach 00000001800104a4 f   MSVCRT:utility.obj
+ 0001:0000f4cc       __scrt_dllmain_crt_thread_detach 00000001800104cc f   MSVCRT:utility.obj
+ 0001:0000f4e4       __scrt_dllmain_exception_filter 00000001800104e4 f   MSVCRT:utility.obj
+ 0001:0000f544       __scrt_dllmain_uninitialize_c 0000000180010544 f   MSVCRT:utility.obj
+ 0001:0000f574       __scrt_dllmain_uninitialize_critical 0000000180010574 f   MSVCRT:utility.obj
+ 0001:0000f588       __scrt_initialize_crt      0000000180010588 f   MSVCRT:utility.obj
+ 0001:0000f5d4       __scrt_initialize_onexit_tables 00000001800105d4 f   MSVCRT:utility.obj
+ 0001:0000f6ac       __scrt_is_nonwritable_in_current_image 00000001800106ac f   MSVCRT:utility.obj
+ 0001:0000f748       __scrt_release_startup_lock 0000000180010748 f   MSVCRT:utility.obj
+ 0001:0000f76c       __scrt_uninitialize_crt    000000018001076c f   MSVCRT:utility.obj
+ 0001:0000f798       _onexit                    0000000180010798 f   MSVCRT:utility.obj
+ 0001:0000f7e8       at_quick_exit              00000001800107e8 f   MSVCRT:utility.obj
+ 0001:0000f820       atexit                     0000000180010820 f   MSVCRT:utility.obj
+ 0001:0000f838       __scrt_get_dyn_tls_init_callback 0000000180010838 f   MSVCRT:dyn_tls_init.obj
+ 0001:0000f840       __crt_debugger_hook        0000000180010840 f   MSVCRT:utility_desktop.obj
+ 0001:0000f848       __scrt_fastfail            0000000180010848 f   MSVCRT:utility_desktop.obj
+ 0001:0000f994       __scrt_get_show_window_mode 0000000180010994 f   MSVCRT:utility_desktop.obj
+ 0001:0000f9d0       __scrt_initialize_mta      00000001800109d0 f   MSVCRT:utility_desktop.obj
+ 0001:0000f9d8       __scrt_initialize_winrt    00000001800109d8 f   MSVCRT:utility_desktop.obj
+ 0001:0000f9dc       __scrt_is_managed_app      00000001800109dc f   MSVCRT:utility_desktop.obj
+ 0001:0000fa30       __scrt_set_unhandled_exception_filter 0000000180010a30 f   MSVCRT:utility_desktop.obj
+ 0001:0000fa40       __scrt_exe_initialize_mta  0000000180010a40 f   MSVCRT:utility_desktop.obj
+ 0001:0000fa40       __scrt_stub_for_initialize_mta 0000000180010a40 f   MSVCRT:utility_desktop.obj
+ 0001:0000fa44       __scrt_unhandled_exception_filter 0000000180010a44 f   MSVCRT:utility_desktop.obj
+ 0001:0000fa7c       _RTC_Initialize            0000000180010a7c f   MSVCRT:initsect.obj
+ 0001:0000fab8       _RTC_Terminate             0000000180010ab8 f   MSVCRT:initsect.obj
+ 0001:0000faf4       _guard_check_icall_nop     0000000180010af4 f i MSVCRT:guard_support.obj
+ 0001:0000faf8       ReadNoFence64              0000000180010af8 f i MSVCRT:guard_support.obj
+ 0001:0000fafc       ReadPointerNoFence         0000000180010afc f i MSVCRT:guard_support.obj
+ 0001:0000fb00       _guard_icall_checks_enforced 0000000180010b00 f i MSVCRT:guard_support.obj
+ 0001:0000fb18       _guard_rf_checks_enforced  0000000180010b18 f i MSVCRT:guard_support.obj
+ 0001:0000fb1c       __isa_available_init       0000000180010b1c f   MSVCRT:cpu_disp.obj
+ 0001:0000fc98       _get_startup_argv_mode     0000000180010c98 f   MSVCRT:argv_mode.obj
+ 0001:0000fca0       __scrt_is_ucrt_dll_in_use  0000000180010ca0 f   MSVCRT:ucrt_detection.obj
+ 0001:0000fcb0       RtlCaptureContext          0000000180010cb0 f   kernel32:KERNEL32.dll
+ 0001:0000fcb6       RtlLookupFunctionEntry     0000000180010cb6 f   kernel32:KERNEL32.dll
+ 0001:0000fcbc       RtlVirtualUnwind           0000000180010cbc f   kernel32:KERNEL32.dll
+ 0001:0000fcc2       UnhandledExceptionFilter   0000000180010cc2 f   kernel32:KERNEL32.dll
+ 0001:0000fcc8       SetUnhandledExceptionFilter 0000000180010cc8 f   kernel32:KERNEL32.dll
+ 0001:0000fcce       GetCurrentProcess          0000000180010cce f   kernel32:KERNEL32.dll
+ 0001:0000fcd4       TerminateProcess           0000000180010cd4 f   kernel32:KERNEL32.dll
+ 0001:0000fcda       IsProcessorFeaturePresent  0000000180010cda f   kernel32:KERNEL32.dll
+ 0001:0000fce0       QueryPerformanceCounter    0000000180010ce0 f   kernel32:KERNEL32.dll
+ 0001:0000fce6       GetCurrentProcessId        0000000180010ce6 f   kernel32:KERNEL32.dll
+ 0001:0000fcec       GetCurrentThreadId         0000000180010cec f   kernel32:KERNEL32.dll
+ 0001:0000fcf2       GetSystemTimeAsFileTime    0000000180010cf2 f   kernel32:KERNEL32.dll
+ 0001:0000fcf8       DisableThreadLibraryCalls  0000000180010cf8 f   kernel32:KERNEL32.dll
+ 0001:0000fcfe       InitializeSListHead        0000000180010cfe f   kernel32:KERNEL32.dll
+ 0001:0000fd04       IsDebuggerPresent          0000000180010d04 f   kernel32:KERNEL32.dll
+ 0001:0000fd0a       GetStartupInfoW            0000000180010d0a f   kernel32:KERNEL32.dll
+ 0001:0000fd10       GetModuleHandleW           0000000180010d10 f   kernel32:KERNEL32.dll
+ 0001:0000fd16       memset                     0000000180010d16 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000fd1c       memcpy                     0000000180010d1c f   vcruntime:VCRUNTIME140.dll
+ 0001:0000fd22       __C_specific_handler       0000000180010d22 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000fd28       __std_type_info_destroy_list 0000000180010d28 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000fd2e       strcmp                     0000000180010d2e f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000fd34       strcat                     0000000180010d34 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000fd3a       __stdio_common_vsprintf    0000000180010d3a f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000fd40       free                       0000000180010d40 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000fd46       malloc                     0000000180010d46 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000fd4c       strlen                     0000000180010d4c f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:0000fd52       _initterm                  0000000180010d52 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd58       _initterm_e                0000000180010d58 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd5e       _seh_filter_dll            0000000180010d5e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd64       _configure_narrow_argv     0000000180010d64 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd6a       _initialize_narrow_environment 0000000180010d6a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd70       _initialize_onexit_table   0000000180010d70 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd76       _register_onexit_function  0000000180010d76 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd7c       _execute_onexit_table      0000000180010d7c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd82       _crt_atexit                0000000180010d82 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd88       _crt_at_quick_exit         0000000180010d88 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd8e       _cexit                     0000000180010d8e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd94       terminate                  0000000180010d94 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000fd9c       __vcrt_initialize          0000000180010d9c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fd9c       __scrt_stub_for_acrt_initialize 0000000180010d9c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fd9c       __acrt_initialize          0000000180010d9c f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda0       __scrt_stub_for_acrt_thread_attach 0000000180010da0 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda0       __vcrt_thread_attach       0000000180010da0 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda0       __acrt_thread_attach       0000000180010da0 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda4       __vcrt_thread_detach       0000000180010da4 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda4       __scrt_stub_for_acrt_thread_detach 0000000180010da4 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda4       __acrt_thread_detach       0000000180010da4 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda8       __acrt_uninitialize        0000000180010da8 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda8       __vcrt_uninitialize        0000000180010da8 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fda8       __scrt_stub_for_acrt_uninitialize 0000000180010da8 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fdac       __scrt_stub_for_acrt_uninitialize_critical 0000000180010dac f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fdac       __vcrt_uninitialize_critical 0000000180010dac f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fdac       __acrt_uninitialize_critical 0000000180010dac f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fdb0       __scrt_stub_for_is_c_termination_complete 0000000180010db0 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fdb0       _is_c_termination_complete 0000000180010db0 f   MSVCRT:ucrt_stubs.obj
+ 0001:0000fdd0       _guard_dispatch_icall_nop  0000000180010dd0 f   MSVCRT:guard_dispatch.obj
+ 0002:00000000       __imp_GetStartupInfoW      0000000180011000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_IsProcessorFeaturePresent 0000000180011008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_RtlCaptureContext    0000000180011010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_RtlLookupFunctionEntry 0000000180011018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_QueryPerformanceCounter 0000000180011020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_GetCurrentProcessId  0000000180011028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_GetCurrentThreadId   0000000180011030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_GetSystemTimeAsFileTime 0000000180011038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_DisableThreadLibraryCalls 0000000180011040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_InitializeSListHead  0000000180011048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_IsDebuggerPresent    0000000180011050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_GetModuleHandleW     0000000180011058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_GetCurrentProcess    0000000180011060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_SetUnhandledExceptionFilter 0000000180011068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_UnhandledExceptionFilter 0000000180011070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_RtlVirtualUnwind     0000000180011078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_TerminateProcess     0000000180011080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 0000000180011088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___std_type_info_destroy_list 0000000180011090     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp_memset               0000000180011098     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp_memcpy               00000001800110a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp___C_specific_handler 00000001800110a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       \177VCRUNTIME140_NULL_THUNK_DATA 00000001800110b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp_malloc               00000001800110b8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c0       __imp_free                 00000001800110c0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c8       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 00000001800110c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       __imp__initterm_e          00000001800110d0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000d8       __imp__initialize_narrow_environment 00000001800110d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e0       __imp__seh_filter_dll      00000001800110e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e8       __imp__configure_narrow_argv 00000001800110e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp__initialize_onexit_table 00000001800110f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__register_onexit_function 00000001800110f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp__execute_onexit_table 0000000180011100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp__crt_atexit          0000000180011108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__crt_at_quick_exit   0000000180011110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__cexit               0000000180011118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp_terminate            0000000180011120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp__initterm            0000000180011128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 0000000180011130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       __imp___stdio_common_vsprintf 0000000180011138     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000140       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 0000000180011140     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000148       __imp_strlen               0000000180011148     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000150       __imp_strcat               0000000180011150     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000158       __imp_strcmp               0000000180011158     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000160       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 0000000180011160     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000168       __imp_covrtCreateStateflowInstanceData 0000000180011168     libcovrt:libcovrt.dll
+ 0002:00000170       __imp_covrtEmlFcnEval      0000000180011170     libcovrt:libcovrt.dll
+ 0002:00000178       __imp_covrtEmlFcnInitFcn   0000000180011178     libcovrt:libcovrt.dll
+ 0002:00000180       __imp_covrtEmlInitFcn      0000000180011180     libcovrt:libcovrt.dll
+ 0002:00000188       __imp_covrtSigUpdateFcn    0000000180011188     libcovrt:libcovrt.dll
+ 0002:00000190       __imp_covrtChartInitFcn    0000000180011190     libcovrt:libcovrt.dll
+ 0002:00000198       __imp_covrtStateInitFcn    0000000180011198     libcovrt:libcovrt.dll
+ 0002:000001a0       __imp_covrtTransInitFcn    00000001800111a0     libcovrt:libcovrt.dll
+ 0002:000001a8       __imp_covrtDeleteStateflowInstanceData 00000001800111a8     libcovrt:libcovrt.dll
+ 0002:000001b0       \177libcovrt_NULL_THUNK_DATA 00000001800111b0     libcovrt:libcovrt.dll
+ 0002:000001b8       __imp_emlrtIntegerCheckR2012b 00000001800111b8     libemlrt:libemlrt.dll
+ 0002:000001c0       __imp_emlrtDynamicBoundsCheckR2012b 00000001800111c0     libemlrt:libemlrt.dll
+ 0002:000001c8       __imp_emlrtLicenseCheckR2012b 00000001800111c8     libemlrt:libemlrt.dll
+ 0002:000001d0       \177libemlrt_NULL_THUNK_DATA 00000001800111d0     libemlrt:libemlrt.dll
+ 0002:000001d8       __imp_mexIsLocked_800      00000001800111d8     libmex:libmex.dll
+ 0002:000001e0       __imp_mexUnlock_800        00000001800111e0     libmex:libmex.dll
+ 0002:000001e8       __imp_mexLock_800          00000001800111e8     libmex:libmex.dll
+ 0002:000001f0       __imp_mexCallMATLAB_800    00000001800111f0     libmex:libmex.dll
+ 0002:000001f8       __imp_mexWarnMsgTxt_800    00000001800111f8     libmex:libmex.dll
+ 0002:00000200       __imp_mexErrMsgTxt_800     0000000180011200     libmex:libmex.dll
+ 0002:00000208       __imp_mexMakeArrayPersistent_800 0000000180011208     libmex:libmex.dll
+ 0002:00000210       \177libmex_NULL_THUNK_DATA 0000000180011210     libmex:libmex.dll
+ 0002:00000218       __imp_bwlookup_tbb_boolean 0000000180011218     libmwbwlookup_tbb:libmwbwlookup_tbb.dll
+ 0002:00000220       \177libmwbwlookup_tbb_NULL_THUNK_DATA 0000000180011220     libmwbwlookup_tbb:libmwbwlookup_tbb.dll
+ 0002:00000228       __imp_muDoubleScalarIsNaN  0000000180011228     libmwmathutil:libmwmathutil.dll
+ 0002:00000230       \177libmwmathutil_NULL_THUNK_DATA 0000000180011230     libmwmathutil:libmwmathutil.dll
+ 0002:00000238       __imp_dilate_binary_twod_tbb 0000000180011238     libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0002:00000240       __imp_erode_binary_twod_tbb 0000000180011240     libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0002:00000248       \177libmwmorphop_binary_tbb_NULL_THUNK_DATA 0000000180011248     libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0002:00000250       __imp_mxGetClassID_800     0000000180011250     libmx:libmx.dll
+ 0002:00000258       __imp_mxIsNumeric_800      0000000180011258     libmx:libmx.dll
+ 0002:00000260       __imp_mxIsComplex_800      0000000180011260     libmx:libmx.dll
+ 0002:00000268       __imp_mxGetN_800           0000000180011268     libmx:libmx.dll
+ 0002:00000270       __imp_mxGetM_800           0000000180011270     libmx:libmx.dll
+ 0002:00000278       __imp_mxCreateDoubleScalar_800 0000000180011278     libmx:libmx.dll
+ 0002:00000280       __imp_mxCreateStructMatrix_800 0000000180011280     libmx:libmx.dll
+ 0002:00000288       __imp_mxCreateCellMatrix_800 0000000180011288     libmx:libmx.dll
+ 0002:00000290       __imp_mxCreateString_800   0000000180011290     libmx:libmx.dll
+ 0002:00000298       __imp_mxSetField_800       0000000180011298     libmx:libmx.dll
+ 0002:000002a0       __imp_mxSetCell_800        00000001800112a0     libmx:libmx.dll
+ 0002:000002a8       __imp_mxDuplicateArray_800 00000001800112a8     libmx:libmx.dll
+ 0002:000002b0       __imp_mxGetString_800      00000001800112b0     libmx:libmx.dll
+ 0002:000002b8       __imp_mxCreateDoubleMatrix_800 00000001800112b8     libmx:libmx.dll
+ 0002:000002c0       __imp_mxDestroyArray_800   00000001800112c0     libmx:libmx.dll
+ 0002:000002c8       __imp_mxGetPr_800          00000001800112c8     libmx:libmx.dll
+ 0002:000002d0       __imp_mxGetScalar_800      00000001800112d0     libmx:libmx.dll
+ 0002:000002d8       __imp_mxIsChar_800         00000001800112d8     libmx:libmx.dll
+ 0002:000002e0       __imp_mxCalloc_800         00000001800112e0     libmx:libmx.dll
+ 0002:000002e8       \177libmx_NULL_THUNK_DATA  00000001800112e8     libmx:libmx.dll
+ 0002:000002f0       __imp_utMalloc             00000001800112f0     libut:libut.dll
+ 0002:000002f8       __imp_utFree               00000001800112f8     libut:libut.dll
+ 0002:00000300       \177libut_NULL_THUNK_DATA  0000000180011300     libut:libut.dll
+ 0002:00000308       __imp_callMdlMethodAndReportError 0000000180011308     sf_runtime:sf_runtime.dll
+ 0002:00000310       __imp_sf_get_hasSeparateUpdateOutputs 0000000180011310     sf_runtime:sf_runtime.dll
+ 0002:00000318       __imp_sf_get_ChartInfoStruct_CodeGen 0000000180011318     sf_runtime:sf_runtime.dll
+ 0002:00000320       __imp_ssGetOutputPortSignal_wrapper 0000000180011320     sf_runtime:sf_runtime.dll
+ 0002:00000328       __imp_sf_clear_error_manager_info 0000000180011328     sf_runtime:sf_runtime.dll
+ 0002:00000330       __imp_sf_mex_import        0000000180011330     sf_runtime:sf_runtime.dll
+ 0002:00000338       __imp_sf_mex_destroy       0000000180011338     sf_runtime:sf_runtime.dll
+ 0002:00000340       __imp_sf_mex_dup           0000000180011340     sf_runtime:sf_runtime.dll
+ 0002:00000348       __imp_sf_mex_assign        0000000180011348     sf_runtime:sf_runtime.dll
+ 0002:00000350       __imp_sf_mex_getcell       0000000180011350     sf_runtime:sf_runtime.dll
+ 0002:00000358       __imp_sf_mex_setcell       0000000180011358     sf_runtime:sf_runtime.dll
+ 0002:00000360       __imp_sf_mex_createcellmatrix 0000000180011360     sf_runtime:sf_runtime.dll
+ 0002:00000368       __imp_sf_mex_create        0000000180011368     sf_runtime:sf_runtime.dll
+ 0002:00000370       __imp_sf_mex_error_message 0000000180011370     sf_runtime:sf_runtime.dll
+ 0002:00000378       __imp_sf_mex_call          0000000180011378     sf_runtime:sf_runtime.dll
+ 0002:00000380       __imp_sfListenerInitializeRuntimeVars 0000000180011380     sf_runtime:sf_runtime.dll
+ 0002:00000388       __imp_sfListenerLightTerminate 0000000180011388     sf_runtime:sf_runtime.dll
+ 0002:00000390       __imp_call_sf_machine_global_method_dispatcher 0000000180011390     sf_runtime:sf_runtime.dll
+ 0002:00000398       __imp_sf_set_work_widths   0000000180011398     sf_runtime:sf_runtime.dll
+ 0002:000003a0       __imp_sf_warn_if_symbolic_dimension_param_changed 00000001800113a0     sf_runtime:sf_runtime.dll
+ 0002:000003a8       __imp_setDebuggerFlag      00000001800113a8     sf_runtime:sf_runtime.dll
+ 0002:000003b0       __imp_setLegacyDebuggerFlag 00000001800113b0     sf_runtime:sf_runtime.dll
+ 0002:000003b8       __imp_setDataBrowseFcn     00000001800113b8     sf_runtime:sf_runtime.dll
+ 0002:000003c0       __imp_sfDoAnimationWrapper 00000001800113c0     sf_runtime:sf_runtime.dll
+ 0002:000003c8       __imp_sf_get_time          00000001800113c8     sf_runtime:sf_runtime.dll
+ 0002:000003d0       __imp_sf_clear_rtw_identifier 00000001800113d0     sf_runtime:sf_runtime.dll
+ 0002:000003d8       __imp_sim_mode_is_external 00000001800113d8     sf_runtime:sf_runtime.dll
+ 0002:000003e0       __imp_sim_mode_is_rtw_gen  00000001800113e0     sf_runtime:sf_runtime.dll
+ 0002:000003e8       __imp_sf_get_chart_instance_ptr 00000001800113e8     sf_runtime:sf_runtime.dll
+ 0002:000003f0       __imp_sfrtGetCovrtInstance 00000001800113f0     sf_runtime:sf_runtime.dll
+ 0002:000003f8       __imp_sfrtGetEmlrtCtx      00000001800113f8     sf_runtime:sf_runtime.dll
+ 0002:00000400       __imp_sf_free_ChartRunTimeInfo 0000000180011400     sf_runtime:sf_runtime.dll
+ 0002:00000408       __imp_sf_init_ChartRunTimeInfo 0000000180011408     sf_runtime:sf_runtime.dll
+ 0002:00000410       __imp_sf_mex_decode        0000000180011410     sf_runtime:sf_runtime.dll
+ 0002:00000418       __imp_sf_load_rtw_optimization_info 0000000180011418     sf_runtime:sf_runtime.dll
+ 0002:00000420       __imp_getRuntimeInstanceInfoAsVoid 0000000180011420     sf_runtime:sf_runtime.dll
+ 0002:00000428       __imp_sfListenerCacheSimStruct 0000000180011428     sf_runtime:sf_runtime.dll
+ 0002:00000430       __imp_sf_mex_error_direct_call 0000000180011430     sf_runtime:sf_runtime.dll
+ 0002:00000438       __imp_ssGetInputPortSignal_wrapper 0000000180011438     sf_runtime:sf_runtime.dll
+ 0002:00000440       \177sf_runtime_NULL_THUNK_DATA 0000000180011440     sf_runtime:sf_runtime.dll
+ 0002:00000448       __guard_check_icall_fptr   0000000180011448     MSVCRT:guard_support.obj
+ 0002:00000450       __guard_dispatch_icall_fptr 0000000180011450     MSVCRT:guard_support.obj
+ 0002:00000458       __xc_a                     0000000180011458     MSVCRT:initializers.obj
+ 0002:00000460       __xc_z                     0000000180011460     MSVCRT:initializers.obj
+ 0002:00000468       __xi_a                     0000000180011468     MSVCRT:initializers.obj
+ 0002:00000470       __xi_z                     0000000180011470     MSVCRT:initializers.obj
+ 0002:00000478       __xp_a                     0000000180011478     MSVCRT:initializers.obj
+ 0002:00000480       __xp_z                     0000000180011480     MSVCRT:initializers.obj
+ 0002:00000488       __xt_a                     0000000180011488     MSVCRT:initializers.obj
+ 0002:00000490       __xt_z                     0000000180011490     MSVCRT:initializers.obj
+ 0002:000004a0       __real@41c510e8d2000000    00000001800114a0     image_processing_test_sfun.obj
+ 0002:000004a8       __real@41d35b8ccf400000    00000001800114a8     image_processing_test_sfun.obj
+ 0002:000004b0       __real@41d6f5975f400000    00000001800114b0     image_processing_test_sfun.obj
+ 0002:000004b8       __real@41da420e84800000    00000001800114b8     image_processing_test_sfun.obj
+ 0002:000004c0       __real@41db5b3638400000    00000001800114c0     image_processing_test_sfun.obj
+ 0002:000004c8       __real@41e14a3475a00000    00000001800114c8     image_processing_test_sfun.obj
+ 0002:000004d0       __real@41e2e21bba400000    00000001800114d0     image_processing_test_sfun.obj
+ 0002:000004d8       __real@41e69100da200000    00000001800114d8     image_processing_test_sfun.obj
+ 0002:000004e0       __real@41e6998eb7200000    00000001800114e0     image_processing_test_sfun.obj
+ 0002:000004e8       __real@41e932028fe00000    00000001800114e8     image_processing_test_sfun.obj
+ 0002:000004f0       __real@41ebb8d668c00000    00000001800114f0     image_processing_test_sfun.obj
+ 0002:000004f8       __real@41ec415253c00000    00000001800114f8     image_processing_test_sfun.obj
+ 0002:00000528       __real@3ff0000000000000    0000000180011528     c4_image_processing_test.obj
+ 0002:00000530       __real@4000000000000000    0000000180011530     c4_image_processing_test.obj
+ 0002:00000538       __real@4014000000000000    0000000180011538     c4_image_processing_test.obj
+ 0002:00000540       __real@4044000000000000    0000000180011540     c4_image_processing_test.obj
+ 0002:00000548       __real@4080000000000000    0000000180011548     c4_image_processing_test.obj
+ 0002:00000550       __real@408c200000000000    0000000180011550     c4_image_processing_test.obj
+ 0002:00000558       __real@4093b00000000000    0000000180011558     c4_image_processing_test.obj
+ 0002:00000560       __real@4093c80000000000    0000000180011560     c4_image_processing_test.obj
+ 0002:00000568       __real@41c80a8562800000    0000000180011568     c4_image_processing_test.obj
+ 0002:00000570       __real@41e4077d11e00000    0000000180011570     c4_image_processing_test.obj
+ 0002:00000578       __real@41e9d92018400000    0000000180011578     c4_image_processing_test.obj
+ 0002:00000580       __real@41ee3ec940800000    0000000180011580     c4_image_processing_test.obj
+ 0002:00000588       DYNAMIC_DIMENSION_DEF      0000000180011588     image_processing_test_sfun_registry.obj
+ 0002:000005a0       __real@0000000000000000    00000001800115a0     image_processing_test_sfun_registry.obj
+ 0002:000005a8       __real@4010000000000000    00000001800115a8     image_processing_test_sfun_registry.obj
+ 0002:000005b0       __real@41602cbca0000000    00000001800115b0     image_processing_test_sfun_registry.obj
+ 0002:000005b8       __real@bff0000000000000    00000001800115b8     image_processing_test_sfun_registry.obj
+ 0002:000005d0       _pRawDllMain               00000001800115d0     MSVCRT:dll_dllmain.obj
+ 0002:000005d0       _pDefaultRawDllMain        00000001800115d0     MSVCRT:dll_dllmain.obj
+ 0002:00000600       _load_config_used          0000000180011600     MSVCRT:loadcfg.obj
+ 0002:00000918       __rtc_iaa                  0000000180011918     MSVCRT:initsect.obj
+ 0002:00000920       __rtc_izz                  0000000180011920     MSVCRT:initsect.obj
+ 0002:00000928       __rtc_taa                  0000000180011928     MSVCRT:initsect.obj
+ 0002:00000930       __rtc_tzz                  0000000180011930     MSVCRT:initsect.obj
+ 0002:00001284       __IMPORT_DESCRIPTOR_libmwbwlookup_tbb 0000000180012284     libmwbwlookup_tbb:libmwbwlookup_tbb.dll
+ 0002:00001298       __IMPORT_DESCRIPTOR_libmwmorphop_binary_tbb 0000000180012298     libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0002:000012ac       __IMPORT_DESCRIPTOR_sf_runtime 00000001800122ac     sf_runtime:sf_runtime.dll
+ 0002:000012c0       __IMPORT_DESCRIPTOR_libmx  00000001800122c0     libmx:libmx.dll
+ 0002:000012d4       __IMPORT_DESCRIPTOR_libmex 00000001800122d4     libmex:libmex.dll
+ 0002:000012e8       __IMPORT_DESCRIPTOR_libut  00000001800122e8     libut:libut.dll
+ 0002:000012fc       __IMPORT_DESCRIPTOR_libmwmathutil 00000001800122fc     libmwmathutil:libmwmathutil.dll
+ 0002:00001310       __IMPORT_DESCRIPTOR_libemlrt 0000000180012310     libemlrt:libemlrt.dll
+ 0002:00001324       __IMPORT_DESCRIPTOR_libcovrt 0000000180012324     libcovrt:libcovrt.dll
+ 0002:00001338       __IMPORT_DESCRIPTOR_KERNEL32 0000000180012338     kernel32:KERNEL32.dll
+ 0002:0000134c       __IMPORT_DESCRIPTOR_VCRUNTIME140 000000018001234c     vcruntime:VCRUNTIME140.dll
+ 0002:00001360       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 0000000180012360     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00001374       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 0000000180012374     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00001388       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 0000000180012388     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000139c       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 000000018001239c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000013b0       __NULL_IMPORT_DESCRIPTOR   00000001800123b0     libmwbwlookup_tbb:libmwbwlookup_tbb.dll
+ 0003:0000b040       DYNAMIC_DIMENSION          000000018001f040     image_processing_test_sfun_registry.obj
+ 0003:0000d570       __security_cookie_complement 0000000180021570     MSVCRT:gs_cookie.obj
+ 0003:0000d578       __security_cookie          0000000180021578     MSVCRT:gs_cookie.obj
+ 0003:0000d580       _fltused                   0000000180021580     MSVCRT:fltused.obj
+ 0003:0000d584       __scrt_native_dllmain_reason 0000000180021584     MSVCRT:utility.obj
+ 0003:0000d588       __isa_available            0000000180021588     MSVCRT:cpu_disp.obj
+ 0003:0000d58c       __isa_enabled              000000018002158c     MSVCRT:cpu_disp.obj
+ 0003:0000d590       __memcpy_nt_iters          0000000180021590     MSVCRT:cpu_disp.obj
+ 0003:0000d5a0       __scrt_ucrt_dll_is_in_use  00000001800215a0     MSVCRT:ucrt_stubs.obj
+ 0003:0000e080       ?__type_info_root_node@@3U__type_info_node@@A 0000000180022080     MSVCRT:tncleanup.obj
+ 0003:0000e090       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 0000000180022090     MSVCRT:default_local_stdio_options.obj
+ 0003:0000e098       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 0000000180022098     MSVCRT:default_local_stdio_options.obj
+ 0003:0000e0a0       __scrt_current_native_startup_state 00000001800220a0     MSVCRT:utility.obj
+ 0003:0000e0a8       __scrt_native_startup_lock 00000001800220a8     MSVCRT:utility.obj
+ 0003:0000e0e8       __scrt_debugger_hook_flag  00000001800220e8     MSVCRT:utility_desktop.obj
+ 0003:0000e0ec       __favor                    00000001800220ec     MSVCRT:cpu_disp.obj
+ 0003:0000e0f0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 00000001800220f0     <common>
+ 0003:0000e0f8       __dyn_tls_init_callback    00000001800220f8     <common>
+
+ entry point at        0001:0000f178
+
+ Static symbols
+
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     image_processing_test_sfun.exp
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0002:fffef000       __guard_fids__guard_icall_checks_enforced 0000000180000000     MSVCRT:guard_support.obj
+ 0002:fffef000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0002:fffef000       __guard_fids___scrt_set_unhandled_exception_filter 0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libemlrt:libemlrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     libcovrt:libcovrt.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwbwlookup_tbb:libmwbwlookup_tbb.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0002:fffef000       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0001:00001150       initialize_c4_image_processing_test 0000000180002150 f   c4_image_processing_test.obj
+ 0001:000011f0       initialize_params_c4_image_processing_test 00000001800021f0 f   c4_image_processing_test.obj
+ 0001:00001200       enable_c4_image_processing_test 0000000180002200 f   c4_image_processing_test.obj
+ 0001:00001230       disable_c4_image_processing_test 0000000180002230 f   c4_image_processing_test.obj
+ 0001:00001260       c4_do_animation_call_c4_image_processing_test 0000000180002260 f   c4_image_processing_test.obj
+ 0001:000012a0       get_sim_state_c4_image_processing_test 00000001800022a0 f   c4_image_processing_test.obj
+ 0001:00001410       set_sim_state_c4_image_processing_test 0000000180002410 f   c4_image_processing_test.obj
+ 0001:00001520       sf_gateway_c4_image_processing_test 0000000180002520 f   c4_image_processing_test.obj
+ 0001:000018b0       mdl_start_c4_image_processing_test 00000001800028b0 f   c4_image_processing_test.obj
+ 0001:000018c0       mdl_terminate_c4_image_processing_test 00000001800028c0 f   c4_image_processing_test.obj
+ 0001:000018d0       mdl_setup_runtime_resources_c4_image_processing_test 00000001800028d0 f   c4_image_processing_test.obj
+ 0001:00001b50       mdl_cleanup_runtime_resources_c4_image_processing_test 0000000180002b50 f   c4_image_processing_test.obj
+ 0001:00001b90       initSimStructsc4_image_processing_test 0000000180002b90 f   c4_image_processing_test.obj
+ 0001:00001ba0       c4_imclose                 0000000180002ba0 f   c4_image_processing_test.obj
+ 0001:00002570       c4_imdilate                0000000180003570 f   c4_image_processing_test.obj
+ 0001:000026b0       c4_imerode                 00000001800036b0 f   c4_image_processing_test.obj
+ 0001:000027f0       c4_bwmorph                 00000001800037f0 f   c4_image_processing_test.obj
+ 0001:00002b30       c4_bwlookup                0000000180003b30 f   c4_image_processing_test.obj
+ 0001:00002c10       c4_emlrt_marshallIn        0000000180003c10 f   c4_image_processing_test.obj
+ 0001:00002c80       c4_b_emlrt_marshallIn      0000000180003c80 f   c4_image_processing_test.obj
+ 0001:00002d70       c4_c_emlrt_marshallIn      0000000180003d70 f   c4_image_processing_test.obj
+ 0001:00002de0       c4_d_emlrt_marshallIn      0000000180003de0 f   c4_image_processing_test.obj
+ 0001:00002e70       c4_chart_data_browse_helper 0000000180003e70 f   c4_image_processing_test.obj
+ 0001:00002f70       c4_b_bwmorphApplyOnce      0000000180003f70 f   c4_image_processing_test.obj
+ 0001:00004538       $LN79                      0000000180005538     c4_image_processing_test.obj
+ 0001:00004560       init_dsm_address_info      0000000180005560 f   c4_image_processing_test.obj
+ 0001:00004570       init_simulink_io_address   0000000180005570 f   c4_image_processing_test.obj
+ 0001:00004820       sf_get_sim_state_info_c4_image_processing_test 0000000180005820 f   c4_image_processing_test.obj
+ 0001:000048e0       sf_opaque_initialize_c4_image_processing_test 00000001800058e0 f   c4_image_processing_test.obj
+ 0001:00004910       sf_opaque_enable_c4_image_processing_test 0000000180005910 f   c4_image_processing_test.obj
+ 0001:00004930       sf_opaque_disable_c4_image_processing_test 0000000180005930 f   c4_image_processing_test.obj
+ 0001:00004950       sf_opaque_gateway_c4_image_processing_test 0000000180005950 f   c4_image_processing_test.obj
+ 0001:00004970       sf_opaque_get_sim_state_c4_image_processing_test 0000000180005970 f   c4_image_processing_test.obj
+ 0001:000049a0       sf_opaque_set_sim_state_c4_image_processing_test 00000001800059a0 f   c4_image_processing_test.obj
+ 0001:000049d0       sf_opaque_cleanup_runtime_resources_c4_image_processing_test 00000001800059d0 f   c4_image_processing_test.obj
+ 0001:00004a70       sf_opaque_mdl_start_c4_image_processing_test 0000000180005a70 f   c4_image_processing_test.obj
+ 0001:00004a90       sf_opaque_mdl_terminate_c4_image_processing_test 0000000180005a90 f   c4_image_processing_test.obj
+ 0001:00004ab0       mdlProcessParameters_c4_image_processing_test 0000000180005ab0 f   c4_image_processing_test.obj
+ 0001:00004d30       mdlSetWorkWidths_c4_image_processing_test 0000000180005d30 f   c4_image_processing_test.obj
+ 0001:00004dc0       mdlRTW_c4_image_processing_test 0000000180005dc0 f   c4_image_processing_test.obj
+ 0001:00004e00       mdlSetupRuntimeResources_c4_image_processing_test 0000000180005e00 f   c4_image_processing_test.obj
+ 0001:00007760       $LN190                     0000000180008760     image_processing_test_sfun_registry.obj
+ 0001:00008554       $LN17                      0000000180009554     image_processing_test_sfun_registry.obj
+ 0001:00008c54       $LN26                      0000000180009c54     image_processing_test_sfun_registry.obj
+ 0001:00009334       $LN23                      000000018000a334     image_processing_test_sfun_registry.obj
+ 0001:00009eec       $LN26                      000000018000aeec     image_processing_test_sfun_registry.obj
+ 0001:0000c8e0       ProcessMexSfunctionCmdLineCall 000000018000d8e0 f   image_processing_test_sfun_registry.obj
+ 0001:0000cbf0       mdlSetWorkWidths           000000018000dbf0 f   image_processing_test_sfun_registry.obj
+ 0001:0000cc40       mdlProcessParameters       000000018000dc40 f   image_processing_test_sfun_registry.obj
+ 0001:0000cc70       mdl_setup_runtime_resources_processing 000000018000dc70 f   image_processing_test_sfun_registry.obj
+ 0001:0000ccd0       mdlSetupRuntimeResources   000000018000dcd0 f   image_processing_test_sfun_registry.obj
+ 0001:0000cd00       mdl_cleanup_runtime_resources_processing 000000018000dd00 f   image_processing_test_sfun_registry.obj
+ 0001:0000cdc0       mdlCleanupRuntimeResources 000000018000ddc0 f   image_processing_test_sfun_registry.obj
+ 0001:0000cdf0       mdl_start_processing       000000018000ddf0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ce30       mdlStart                   000000018000de30 f   image_processing_test_sfun_registry.obj
+ 0001:0000ce60       mdl_terminate_processing   000000018000de60 f   image_processing_test_sfun_registry.obj
+ 0001:0000cea0       mdlTerminate               000000018000dea0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ced0       mdlInitializeSizes         000000018000ded0 f   image_processing_test_sfun_registry.obj
+ 0001:0000cf00       mdlInitializeSampleTimes   000000018000df00 f   image_processing_test_sfun_registry.obj
+ 0001:0000cf30       mdl_outputs_continuous_legacy 000000018000df30 f   image_processing_test_sfun_registry.obj
+ 0001:0000d030       mdl_outputs_processing     000000018000e030 f   image_processing_test_sfun_registry.obj
+ 0001:0000d150       mdl_zeroCrossings_processing 000000018000e150 f   image_processing_test_sfun_registry.obj
+ 0001:0000d190       mdlZeroCrossings           000000018000e190 f   image_processing_test_sfun_registry.obj
+ 0001:0000d1c0       mdl_derivatives_processing 000000018000e1c0 f   image_processing_test_sfun_registry.obj
+ 0001:0000d210       mdlDerivatives             000000018000e210 f   image_processing_test_sfun_registry.obj
+ 0001:0000d240       mdl_initialize_conditions_processing 000000018000e240 f   image_processing_test_sfun_registry.obj
+ 0001:0000d290       mdlInitializeConditions    000000018000e290 f   image_processing_test_sfun_registry.obj
+ 0001:0000d2c0       mdl_ext_mode_exec_processing 000000018000e2c0 f   image_processing_test_sfun_registry.obj
+ 0001:0000d300       mdlExtModeExec             000000018000e300 f   image_processing_test_sfun_registry.obj
+ 0001:0000d330       mdlRTW                     000000018000e330 f   image_processing_test_sfun_registry.obj
+ 0001:0000d370       mdl_enable_processing      000000018000e370 f   image_processing_test_sfun_registry.obj
+ 0001:0000d3b0       mdlEnable                  000000018000e3b0 f   image_processing_test_sfun_registry.obj
+ 0001:0000d3e0       mdl_disable_processing     000000018000e3e0 f   image_processing_test_sfun_registry.obj
+ 0001:0000d420       mdlDisable                 000000018000e420 f   image_processing_test_sfun_registry.obj
+ 0001:0000d450       mdlOutputs                 000000018000e450 f   image_processing_test_sfun_registry.obj
+ 0001:0000d480       mdl_update_processing      000000018000e480 f   image_processing_test_sfun_registry.obj
+ 0001:0000d4d0       mdlUpdate                  000000018000e4d0 f   image_processing_test_sfun_registry.obj
+ 0001:0000d6c0       mdlGetTimeOfNextVarHit     000000018000e6c0 f   image_processing_test_sfun_registry.obj
+ 0001:0000d710       _RegNumInputPortsCB        000000018000e710 f   image_processing_test_sfun_registry.obj
+ 0001:0000d790       _RegNumOutputPortsCB       000000018000e790 f   image_processing_test_sfun_registry.obj
+ 0001:0000d810       _CreateSimStruct           000000018000e810 f   image_processing_test_sfun_registry.obj
+ 0001:0000da40       _ProcessMexSfunctionCmdLineCall 000000018000ea40 f   image_processing_test_sfun_registry.obj
+ 0001:0000e4b0       ReportIndexOutOfBoundsError 000000018000f4b0 f   image_processing_test_sfun_registry.obj
+ 0001:0000ec8c       capture_current_context    000000018000fc8c f   MSVCRT:gs_report.obj
+ 0001:0000ecfc       capture_previous_context   000000018000fcfc f   MSVCRT:gs_report.obj
+ 0001:0000edf0       $$000000                   000000018000fdf0     MSVCRT:amdsecgs.obj
+ 0001:0000ee24       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000fe24 f   MSVCRT:dll_dllmain.obj
+ 0001:0000ee74       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000fe74 f   MSVCRT:dll_dllmain.obj
+ 0001:0000ef90       ?dllmain_crt_process_detach@@YAH_N@Z 000000018000ff90 f   MSVCRT:dll_dllmain.obj
+ 0001:0000f020       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180010020 f   MSVCRT:dll_dllmain.obj
+ 0001:0000f154       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180010154 f   MSVCRT:dll_dllmain.obj
+ 0001:0000f1b8       __get_entropy              00000001800101b8 f   MSVCRT:gs_support.obj
+ 0001:0000f38c       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 000000018001038c f   MSVCRT:utility.obj
+ 0001:0000f3e0       ?is_potentially_valid_image_base@@YA_NQEAX@Z 00000001800103e0 f   MSVCRT:utility.obj
+ 0001:0000fdc0       $$000000                   0000000180010dc0     MSVCRT:guard_dispatch.obj
+ 0001:0000fdd2       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180010dd2 f   MSVCRT:dll_dllmain.obj
+ 0001:0000fde9       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180010de9 f   MSVCRT:dll_dllmain.obj
+ 0001:0000fe05       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180010e05 f   MSVCRT:dll_dllmain.obj
+ 0001:0000fe3b       __scrt_is_nonwritable_in_current_image$filt$0 0000000180010e3b f   MSVCRT:utility.obj
+ 0002:00000500       c4_bv                      0000000180011500     c4_image_processing_test.obj
+ 0002:0000051c       ?c4_decisionTxtEndIdx@?1??mdl_setup_runtime_resources_c4_image_processing_test@@9@9 000000018001151c     c4_image_processing_test.obj
+ 0002:00000520       ?c4_decisionTxtStartIdx@?1??mdl_setup_runtime_resources_c4_image_processing_test@@9@9 0000000180011520     c4_image_processing_test.obj
+ 0002:000005c0       GS_ExceptionPointers       00000001800115c0     MSVCRT:gs_report.obj
+ 0002:00000938       $unwind$load_image_processing_test_optimization_info 0000000180011938     image_processing_test_sfun.obj
+ 0002:00000940       $unwind$unload_image_processing_test_optimization_info 0000000180011940     image_processing_test_sfun.obj
+ 0002:00000948       $unwind$sf_image_processing_test_method_dispatcher 0000000180011948     image_processing_test_sfun.obj
+ 0002:00000950       $unwind$sf_image_processing_test_process_check_sum_call 0000000180011950     image_processing_test_sfun.obj
+ 0002:00000960       $unwind$sf_image_processing_test_get_eml_resolved_functions_info 0000000180011960     image_processing_test_sfun.obj
+ 0002:00000970       $unwind$sf_image_processing_test_third_party_uses_info 0000000180011970     image_processing_test_sfun.obj
+ 0002:00000980       $unwind$sf_image_processing_test_jit_fallback_info 0000000180011980     image_processing_test_sfun.obj
+ 0002:00000990       $unwind$sf_image_processing_test_get_post_codegen_info 0000000180011990     image_processing_test_sfun.obj
+ 0002:000009a0       $unwind$sf_image_processing_test_updateBuildInfo_args_info 00000001800119a0     image_processing_test_sfun.obj
+ 0002:000009b0       $unwind$sf_c4_image_processing_test_get_eml_resolved_functions_info 00000001800119b0     c4_image_processing_test.obj
+ 0002:000009b8       $unwind$sf_c4_image_processing_test_get_check_sum 00000001800119b8     c4_image_processing_test.obj
+ 0002:000009c0       $unwind$c4_image_processing_test_method_dispatcher 00000001800119c0     c4_image_processing_test.obj
+ 0002:000009c8       $unwind$initialize_c4_image_processing_test 00000001800119c8     c4_image_processing_test.obj
+ 0002:000009d0       $unwind$enable_c4_image_processing_test 00000001800119d0     c4_image_processing_test.obj
+ 0002:000009d8       $unwind$disable_c4_image_processing_test 00000001800119d8     c4_image_processing_test.obj
+ 0002:000009e0       $unwind$c4_do_animation_call_c4_image_processing_test 00000001800119e0     c4_image_processing_test.obj
+ 0002:000009e8       $unwind$get_sim_state_c4_image_processing_test 00000001800119e8     c4_image_processing_test.obj
+ 0002:000009f0       $unwind$set_sim_state_c4_image_processing_test 00000001800119f0     c4_image_processing_test.obj
+ 0002:000009f8       $unwind$sf_gateway_c4_image_processing_test 00000001800119f8     c4_image_processing_test.obj
+ 0002:00000a00       $unwind$mdl_setup_runtime_resources_c4_image_processing_test 0000000180011a00     c4_image_processing_test.obj
+ 0002:00000a08       $unwind$mdl_cleanup_runtime_resources_c4_image_processing_test 0000000180011a08     c4_image_processing_test.obj
+ 0002:00000a10       $unwind$c4_imclose         0000000180011a10     c4_image_processing_test.obj
+ 0002:00000a18       $unwind$c4_imdilate        0000000180011a18     c4_image_processing_test.obj
+ 0002:00000a20       $unwind$c4_imerode         0000000180011a20     c4_image_processing_test.obj
+ 0002:00000a28       $unwind$c4_bwmorph         0000000180011a28     c4_image_processing_test.obj
+ 0002:00000a30       $unwind$c4_bwlookup        0000000180011a30     c4_image_processing_test.obj
+ 0002:00000a38       $unwind$c4_emlrt_marshallIn 0000000180011a38     c4_image_processing_test.obj
+ 0002:00000a40       $unwind$c4_b_emlrt_marshallIn 0000000180011a40     c4_image_processing_test.obj
+ 0002:00000a48       $unwind$c4_c_emlrt_marshallIn 0000000180011a48     c4_image_processing_test.obj
+ 0002:00000a50       $unwind$c4_d_emlrt_marshallIn 0000000180011a50     c4_image_processing_test.obj
+ 0002:00000a58       $unwind$c4_chart_data_browse_helper 0000000180011a58     c4_image_processing_test.obj
+ 0002:00000a60       $unwind$c4_b_bwmorphApplyOnce 0000000180011a60     c4_image_processing_test.obj
+ 0002:00000a70       $unwind$init_simulink_io_address 0000000180011a70     c4_image_processing_test.obj
+ 0002:00000a78       $unwind$sf_c4_image_processing_test_third_party_uses_info 0000000180011a78     c4_image_processing_test.obj
+ 0002:00000a80       $unwind$sf_c4_image_processing_test_jit_fallback_info 0000000180011a80     c4_image_processing_test.obj
+ 0002:00000a90       $unwind$sf_c4_image_processing_test_updateBuildInfo_args_info 0000000180011a90     c4_image_processing_test.obj
+ 0002:00000a98       $unwind$sf_get_sim_state_info_c4_image_processing_test 0000000180011a98     c4_image_processing_test.obj
+ 0002:00000aa0       $unwind$sf_opaque_initialize_c4_image_processing_test 0000000180011aa0     c4_image_processing_test.obj
+ 0002:00000aa8       $unwind$sf_opaque_enable_c4_image_processing_test 0000000180011aa8     c4_image_processing_test.obj
+ 0002:00000ab0       $unwind$sf_opaque_disable_c4_image_processing_test 0000000180011ab0     c4_image_processing_test.obj
+ 0002:00000ab8       $unwind$sf_opaque_gateway_c4_image_processing_test 0000000180011ab8     c4_image_processing_test.obj
+ 0002:00000ac0       $unwind$sf_opaque_get_sim_state_c4_image_processing_test 0000000180011ac0     c4_image_processing_test.obj
+ 0002:00000ac8       $unwind$sf_opaque_set_sim_state_c4_image_processing_test 0000000180011ac8     c4_image_processing_test.obj
+ 0002:00000ad0       $unwind$sf_opaque_cleanup_runtime_resources_c4_image_processing_test 0000000180011ad0     c4_image_processing_test.obj
+ 0002:00000ad8       $unwind$sf_opaque_mdl_start_c4_image_processing_test 0000000180011ad8     c4_image_processing_test.obj
+ 0002:00000ae0       $unwind$sf_opaque_mdl_terminate_c4_image_processing_test 0000000180011ae0     c4_image_processing_test.obj
+ 0002:00000ae8       $unwind$mdlProcessParameters_c4_image_processing_test 0000000180011ae8     c4_image_processing_test.obj
+ 0002:00000af0       $unwind$sf_c4_image_processing_test_get_post_codegen_info 0000000180011af0     c4_image_processing_test.obj
+ 0002:00000b00       $unwind$mdlSetWorkWidths_c4_image_processing_test 0000000180011b00     c4_image_processing_test.obj
+ 0002:00000b08       $unwind$mdlRTW_c4_image_processing_test 0000000180011b08     c4_image_processing_test.obj
+ 0002:00000b10       $unwind$mdlSetupRuntimeResources_c4_image_processing_test 0000000180011b10     c4_image_processing_test.obj
+ 0002:00000b18       $unwind$_vsnprintf_l       0000000180011b18     image_processing_test_sfun_registry.obj
+ 0002:00000b20       $unwind$_vsprintf_l        0000000180011b20     image_processing_test_sfun_registry.obj
+ 0002:00000b28       $unwind$sprintf            0000000180011b28     image_processing_test_sfun_registry.obj
+ 0002:00000b30       $unwind$mexFunction        0000000180011b30     image_processing_test_sfun_registry.obj
+ 0002:00000b40       $unwind$_ssSetInputPortDirectFeedThroughFcn 0000000180011b40     image_processing_test_sfun_registry.obj
+ 0002:00000b50       $unwind$_ssSetRWorkValueFcn 0000000180011b50     image_processing_test_sfun_registry.obj
+ 0002:00000b58       $unwind$_ssGetRWorkValueFcn 0000000180011b58     image_processing_test_sfun_registry.obj
+ 0002:00000b60       $unwind$_ssSetIWorkValueFcn 0000000180011b60     image_processing_test_sfun_registry.obj
+ 0002:00000b68       $unwind$_ssGetIWorkValueFcn 0000000180011b68     image_processing_test_sfun_registry.obj
+ 0002:00000b70       $unwind$_ssSetPWorkValueFcn 0000000180011b70     image_processing_test_sfun_registry.obj
+ 0002:00000b78       $unwind$_ssGetPWorkValueFcn 0000000180011b78     image_processing_test_sfun_registry.obj
+ 0002:00000b80       $unwind$_ssGetInputPortSignalFcn 0000000180011b80     image_processing_test_sfun_registry.obj
+ 0002:00000b90       $unwind$_ssGetInputPortBufferDstPortFcn 0000000180011b90     image_processing_test_sfun_registry.obj
+ 0002:00000b98       $unwind$_ssGetInputPortSignalPtrsFcn 0000000180011b98     image_processing_test_sfun_registry.obj
+ 0002:00000ba8       $unwind$ssGetParameterTuningCompliance 0000000180011ba8     image_processing_test_sfun_registry.obj
+ 0002:00000bb0       $unwind$ssGetDTypeIdFromMxArray 0000000180011bb0     image_processing_test_sfun_registry.obj
+ 0002:00000bb8       $unwind$ssWriteRTWMx2dMatParam 0000000180011bb8     image_processing_test_sfun_registry.obj
+ 0002:00000bc0       $unwind$ssWriteRTWMxVectParam 0000000180011bc0     image_processing_test_sfun_registry.obj
+ 0002:00000bc8       $unwind$ssWriteRTWParameters 0000000180011bc8     image_processing_test_sfun_registry.obj
+ 0002:00000bd0       $unwind$ssWriteRTWParamSettings 0000000180011bd0     image_processing_test_sfun_registry.obj
+ 0002:00000bd8       $unwind$ssWriteRTWStr      0000000180011bd8     image_processing_test_sfun_registry.obj
+ 0002:00000be0       $unwind$ssWriteRTWWorkVect 0000000180011be0     image_processing_test_sfun_registry.obj
+ 0002:00000bf4       $unwind$ssWarning          0000000180011bf4     image_processing_test_sfun_registry.obj
+ 0002:00000c08       $unwind$ssWriteRTWNameValuePair 0000000180011c08     image_processing_test_sfun_registry.obj
+ 0002:00000c10       $unwind$_ssSetInputPortMatrixDimensions 0000000180011c10     image_processing_test_sfun_registry.obj
+ 0002:00000c1c       $unwind$_ssSetOutputPortMatrixDimensions 0000000180011c1c     image_processing_test_sfun_registry.obj
+ 0002:00000c28       $unwind$_ssSetInputPortVectorDimension 0000000180011c28     image_processing_test_sfun_registry.obj
+ 0002:00000c34       $unwind$_ssSetOutputPortVectorDimension 0000000180011c34     image_processing_test_sfun_registry.obj
+ 0002:00000c40       $unwind$ssIsRunTimeParamTunable 0000000180011c40     image_processing_test_sfun_registry.obj
+ 0002:00000c48       $unwind$ssGetSFuncBlockHandle 0000000180011c48     image_processing_test_sfun_registry.obj
+ 0002:00000c50       $unwind$_ssGetCurrentInputPortWidth 0000000180011c50     image_processing_test_sfun_registry.obj
+ 0002:00000c58       $unwind$_ssGetCurrentOutputPortWidth 0000000180011c58     image_processing_test_sfun_registry.obj
+ 0002:00000c60       $unwind$_ssGetCallSystemNumFcnCallDestinations 0000000180011c60     image_processing_test_sfun_registry.obj
+ 0002:00000c68       $unwind$ssGetIsZeroCrossControlDisabled 0000000180011c68     image_processing_test_sfun_registry.obj
+ 0002:00000c70       $unwind$ssSetIsInputPortUsedForContZcSignal 0000000180011c70     image_processing_test_sfun_registry.obj
+ 0002:00000c78       $unwind$ssSetZcSignalIsZcElementDisc 0000000180011c78     image_processing_test_sfun_registry.obj
+ 0002:00000c88       $unwind$ssSetZcSignalName  0000000180011c88     image_processing_test_sfun_registry.obj
+ 0002:00000c90       $unwind$ssSetZcSignalWidth 0000000180011c90     image_processing_test_sfun_registry.obj
+ 0002:00000c98       $unwind$ssSetZcSignalZcEventType 0000000180011c98     image_processing_test_sfun_registry.obj
+ 0002:00000ca0       $unwind$ssSetZcSignalType  0000000180011ca0     image_processing_test_sfun_registry.obj
+ 0002:00000ca8       $unwind$ssSetZcSignalZcTol 0000000180011ca8     image_processing_test_sfun_registry.obj
+ 0002:00000cb0       $unwind$ssSetZcSignalNeedsEventNotification 0000000180011cb0     image_processing_test_sfun_registry.obj
+ 0002:00000cb8       $unwind$ssCreateAndAddZcSignalInfo 0000000180011cb8     image_processing_test_sfun_registry.obj
+ 0002:00000cc0       $unwind$ssCloneAndAddZcSignalInfo 0000000180011cc0     image_processing_test_sfun_registry.obj
+ 0002:00000cc8       $unwind$ssGetNumZcSignals  0000000180011cc8     image_processing_test_sfun_registry.obj
+ 0002:00000cd0       $unwind$ssGetZcSignalVector 0000000180011cd0     image_processing_test_sfun_registry.obj
+ 0002:00000cd8       $unwind$ssGetZcSignalName  0000000180011cd8     image_processing_test_sfun_registry.obj
+ 0002:00000ce0       $unwind$ssGetZcSignalWidth 0000000180011ce0     image_processing_test_sfun_registry.obj
+ 0002:00000ce8       $unwind$ssGetZcSignalZcEventType 0000000180011ce8     image_processing_test_sfun_registry.obj
+ 0002:00000cf0       $unwind$ssGetZcSignalZcEvents 0000000180011cf0     image_processing_test_sfun_registry.obj
+ 0002:00000cf8       $unwind$ssGetZcSignalType  0000000180011cf8     image_processing_test_sfun_registry.obj
+ 0002:00000d00       $unwind$ssGetZcSignalZcTol 0000000180011d00     image_processing_test_sfun_registry.obj
+ 0002:00000d08       $unwind$ssGetZcSignalNeedsEventNotification 0000000180011d08     image_processing_test_sfun_registry.obj
+ 0002:00000d10       $unwind$ssGetZcSignalIsZcElementDisc 0000000180011d10     image_processing_test_sfun_registry.obj
+ 0002:00000d20       $unwind$ssGetIsInputPortElementContinuous 0000000180011d20     image_processing_test_sfun_registry.obj
+ 0002:00000d30       $unwind$_ssGetAbsTol       0000000180011d30     image_processing_test_sfun_registry.obj
+ 0002:00000d38       $unwind$_ssSetInputPortReusableFcn 0000000180011d38     image_processing_test_sfun_registry.obj
+ 0002:00000d40       $unwind$_ssSetOutputPortReusableFcn 0000000180011d40     image_processing_test_sfun_registry.obj
+ 0002:00000d48       $unwind$_ssSetSymbolicDimsSupport 0000000180011d48     image_processing_test_sfun_registry.obj
+ 0002:00000d50       $unwind$_ssRegisterSymbolicDimsExpr 0000000180011d50     image_processing_test_sfun_registry.obj
+ 0002:00000d58       $unwind$_ssRegisterSymbolicDims 0000000180011d58     image_processing_test_sfun_registry.obj
+ 0002:00000d60       $unwind$_ssRegisterSymbolicDimsString 0000000180011d60     image_processing_test_sfun_registry.obj
+ 0002:00000d68       $unwind$_ssRegisterSymbolicDimsIntValue 0000000180011d68     image_processing_test_sfun_registry.obj
+ 0002:00000d70       $unwind$_ssRegisterSymbolicDimsPlus 0000000180011d70     image_processing_test_sfun_registry.obj
+ 0002:00000d78       $unwind$_ssRegisterSymbolicDimsMinus 0000000180011d78     image_processing_test_sfun_registry.obj
+ 0002:00000d80       $unwind$_ssRegisterSymbolicDimsMultiply 0000000180011d80     image_processing_test_sfun_registry.obj
+ 0002:00000d88       $unwind$_ssRegisterSymbolicDimsDivide 0000000180011d88     image_processing_test_sfun_registry.obj
+ 0002:00000d90       $unwind$_ssGetNumSymbolicDims 0000000180011d90     image_processing_test_sfun_registry.obj
+ 0002:00000d98       $unwind$_ssGetSymbolicDim  0000000180011d98     image_processing_test_sfun_registry.obj
+ 0002:00000da0       $unwind$_ssSetInputPortSymbolicDimsId 0000000180011da0     image_processing_test_sfun_registry.obj
+ 0002:00000da8       $unwind$_ssGetCompInputPortSymbolicDimsId 0000000180011da8     image_processing_test_sfun_registry.obj
+ 0002:00000db0       $unwind$_ssSetCompInputPortSymbolicDimsId 0000000180011db0     image_processing_test_sfun_registry.obj
+ 0002:00000db8       $unwind$_ssSetOutputPortSymbolicDimsId 0000000180011db8     image_processing_test_sfun_registry.obj
+ 0002:00000dc0       $unwind$_ssGetCompOutputPortSymbolicDimsId 0000000180011dc0     image_processing_test_sfun_registry.obj
+ 0002:00000dc8       $unwind$_ssSetCompOutputPortSymbolicDimsId 0000000180011dc8     image_processing_test_sfun_registry.obj
+ 0002:00000dd0       $unwind$_ssSetCompDWorkSymbolicDimsId 0000000180011dd0     image_processing_test_sfun_registry.obj
+ 0002:00000dd8       $unwind$sf_process_check_sum_call 0000000180011dd8     image_processing_test_sfun_registry.obj
+ 0002:00000de0       $unwind$sf_process_get_third_party_uses_info_call 0000000180011de0     image_processing_test_sfun_registry.obj
+ 0002:00000df0       $unwind$sf_process_get_jit_fallback_info_call 0000000180011df0     image_processing_test_sfun_registry.obj
+ 0002:00000e00       $unwind$sf_process_get_post_codegen_info_call 0000000180011e00     image_processing_test_sfun_registry.obj
+ 0002:00000e10       $unwind$sf_process_get_updateBuildInfo_args_info_call 0000000180011e10     image_processing_test_sfun_registry.obj
+ 0002:00000e20       $unwind$sf_process_get_eml_resolved_functions_info_call 0000000180011e20     image_processing_test_sfun_registry.obj
+ 0002:00000e30       $unwind$sf_mex_unlock_call 0000000180011e30     image_processing_test_sfun_registry.obj
+ 0002:00000e40       $unwind$ProcessMexSfunctionCmdLineCall 0000000180011e40     image_processing_test_sfun_registry.obj
+ 0002:00000e48       $unwind$sf_machine_global_initializer_called 0000000180011e48     image_processing_test_sfun_registry.obj
+ 0002:00000e50       $unwind$sf_machine_global_method_dispatcher 0000000180011e50     image_processing_test_sfun_registry.obj
+ 0002:00000e58       $unwind$sf_machine_global_terminator 0000000180011e58     image_processing_test_sfun_registry.obj
+ 0002:00000e60       $unwind$sf_register_machine_exported_symbols 0000000180011e60     image_processing_test_sfun_registry.obj
+ 0002:00000e68       $unwind$sf_machine_global_initializer 0000000180011e68     image_processing_test_sfun_registry.obj
+ 0002:00000e70       $unwind$mdlGetSimState     0000000180011e70     image_processing_test_sfun_registry.obj
+ 0002:00000e78       $unwind$mdlSetSimState     0000000180011e78     image_processing_test_sfun_registry.obj
+ 0002:00000e80       $unwind$mdlSetWorkWidths   0000000180011e80     image_processing_test_sfun_registry.obj
+ 0002:00000e88       $unwind$mdlProcessParameters 0000000180011e88     image_processing_test_sfun_registry.obj
+ 0002:00000e90       $unwind$mdl_setup_runtime_resources_processing 0000000180011e90     image_processing_test_sfun_registry.obj
+ 0002:00000e98       $unwind$mdlSetupRuntimeResources 0000000180011e98     image_processing_test_sfun_registry.obj
+ 0002:00000ea0       $unwind$mdl_cleanup_runtime_resources_processing 0000000180011ea0     image_processing_test_sfun_registry.obj
+ 0002:00000ea8       $unwind$mdlCleanupRuntimeResources 0000000180011ea8     image_processing_test_sfun_registry.obj
+ 0002:00000eb0       $unwind$mdl_start_processing 0000000180011eb0     image_processing_test_sfun_registry.obj
+ 0002:00000eb8       $unwind$mdlStart           0000000180011eb8     image_processing_test_sfun_registry.obj
+ 0002:00000ec0       $unwind$mdl_terminate_processing 0000000180011ec0     image_processing_test_sfun_registry.obj
+ 0002:00000ec8       $unwind$mdlTerminate       0000000180011ec8     image_processing_test_sfun_registry.obj
+ 0002:00000ed0       $unwind$mdlInitializeSizes 0000000180011ed0     image_processing_test_sfun_registry.obj
+ 0002:00000ed8       $unwind$mdlInitializeSampleTimes 0000000180011ed8     image_processing_test_sfun_registry.obj
+ 0002:00000ee0       $unwind$mdl_outputs_continuous_legacy 0000000180011ee0     image_processing_test_sfun_registry.obj
+ 0002:00000ee8       $unwind$mdl_outputs_processing 0000000180011ee8     image_processing_test_sfun_registry.obj
+ 0002:00000ef0       $unwind$mdl_zeroCrossings_processing 0000000180011ef0     image_processing_test_sfun_registry.obj
+ 0002:00000ef8       $unwind$mdlZeroCrossings   0000000180011ef8     image_processing_test_sfun_registry.obj
+ 0002:00000f00       $unwind$mdl_derivatives_processing 0000000180011f00     image_processing_test_sfun_registry.obj
+ 0002:00000f08       $unwind$mdlDerivatives     0000000180011f08     image_processing_test_sfun_registry.obj
+ 0002:00000f10       $unwind$mdl_initialize_conditions_processing 0000000180011f10     image_processing_test_sfun_registry.obj
+ 0002:00000f18       $unwind$mdlInitializeConditions 0000000180011f18     image_processing_test_sfun_registry.obj
+ 0002:00000f20       $unwind$mdl_ext_mode_exec_processing 0000000180011f20     image_processing_test_sfun_registry.obj
+ 0002:00000f28       $unwind$mdlExtModeExec     0000000180011f28     image_processing_test_sfun_registry.obj
+ 0002:00000f30       $unwind$mdlRTW             0000000180011f30     image_processing_test_sfun_registry.obj
+ 0002:00000f38       $unwind$mdl_enable_processing 0000000180011f38     image_processing_test_sfun_registry.obj
+ 0002:00000f40       $unwind$mdlEnable          0000000180011f40     image_processing_test_sfun_registry.obj
+ 0002:00000f48       $unwind$mdl_disable_processing 0000000180011f48     image_processing_test_sfun_registry.obj
+ 0002:00000f50       $unwind$mdlDisable         0000000180011f50     image_processing_test_sfun_registry.obj
+ 0002:00000f58       $unwind$mdlOutputs         0000000180011f58     image_processing_test_sfun_registry.obj
+ 0002:00000f60       $unwind$mdl_update_processing 0000000180011f60     image_processing_test_sfun_registry.obj
+ 0002:00000f68       $unwind$mdlUpdate          0000000180011f68     image_processing_test_sfun_registry.obj
+ 0002:00000f70       $unwind$ProcessMexSfunctionEveryCall 0000000180011f70     image_processing_test_sfun_registry.obj
+ 0002:00000f78       $unwind$_RegNumInputPortsCB 0000000180011f78     image_processing_test_sfun_registry.obj
+ 0002:00000f80       $unwind$_RegNumOutputPortsCB 0000000180011f80     image_processing_test_sfun_registry.obj
+ 0002:00000f88       $unwind$_CreateSimStruct   0000000180011f88     image_processing_test_sfun_registry.obj
+ 0002:00000f90       $unwind$_ProcessMexSfunctionCmdLineCall 0000000180011f90     image_processing_test_sfun_registry.obj
+ 0002:00000fa0       $unwind$ReportIndexOutOfBoundsError 0000000180011fa0     image_processing_test_sfun_registry.obj
+ 0002:00000fb0       $unwind$__report_securityfailure 0000000180011fb0     MSVCRT:gs_report.obj
+ 0002:00000fb8       $unwind$__report_securityfailureEx 0000000180011fb8     MSVCRT:gs_report.obj
+ 0002:00000fc0       $unwind$__report_rangecheckfailure 0000000180011fc0     MSVCRT:gs_report.obj
+ 0002:00000fc8       $unwind$__report_gsfailure 0000000180011fc8     MSVCRT:gs_report.obj
+ 0002:00000fd0       $unwind$capture_current_context 0000000180011fd0     MSVCRT:gs_report.obj
+ 0002:00000fdc       $unwind$capture_previous_context 0000000180011fdc     MSVCRT:gs_report.obj
+ 0002:00000fe8       $unwind$__raise_securityfailure 0000000180011fe8     MSVCRT:gs_report.obj
+ 0002:00000ff0       $unwind$__GSHandlerCheckCommon 0000000180011ff0     MSVCRT:gshandler.obj
+ 0002:00000ff8       $unwind$__GSHandlerCheck   0000000180011ff8     MSVCRT:gshandler.obj
+ 0002:00001000       $xdatasym                  0000000180012000     MSVCRT:amdsecgs.obj
+ 0002:00001004       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180012004     MSVCRT:dll_dllmain.obj
+ 0002:00001040       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180012040     MSVCRT:dll_dllmain.obj
+ 0002:00001048       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 0000000180012048     MSVCRT:dll_dllmain.obj
+ 0002:00001080       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180012080     MSVCRT:dll_dllmain.obj
+ 0002:00001088       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180012088     MSVCRT:dll_dllmain.obj
+ 0002:00001090       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180012090     MSVCRT:dll_dllmain.obj
+ 0002:000010b8       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 00000001800120b8     MSVCRT:dll_dllmain.obj
+ 0002:000010c0       $unwind$_DllMainCRTStartup 00000001800120c0     MSVCRT:dll_dllmain.obj
+ 0002:000010d0       $unwind$__security_init_cookie 00000001800120d0     MSVCRT:gs_support.obj
+ 0002:000010dc       $unwind$__get_entropy      00000001800120dc     MSVCRT:gs_support.obj
+ 0002:000010e4       $unwind$DllMain            00000001800120e4     MSVCRT:dll_dllmain_stub.obj
+ 0002:000010ec       $unwind$__scrt_initialize_default_local_stdio_options 00000001800120ec     MSVCRT:default_local_stdio_options.obj
+ 0002:000010f4       $unwind$atexit             00000001800120f4     MSVCRT:utility.obj
+ 0002:000010fc       $unwind$_onexit            00000001800120fc     MSVCRT:utility.obj
+ 0002:00001104       $unwind$__scrt_is_nonwritable_in_current_image 0000000180012104     MSVCRT:utility.obj
+ 0002:00001124       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 0000000180012124     MSVCRT:utility.obj
+ 0002:0000112c       $unwind$__scrt_acquire_startup_lock 000000018001212c     MSVCRT:utility.obj
+ 0002:00001134       $unwind$__scrt_release_startup_lock 0000000180012134     MSVCRT:utility.obj
+ 0002:0000113c       $unwind$__scrt_initialize_crt 000000018001213c     MSVCRT:utility.obj
+ 0002:00001144       $unwind$__scrt_uninitialize_crt 0000000180012144     MSVCRT:utility.obj
+ 0002:0000114c       $unwind$__scrt_initialize_onexit_tables 000000018001214c     MSVCRT:utility.obj
+ 0002:00001154       $unwind$__scrt_dllmain_exception_filter 0000000180012154     MSVCRT:utility.obj
+ 0002:00001168       $unwind$__scrt_dllmain_before_initialize_c 0000000180012168     MSVCRT:utility.obj
+ 0002:00001170       $unwind$__scrt_dllmain_after_initialize_c 0000000180012170     MSVCRT:utility.obj
+ 0002:00001178       $unwind$__scrt_dllmain_uninitialize_c 0000000180012178     MSVCRT:utility.obj
+ 0002:00001180       $unwind$__scrt_dllmain_uninitialize_critical 0000000180012180     MSVCRT:utility.obj
+ 0002:00001188       $unwind$__scrt_dllmain_crt_thread_attach 0000000180012188     MSVCRT:utility.obj
+ 0002:00001190       $unwind$__scrt_dllmain_crt_thread_detach 0000000180012190     MSVCRT:utility.obj
+ 0002:00001198       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180012198     MSVCRT:utility.obj
+ 0002:000011a0       $unwind$__scrt_get_show_window_mode 00000001800121a0     MSVCRT:utility_desktop.obj
+ 0002:000011a8       $unwind$__scrt_is_managed_app 00000001800121a8     MSVCRT:utility_desktop.obj
+ 0002:000011b0       $unwind$__scrt_fastfail    00000001800121b0     MSVCRT:utility_desktop.obj
+ 0002:000011c0       $unwind$__scrt_unhandled_exception_filter 00000001800121c0     MSVCRT:utility_desktop.obj
+ 0002:000011c8       $unwind$_RTC_Initialize    00000001800121c8     MSVCRT:initsect.obj
+ 0002:000011d4       $unwind$_RTC_Terminate     00000001800121d4     MSVCRT:initsect.obj
+ 0002:000011e0       $unwind$__isa_available_init 00000001800121e0     MSVCRT:cpu_disp.obj
+ 0002:000011f0       $xdatasym                  00000001800121f0     MSVCRT:guard_dispatch.obj
+ 0002:00001200       .edata                     0000000180012200     image_processing_test_sfun.exp
+ 0002:00001228       rgpv                       0000000180012228     image_processing_test_sfun.exp
+ 0002:00001230       rgszName                   0000000180012230     image_processing_test_sfun.exp
+ 0002:00001238       rgwOrd                     0000000180012238     image_processing_test_sfun.exp
+ 0002:0000123c       szName                     000000018001223c     image_processing_test_sfun.exp
+ 0002:0000125e       $N00001                    000000018001225e     image_processing_test_sfun.exp
+ 0002:0000126a       $N00002                    000000018001226a     image_processing_test_sfun.exp
+ 0002:00001828       .idata$6                   0000000180012828     libmwbwlookup_tbb:libmwbwlookup_tbb.dll
+ 0002:00001870       .idata$6                   0000000180012870     libmwmorphop_binary_tbb:libmwmorphop_binary_tbb.dll
+ 0002:00001c60       .idata$6                   0000000180012c60     sf_runtime:sf_runtime.dll
+ 0002:00001dea       .idata$6                   0000000180012dea     libmx:libmx.dll
+ 0002:00001e7e       .idata$6                   0000000180012e7e     libmex:libmex.dll
+ 0002:00001ea0       .idata$6                   0000000180012ea0     libut:libut.dll
+ 0002:00001ec0       .idata$6                   0000000180012ec0     libmwmathutil:libmwmathutil.dll
+ 0002:00001f26       .idata$6                   0000000180012f26     libemlrt:libemlrt.dll
+ 0002:00002006       .idata$6                   0000000180013006     libcovrt:libcovrt.dll
+ 0002:000021a0       .idata$6                   00000001800131a0     kernel32:KERNEL32.dll
+ 0002:000021fa       .idata$6                   00000001800131fa     vcruntime:VCRUNTIME140.dll
+ 0002:00002348       .idata$6                   0000000180013348     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:0000236a       .idata$6                   000000018001336a     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000238a       .idata$6                   000000018001338a     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000023aa       .idata$6                   00000001800133aa     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       $SG23510                   0000000180014000     image_processing_test_sfun.obj
+ 0003:00000018       $SG23515                   0000000180014018     image_processing_test_sfun.obj
+ 0003:00000020       $SG23518                   0000000180014020     image_processing_test_sfun.obj
+ 0003:00000028       $SG23523                   0000000180014028     image_processing_test_sfun.obj
+ 0003:00000030       $SG23553                   0000000180014030     image_processing_test_sfun.obj
+ 0003:00000050       $SG23556                   0000000180014050     image_processing_test_sfun.obj
+ 0003:00000068       $SG23585                   0000000180014068     image_processing_test_sfun.obj
+ 0003:00000088       $SG23588                   0000000180014088     image_processing_test_sfun.obj
+ 0003:000000a0       $SG23617                   00000001800140a0     image_processing_test_sfun.obj
+ 0003:000000b8       $SG23620                   00000001800140b8     image_processing_test_sfun.obj
+ 0003:000000d0       $SG23650                   00000001800140d0     image_processing_test_sfun.obj
+ 0003:000000e8       $SG23653                   00000001800140e8     image_processing_test_sfun.obj
+ 0003:00000100       $SG23682                   0000000180014100     image_processing_test_sfun.obj
+ 0003:00000120       $SG23685                   0000000180014120     image_processing_test_sfun.obj
+ 0003:00000138       $SG23711                   0000000180014138     image_processing_test_sfun.obj
+ 0003:00000150       $SG23712                   0000000180014150     image_processing_test_sfun.obj
+ 0003:00000170       $SG23441                   0000000180014170     c4_image_processing_test.obj
+ 0003:00000180       $SG23442                   0000000180014180     c4_image_processing_test.obj
+ 0003:000001d0       $SG23444                   00000001800141d0     c4_image_processing_test.obj
+ 0003:000001e8       $SG23445                   00000001800141e8     c4_image_processing_test.obj
+ 0003:00000208       $SG23447                   0000000180014208     c4_image_processing_test.obj
+ 0003:00000220       $SG23448                   0000000180014220     c4_image_processing_test.obj
+ 0003:00000240       $SG23450                   0000000180014240     c4_image_processing_test.obj
+ 0003:00000248       $SG23451                   0000000180014248     c4_image_processing_test.obj
+ 0003:00000288       $SG23453                   0000000180014288     c4_image_processing_test.obj
+ 0003:00000290       $SG23454                   0000000180014290     c4_image_processing_test.obj
+ 0003:000002d0       $SG23456                   00000001800142d0     c4_image_processing_test.obj
+ 0003:000002e0       $SG23457                   00000001800142e0     c4_image_processing_test.obj
+ 0003:00000320       $SG23459                   0000000180014320     c4_image_processing_test.obj
+ 0003:00000330       $SG23460                   0000000180014330     c4_image_processing_test.obj
+ 0003:00000370       $SG23462                   0000000180014370     c4_image_processing_test.obj
+ 0003:00000378       $SG23465                   0000000180014378     c4_image_processing_test.obj
+ 0003:00000380       $SG23463                   0000000180014380     c4_image_processing_test.obj
+ 0003:000003d0       $SG23466                   00000001800143d0     c4_image_processing_test.obj
+ 0003:00000428       $SG23468                   0000000180014428     c4_image_processing_test.obj
+ 0003:00000430       $SG23469                   0000000180014430     c4_image_processing_test.obj
+ 0003:00000488       $SG23471                   0000000180014488     c4_image_processing_test.obj
+ 0003:00000490       $SG23472                   0000000180014490     c4_image_processing_test.obj
+ 0003:000004d0       $SG23474                   00000001800144d0     c4_image_processing_test.obj
+ 0003:000004d8       $SG23475                   00000001800144d8     c4_image_processing_test.obj
+ 0003:00000518       $SG23477                   0000000180014518     c4_image_processing_test.obj
+ 0003:00000528       $SG23486                   0000000180014528     c4_image_processing_test.obj
+ 0003:00000530       $SG23478                   0000000180014530     c4_image_processing_test.obj
+ 0003:00000580       $SG23480                   0000000180014580     c4_image_processing_test.obj
+ 0003:00000590       $SG23481                   0000000180014590     c4_image_processing_test.obj
+ 0003:000005e0       $SG23483                   00000001800145e0     c4_image_processing_test.obj
+ 0003:000005f0       $SG23484                   00000001800145f0     c4_image_processing_test.obj
+ 0003:00000640       $SG23487                   0000000180014640     c4_image_processing_test.obj
+ 0003:00000690       $SG23489                   0000000180014690     c4_image_processing_test.obj
+ 0003:00000698       $SG23492                   0000000180014698     c4_image_processing_test.obj
+ 0003:000006a0       $SG23490                   00000001800146a0     c4_image_processing_test.obj
+ 0003:000006f0       $SG23493                   00000001800146f0     c4_image_processing_test.obj
+ 0003:00000740       $SG23495                   0000000180014740     c4_image_processing_test.obj
+ 0003:00000748       $SG23498                   0000000180014748     c4_image_processing_test.obj
+ 0003:00000750       $SG23496                   0000000180014750     c4_image_processing_test.obj
+ 0003:000007a0       $SG23499                   00000001800147a0     c4_image_processing_test.obj
+ 0003:000007f0       $SG23501                   00000001800147f0     c4_image_processing_test.obj
+ 0003:000007f8       $SG23504                   00000001800147f8     c4_image_processing_test.obj
+ 0003:00000800       $SG23502                   0000000180014800     c4_image_processing_test.obj
+ 0003:00000850       $SG23505                   0000000180014850     c4_image_processing_test.obj
+ 0003:000008a0       $SG23507                   00000001800148a0     c4_image_processing_test.obj
+ 0003:000008a8       $SG23591                   00000001800148a8     c4_image_processing_test.obj
+ 0003:000008b0       $SG23508                   00000001800148b0     c4_image_processing_test.obj
+ 0003:00000900       $SG23510                   0000000180014900     c4_image_processing_test.obj
+ 0003:00000910       $SG23511                   0000000180014910     c4_image_processing_test.obj
+ 0003:00000950       $SG23513                   0000000180014950     c4_image_processing_test.obj
+ 0003:00000960       $SG23514                   0000000180014960     c4_image_processing_test.obj
+ 0003:000009a0       $SG23517                   00000001800149a0     c4_image_processing_test.obj
+ 0003:000009b0       $SG23518                   00000001800149b0     c4_image_processing_test.obj
+ 0003:000009f0       $SG23520                   00000001800149f0     c4_image_processing_test.obj
+ 0003:00000a00       $SG23521                   0000000180014a00     c4_image_processing_test.obj
+ 0003:00000a40       $SG23524                   0000000180014a40     c4_image_processing_test.obj
+ 0003:00000a50       $SG23525                   0000000180014a50     c4_image_processing_test.obj
+ 0003:00000a90       $SG23527                   0000000180014a90     c4_image_processing_test.obj
+ 0003:00000aa0       $SG23528                   0000000180014aa0     c4_image_processing_test.obj
+ 0003:00000ae0       $SG23531                   0000000180014ae0     c4_image_processing_test.obj
+ 0003:00000af0       $SG23532                   0000000180014af0     c4_image_processing_test.obj
+ 0003:00000b30       $SG23534                   0000000180014b30     c4_image_processing_test.obj
+ 0003:00000b40       $SG23535                   0000000180014b40     c4_image_processing_test.obj
+ 0003:00000b80       $SG23538                   0000000180014b80     c4_image_processing_test.obj
+ 0003:00000b90       $SG23539                   0000000180014b90     c4_image_processing_test.obj
+ 0003:00000bd0       $SG23541                   0000000180014bd0     c4_image_processing_test.obj
+ 0003:00000be0       $SG23542                   0000000180014be0     c4_image_processing_test.obj
+ 0003:00000c20       $SG23545                   0000000180014c20     c4_image_processing_test.obj
+ 0003:00000c30       $SG23546                   0000000180014c30     c4_image_processing_test.obj
+ 0003:00000c70       $SG23548                   0000000180014c70     c4_image_processing_test.obj
+ 0003:00000c80       $SG23549                   0000000180014c80     c4_image_processing_test.obj
+ 0003:00000cc0       $SG23552                   0000000180014cc0     c4_image_processing_test.obj
+ 0003:00000cd0       $SG23553                   0000000180014cd0     c4_image_processing_test.obj
+ 0003:00000d10       $SG23555                   0000000180014d10     c4_image_processing_test.obj
+ 0003:00000d20       $SG23556                   0000000180014d20     c4_image_processing_test.obj
+ 0003:00000d60       $SG23559                   0000000180014d60     c4_image_processing_test.obj
+ 0003:00000d70       $SG23560                   0000000180014d70     c4_image_processing_test.obj
+ 0003:00000db0       $SG23562                   0000000180014db0     c4_image_processing_test.obj
+ 0003:00000dc0       $SG23563                   0000000180014dc0     c4_image_processing_test.obj
+ 0003:00000e00       $SG23566                   0000000180014e00     c4_image_processing_test.obj
+ 0003:00000e10       $SG23567                   0000000180014e10     c4_image_processing_test.obj
+ 0003:00000e50       $SG23570                   0000000180014e50     c4_image_processing_test.obj
+ 0003:00000e60       $SG23571                   0000000180014e60     c4_image_processing_test.obj
+ 0003:00000ea0       $SG23573                   0000000180014ea0     c4_image_processing_test.obj
+ 0003:00000eb0       $SG23574                   0000000180014eb0     c4_image_processing_test.obj
+ 0003:00000ef0       $SG23577                   0000000180014ef0     c4_image_processing_test.obj
+ 0003:00000f00       $SG23578                   0000000180014f00     c4_image_processing_test.obj
+ 0003:00000f40       $SG23581                   0000000180014f40     c4_image_processing_test.obj
+ 0003:00000f50       $SG23582                   0000000180014f50     c4_image_processing_test.obj
+ 0003:00000f90       $SG23584                   0000000180014f90     c4_image_processing_test.obj
+ 0003:00000fa0       $SG23585                   0000000180014fa0     c4_image_processing_test.obj
+ 0003:00000fe0       $SG23588                   0000000180014fe0     c4_image_processing_test.obj
+ 0003:00000ff0       $SG23589                   0000000180014ff0     c4_image_processing_test.obj
+ 0003:00001030       $SG23592                   0000000180015030     c4_image_processing_test.obj
+ 0003:0000107c       $SG23787                   000000018001507c     c4_image_processing_test.obj
+ 0003:00001080       c4_emlrtMCI                0000000180015080     c4_image_processing_test.obj
+ 0003:00001098       c4_emlrtRSI                0000000180015098     c4_image_processing_test.obj
+ 0003:000010b0       c4_b_emlrtRSI              00000001800150b0     c4_image_processing_test.obj
+ 0003:000010c8       c4_c_emlrtRSI              00000001800150c8     c4_image_processing_test.obj
+ 0003:000010e0       c4_d_emlrtRSI              00000001800150e0     c4_image_processing_test.obj
+ 0003:000010f8       c4_e_emlrtRSI              00000001800150f8     c4_image_processing_test.obj
+ 0003:00001110       c4_k_emlrtRSI              0000000180015110     c4_image_processing_test.obj
+ 0003:00001128       c4_l_emlrtRSI              0000000180015128     c4_image_processing_test.obj
+ 0003:00001140       c4_m_emlrtRSI              0000000180015140     c4_image_processing_test.obj
+ 0003:00001158       c4_n_emlrtRSI              0000000180015158     c4_image_processing_test.obj
+ 0003:00001170       c4_o_emlrtRSI              0000000180015170     c4_image_processing_test.obj
+ 0003:00001188       c4_p_emlrtRSI              0000000180015188     c4_image_processing_test.obj
+ 0003:000011a0       c4_q_emlrtRSI              00000001800151a0     c4_image_processing_test.obj
+ 0003:000011b8       c4_r_emlrtRSI              00000001800151b8     c4_image_processing_test.obj
+ 0003:000011d0       c4_s_emlrtRSI              00000001800151d0     c4_image_processing_test.obj
+ 0003:000011e8       c4_t_emlrtRSI              00000001800151e8     c4_image_processing_test.obj
+ 0003:00001200       c4_u_emlrtRSI              0000000180015200     c4_image_processing_test.obj
+ 0003:00001218       c4_v_emlrtRSI              0000000180015218     c4_image_processing_test.obj
+ 0003:00001230       c4_emlrtDCI                0000000180015230     c4_image_processing_test.obj
+ 0003:00001250       c4_emlrtBCI                0000000180015250     c4_image_processing_test.obj
+ 0003:00001280       c4_b_emlrtDCI              0000000180015280     c4_image_processing_test.obj
+ 0003:000012a0       c4_b_emlrtBCI              00000001800152a0     c4_image_processing_test.obj
+ 0003:000012d0       c4_c_emlrtDCI              00000001800152d0     c4_image_processing_test.obj
+ 0003:000012f0       c4_c_emlrtBCI              00000001800152f0     c4_image_processing_test.obj
+ 0003:00001320       c4_d_emlrtDCI              0000000180015320     c4_image_processing_test.obj
+ 0003:00001340       c4_d_emlrtBCI              0000000180015340     c4_image_processing_test.obj
+ 0003:00001370       c4_e_emlrtDCI              0000000180015370     c4_image_processing_test.obj
+ 0003:00001390       c4_e_emlrtBCI              0000000180015390     c4_image_processing_test.obj
+ 0003:000013c0       c4_f_emlrtDCI              00000001800153c0     c4_image_processing_test.obj
+ 0003:000013e0       c4_f_emlrtBCI              00000001800153e0     c4_image_processing_test.obj
+ 0003:00001410       c4_g_emlrtDCI              0000000180015410     c4_image_processing_test.obj
+ 0003:00001430       c4_g_emlrtBCI              0000000180015430     c4_image_processing_test.obj
+ 0003:00001460       c4_h_emlrtDCI              0000000180015460     c4_image_processing_test.obj
+ 0003:00001480       c4_h_emlrtBCI              0000000180015480     c4_image_processing_test.obj
+ 0003:000014b0       c4_i_emlrtBCI              00000001800154b0     c4_image_processing_test.obj
+ 0003:000014e0       c4_i_emlrtDCI              00000001800154e0     c4_image_processing_test.obj
+ 0003:00001500       c4_j_emlrtBCI              0000000180015500     c4_image_processing_test.obj
+ 0003:00001530       c4_k_emlrtBCI              0000000180015530     c4_image_processing_test.obj
+ 0003:00001560       c4_j_emlrtDCI              0000000180015560     c4_image_processing_test.obj
+ 0003:00001580       c4_l_emlrtBCI              0000000180015580     c4_image_processing_test.obj
+ 0003:000015b0       c4_k_emlrtDCI              00000001800155b0     c4_image_processing_test.obj
+ 0003:000015d0       $SG23750                   00000001800155d0     c4_image_processing_test.obj
+ 0003:000015e0       $SG23788                   00000001800155e0     c4_image_processing_test.obj
+ 0003:000015e4       $SG23799                   00000001800155e4     c4_image_processing_test.obj
+ 0003:000015e8       $SG23800                   00000001800155e8     c4_image_processing_test.obj
+ 0003:0000160c       $SG24422                   000000018001560c     c4_image_processing_test.obj
+ 0003:00001610       $SG23859                   0000000180015610     c4_image_processing_test.obj
+ 0003:00001620       $SG23873                   0000000180015620     c4_image_processing_test.obj
+ 0003:00001630       $SG24174                   0000000180015630     c4_image_processing_test.obj
+ 0003:00001638       $SG24176                   0000000180015638     c4_image_processing_test.obj
+ 0003:00001640       ?c4_b_x@?1??c4_b_bwmorphApplyOnce@@9@9 0000000180015640     c4_image_processing_test.obj
+ 0003:00002640       ?c4_d_x@?1??c4_b_bwmorphApplyOnce@@9@9 0000000180016640     c4_image_processing_test.obj
+ 0003:00003640       ?c4_f_x@?1??c4_b_bwmorphApplyOnce@@9@9 0000000180017640     c4_image_processing_test.obj
+ 0003:00004640       ?c4_h_x@?1??c4_b_bwmorphApplyOnce@@9@9 0000000180018640     c4_image_processing_test.obj
+ 0003:00005640       ?c4_j_x@?1??c4_b_bwmorphApplyOnce@@9@9 0000000180019640     c4_image_processing_test.obj
+ 0003:00006640       ?c4_l_x@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001a640     c4_image_processing_test.obj
+ 0003:00007640       ?c4_n_x@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001b640     c4_image_processing_test.obj
+ 0003:00008640       ?c4_p_x@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001c640     c4_image_processing_test.obj
+ 0003:00009640       ?c4_cv@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d640     c4_image_processing_test.obj
+ 0003:00009654       $SG24423                   000000018001d654     c4_image_processing_test.obj
+ 0003:00009658       ?c4_cv1@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d658     c4_image_processing_test.obj
+ 0003:0000966c       $SG24428                   000000018001d66c     c4_image_processing_test.obj
+ 0003:00009670       ?c4_cv2@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d670     c4_image_processing_test.obj
+ 0003:00009684       $SG24429                   000000018001d684     c4_image_processing_test.obj
+ 0003:00009688       ?c4_cv3@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d688     c4_image_processing_test.obj
+ 0003:0000969c       $SG24434                   000000018001d69c     c4_image_processing_test.obj
+ 0003:000096a0       ?c4_cv4@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d6a0     c4_image_processing_test.obj
+ 0003:000096b4       $SG24435                   000000018001d6b4     c4_image_processing_test.obj
+ 0003:000096b8       ?c4_cv5@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d6b8     c4_image_processing_test.obj
+ 0003:000096cc       $SG24440                   000000018001d6cc     c4_image_processing_test.obj
+ 0003:000096d0       ?c4_cv6@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d6d0     c4_image_processing_test.obj
+ 0003:000096e4       $SG24441                   000000018001d6e4     c4_image_processing_test.obj
+ 0003:000096e8       ?c4_cv7@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d6e8     c4_image_processing_test.obj
+ 0003:00009700       ?c4_lut1@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d700     c4_image_processing_test.obj
+ 0003:00009900       ?c4_lut2@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001d900     c4_image_processing_test.obj
+ 0003:00009b00       ?c4_lut3@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001db00     c4_image_processing_test.obj
+ 0003:00009d00       ?c4_lut4@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001dd00     c4_image_processing_test.obj
+ 0003:00009f00       ?c4_lut5@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001df00     c4_image_processing_test.obj
+ 0003:0000a100       ?c4_lut6@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001e100     c4_image_processing_test.obj
+ 0003:0000a300       ?c4_lut7@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001e300     c4_image_processing_test.obj
+ 0003:0000a500       ?c4_lut8@?1??c4_b_bwmorphApplyOnce@@9@9 000000018001e500     c4_image_processing_test.obj
+ 0003:0000a700       $SG24424                   000000018001e700     c4_image_processing_test.obj
+ 0003:0000a708       $SG24425                   000000018001e708     c4_image_processing_test.obj
+ 0003:0000a714       $SG24426                   000000018001e714     c4_image_processing_test.obj
+ 0003:0000a71c       $SG24446                   000000018001e71c     c4_image_processing_test.obj
+ 0003:0000a720       $SG24430                   000000018001e720     c4_image_processing_test.obj
+ 0003:0000a728       $SG24431                   000000018001e728     c4_image_processing_test.obj
+ 0003:0000a734       $SG24432                   000000018001e734     c4_image_processing_test.obj
+ 0003:0000a73c       $SG24447                   000000018001e73c     c4_image_processing_test.obj
+ 0003:0000a740       $SG24436                   000000018001e740     c4_image_processing_test.obj
+ 0003:0000a748       $SG24437                   000000018001e748     c4_image_processing_test.obj
+ 0003:0000a754       $SG24438                   000000018001e754     c4_image_processing_test.obj
+ 0003:0000a75c       $SG24452                   000000018001e75c     c4_image_processing_test.obj
+ 0003:0000a760       $SG24442                   000000018001e760     c4_image_processing_test.obj
+ 0003:0000a768       $SG24443                   000000018001e768     c4_image_processing_test.obj
+ 0003:0000a774       $SG24444                   000000018001e774     c4_image_processing_test.obj
+ 0003:0000a77c       $SG24453                   000000018001e77c     c4_image_processing_test.obj
+ 0003:0000a780       $SG24448                   000000018001e780     c4_image_processing_test.obj
+ 0003:0000a788       $SG24449                   000000018001e788     c4_image_processing_test.obj
+ 0003:0000a794       $SG24450                   000000018001e794     c4_image_processing_test.obj
+ 0003:0000a79c       $SG24458                   000000018001e79c     c4_image_processing_test.obj
+ 0003:0000a7a0       $SG24454                   000000018001e7a0     c4_image_processing_test.obj
+ 0003:0000a7a8       $SG24455                   000000018001e7a8     c4_image_processing_test.obj
+ 0003:0000a7b4       $SG24456                   000000018001e7b4     c4_image_processing_test.obj
+ 0003:0000a7bc       $SG24459                   000000018001e7bc     c4_image_processing_test.obj
+ 0003:0000a7c0       $SG24460                   000000018001e7c0     c4_image_processing_test.obj
+ 0003:0000a7c8       $SG24461                   000000018001e7c8     c4_image_processing_test.obj
+ 0003:0000a7d4       $SG24462                   000000018001e7d4     c4_image_processing_test.obj
+ 0003:0000a7dc       $SG24464                   000000018001e7dc     c4_image_processing_test.obj
+ 0003:0000a7e0       $SG24465                   000000018001e7e0     c4_image_processing_test.obj
+ 0003:0000a7e8       $SG24466                   000000018001e7e8     c4_image_processing_test.obj
+ 0003:0000a7f0       $SG24467                   000000018001e7f0     c4_image_processing_test.obj
+ 0003:0000a7fc       $SG24468                   000000018001e7fc     c4_image_processing_test.obj
+ 0003:0000a808       $SG24504                   000000018001e808     c4_image_processing_test.obj
+ 0003:0000a848       $SG24505                   000000018001e848     c4_image_processing_test.obj
+ 0003:0000a880       $SG24517                   000000018001e880     c4_image_processing_test.obj
+ 0003:0000a890       $SG24519                   000000018001e890     c4_image_processing_test.obj
+ 0003:0000a8a0       $SG24521                   000000018001e8a0     c4_image_processing_test.obj
+ 0003:0000a8b8       $SG24523                   000000018001e8b8     c4_image_processing_test.obj
+ 0003:0000a8d0       $SG24525                   000000018001e8d0     c4_image_processing_test.obj
+ 0003:0000a8e4       $SG24526                   000000018001e8e4     c4_image_processing_test.obj
+ 0003:0000a8f0       $SG24527                   000000018001e8f0     c4_image_processing_test.obj
+ 0003:0000a908       $SG24530                   000000018001e908     c4_image_processing_test.obj
+ 0003:0000a920       $SG24543                   000000018001e920     c4_image_processing_test.obj
+ 0003:0000a930       $SG24545                   000000018001e930     c4_image_processing_test.obj
+ 0003:0000a938       $SG24689                   000000018001e938     c4_image_processing_test.obj
+ 0003:0000a950       $SG24546                   000000018001e950     c4_image_processing_test.obj
+ 0003:0000aa30       $SG24641                   000000018001ea30     c4_image_processing_test.obj
+ 0003:0000aa80       $SG24643                   000000018001ea80     c4_image_processing_test.obj
+ 0003:0000aad0       $SG24645                   000000018001ead0     c4_image_processing_test.obj
+ 0003:0000ab20       $SG24647                   000000018001eb20     c4_image_processing_test.obj
+ 0003:0000ab70       $SG24649                   000000018001eb70     c4_image_processing_test.obj
+ 0003:0000abc0       $SG24651                   000000018001ebc0     c4_image_processing_test.obj
+ 0003:0000ac10       $SG24653                   000000018001ec10     c4_image_processing_test.obj
+ 0003:0000ac60       $SG24655                   000000018001ec60     c4_image_processing_test.obj
+ 0003:0000acb0       $SG24657                   000000018001ecb0     c4_image_processing_test.obj
+ 0003:0000ad00       $SG24659                   000000018001ed00     c4_image_processing_test.obj
+ 0003:0000ad50       $SG24661                   000000018001ed50     c4_image_processing_test.obj
+ 0003:0000ada0       $SG24663                   000000018001eda0     c4_image_processing_test.obj
+ 0003:0000adf0       $SG24665                   000000018001edf0     c4_image_processing_test.obj
+ 0003:0000ae40       $SG24667                   000000018001ee40     c4_image_processing_test.obj
+ 0003:0000ae90       $SG24669                   000000018001ee90     c4_image_processing_test.obj
+ 0003:0000aee0       $SG24671                   000000018001eee0     c4_image_processing_test.obj
+ 0003:0000af30       $SG24673                   000000018001ef30     c4_image_processing_test.obj
+ 0003:0000af80       $SG24675                   000000018001ef80     c4_image_processing_test.obj
+ 0003:0000af90       $SG24688                   000000018001ef90     c4_image_processing_test.obj
+ 0003:0000afa0       $SG24714                   000000018001efa0     c4_image_processing_test.obj
+ 0003:0000afd0       $SG24729                   000000018001efd0     c4_image_processing_test.obj
+ 0003:0000b048       $SG23290                   000000018001f048     image_processing_test_sfun_registry.obj
+ 0003:0000b068       $SG23292                   000000018001f068     image_processing_test_sfun_registry.obj
+ 0003:0000b080       $SG23328                   000000018001f080     image_processing_test_sfun_registry.obj
+ 0003:0000b098       $SG23330                   000000018001f098     image_processing_test_sfun_registry.obj
+ 0003:0000b0b0       $SG23366                   000000018001f0b0     image_processing_test_sfun_registry.obj
+ 0003:0000b0c8       $SG23368                   000000018001f0c8     image_processing_test_sfun_registry.obj
+ 0003:0000b0e0       $SG23404                   000000018001f0e0     image_processing_test_sfun_registry.obj
+ 0003:0000b100       $SG23406                   000000018001f100     image_processing_test_sfun_registry.obj
+ 0003:0000b118       $SG23442                   000000018001f118     image_processing_test_sfun_registry.obj
+ 0003:0000b138       $SG23444                   000000018001f138     image_processing_test_sfun_registry.obj
+ 0003:0000b150       $SG23464                   000000018001f150     image_processing_test_sfun_registry.obj
+ 0003:0000b160       $SG23482                   000000018001f160     image_processing_test_sfun_registry.obj
+ 0003:0000b178       $SG23513                   000000018001f178     image_processing_test_sfun_registry.obj
+ 0003:0000b190       $SG23613                   000000018001f190     image_processing_test_sfun_registry.obj
+ 0003:0000b198       $SG23614                   000000018001f198     image_processing_test_sfun_registry.obj
+ 0003:0000b1ac       $SG23619                   000000018001f1ac     image_processing_test_sfun_registry.obj
+ 0003:0000b1b4       $SG25253                   000000018001f1b4     image_processing_test_sfun_registry.obj
+ 0003:0000b1b8       $SG23620                   000000018001f1b8     image_processing_test_sfun_registry.obj
+ 0003:0000b1d4       $SG24314                   000000018001f1d4     image_processing_test_sfun_registry.obj
+ 0003:0000b1dc       $SG25331                   000000018001f1dc     image_processing_test_sfun_registry.obj
+ 0003:0000b1e0       $SG23761                   000000018001f1e0     image_processing_test_sfun_registry.obj
+ 0003:0000b208       _sfcnName                  000000018001f208     image_processing_test_sfun_registry.obj
+ 0003:0000b228       $SG24107                   000000018001f228     image_processing_test_sfun_registry.obj
+ 0003:0000b230       $SG23778                   000000018001f230     image_processing_test_sfun_registry.obj
+ 0003:0000b2a8       $SG24108                   000000018001f2a8     image_processing_test_sfun_registry.obj
+ 0003:0000b2b0       $SG24122                   000000018001f2b0     image_processing_test_sfun_registry.obj
+ 0003:0000b2c0       $SG24312                   000000018001f2c0     image_processing_test_sfun_registry.obj
+ 0003:0000b300       $SG24313                   000000018001f300     image_processing_test_sfun_registry.obj
+ 0003:0000b308       $SG24319                   000000018001f308     image_processing_test_sfun_registry.obj
+ 0003:0000b310       $SG24318                   000000018001f310     image_processing_test_sfun_registry.obj
+ 0003:0000b358       $SG24320                   000000018001f358     image_processing_test_sfun_registry.obj
+ 0003:0000b360       $SG24321                   000000018001f360     image_processing_test_sfun_registry.obj
+ 0003:0000b3b8       $SG24322                   000000018001f3b8     image_processing_test_sfun_registry.obj
+ 0003:0000b3c0       $SG24323                   000000018001f3c0     image_processing_test_sfun_registry.obj
+ 0003:0000b3c8       $SG24345                   000000018001f3c8     image_processing_test_sfun_registry.obj
+ 0003:0000b408       $SG24346                   000000018001f408     image_processing_test_sfun_registry.obj
+ 0003:0000b410       $SG24347                   000000018001f410     image_processing_test_sfun_registry.obj
+ 0003:0000b418       $SG24352                   000000018001f418     image_processing_test_sfun_registry.obj
+ 0003:0000b420       $SG24351                   000000018001f420     image_processing_test_sfun_registry.obj
+ 0003:0000b468       $SG24353                   000000018001f468     image_processing_test_sfun_registry.obj
+ 0003:0000b470       $SG24354                   000000018001f470     image_processing_test_sfun_registry.obj
+ 0003:0000b4c8       $SG24355                   000000018001f4c8     image_processing_test_sfun_registry.obj
+ 0003:0000b4d0       $SG24356                   000000018001f4d0     image_processing_test_sfun_registry.obj
+ 0003:0000b4d8       $SG24372                   000000018001f4d8     image_processing_test_sfun_registry.obj
+ 0003:0000b4e0       $SG24371                   000000018001f4e0     image_processing_test_sfun_registry.obj
+ 0003:0000b530       $SG24373                   000000018001f530     image_processing_test_sfun_registry.obj
+ 0003:0000b538       $SG24386                   000000018001f538     image_processing_test_sfun_registry.obj
+ 0003:0000b540       $SG24385                   000000018001f540     image_processing_test_sfun_registry.obj
+ 0003:0000b5a0       $SG24387                   000000018001f5a0     image_processing_test_sfun_registry.obj
+ 0003:0000b5a8       $SG24400                   000000018001f5a8     image_processing_test_sfun_registry.obj
+ 0003:0000b5b0       $SG24399                   000000018001f5b0     image_processing_test_sfun_registry.obj
+ 0003:0000b610       $SG24401                   000000018001f610     image_processing_test_sfun_registry.obj
+ 0003:0000b618       $SG25238                   000000018001f618     image_processing_test_sfun_registry.obj
+ 0003:0000b630       $SG24616                   000000018001f630     image_processing_test_sfun_registry.obj
+ 0003:0000b6a8       $SG25305                   000000018001f6a8     image_processing_test_sfun_registry.obj
+ 0003:0000b6b0       $SG24619                   000000018001f6b0     image_processing_test_sfun_registry.obj
+ 0003:0000b724       $SG25306                   000000018001f724     image_processing_test_sfun_registry.obj
+ 0003:0000b730       $SG24624                   000000018001f730     image_processing_test_sfun_registry.obj
+ 0003:0000b7a8       $SG25307                   000000018001f7a8     image_processing_test_sfun_registry.obj
+ 0003:0000b7b0       $SG24632                   000000018001f7b0     image_processing_test_sfun_registry.obj
+ 0003:0000b820       $SG24907                   000000018001f820     image_processing_test_sfun_registry.obj
+ 0003:0000b898       $SG25313                   000000018001f898     image_processing_test_sfun_registry.obj
+ 0003:0000b8a0       $SG24912                   000000018001f8a0     image_processing_test_sfun_registry.obj
+ 0003:0000b918       $SG25316                   000000018001f918     image_processing_test_sfun_registry.obj
+ 0003:0000b920       $SG25250                   000000018001f920     image_processing_test_sfun_registry.obj
+ 0003:0000b998       $SG25319                   000000018001f998     image_processing_test_sfun_registry.obj
+ 0003:0000b9a0       $SG25308                   000000018001f9a0     image_processing_test_sfun_registry.obj
+ 0003:0000ba18       $SG25325                   000000018001fa18     image_processing_test_sfun_registry.obj
+ 0003:0000ba20       $SG25310                   000000018001fa20     image_processing_test_sfun_registry.obj
+ 0003:0000baa0       $SG25320                   000000018001faa0     image_processing_test_sfun_registry.obj
+ 0003:0000bb20       $SG25321                   000000018001fb20     image_processing_test_sfun_registry.obj
+ 0003:0000bb30       $SG25323                   000000018001fb30     image_processing_test_sfun_registry.obj
+ 0003:0000bb3c       $SG25327                   000000018001fb3c     image_processing_test_sfun_registry.obj
+ 0003:0000bb48       $SG25329                   000000018001fb48     image_processing_test_sfun_registry.obj
+ 0003:0000bb58       $SG25439                   000000018001fb58     image_processing_test_sfun_registry.obj
+ 0003:0000bb88       $SG25440                   000000018001fb88     image_processing_test_sfun_registry.obj
+ 0003:0000bb90       $SG25334                   000000018001fb90     image_processing_test_sfun_registry.obj
+ 0003:0000bc78       $SG25441                   000000018001fc78     image_processing_test_sfun_registry.obj
+ 0003:0000bc80       $SG25443                   000000018001fc80     image_processing_test_sfun_registry.obj
+ 0003:0000bcb8       $SG25444                   000000018001fcb8     image_processing_test_sfun_registry.obj
+ 0003:0000bcc0       $SG25445                   000000018001fcc0     image_processing_test_sfun_registry.obj
+ 0003:0000bcc8       $SG25448                   000000018001fcc8     image_processing_test_sfun_registry.obj
+ 0003:0000bd00       $SG25449                   000000018001fd00     image_processing_test_sfun_registry.obj
+ 0003:0000bd08       $SG25450                   000000018001fd08     image_processing_test_sfun_registry.obj
+ 0003:0000bd10       $SG25452                   000000018001fd10     image_processing_test_sfun_registry.obj
+ 0003:0000bd48       $SG25453                   000000018001fd48     image_processing_test_sfun_registry.obj
+ 0003:0000bd50       $SG25454                   000000018001fd50     image_processing_test_sfun_registry.obj
+ 0003:0000bd58       $SG25456                   000000018001fd58     image_processing_test_sfun_registry.obj
+ 0003:0000bd90       $SG25457                   000000018001fd90     image_processing_test_sfun_registry.obj
+ 0003:0000bd98       $SG25458                   000000018001fd98     image_processing_test_sfun_registry.obj
+ 0003:0000bda0       $SG25461                   000000018001fda0     image_processing_test_sfun_registry.obj
+ 0003:0000bda8       $SG25463                   000000018001fda8     image_processing_test_sfun_registry.obj
+ 0003:0000bdc0       $SG25464                   000000018001fdc0     image_processing_test_sfun_registry.obj
+ 0003:0000bdf8       $SG25465                   000000018001fdf8     image_processing_test_sfun_registry.obj
+ 0003:0000be00       $SG25466                   000000018001fe00     image_processing_test_sfun_registry.obj
+ 0003:0000be08       $SG25632                   000000018001fe08     image_processing_test_sfun_registry.obj
+ 0003:0000be28       $SG25637                   000000018001fe28     image_processing_test_sfun_registry.obj
+ 0003:0000be40       $SG25633                   000000018001fe40     image_processing_test_sfun_registry.obj
+ 0003:0000bed0       $SG25638                   000000018001fed0     image_processing_test_sfun_registry.obj
+ 0003:0000bf60       $SG25642                   000000018001ff60     image_processing_test_sfun_registry.obj
+ 0003:0000bf78       $SG25657                   000000018001ff78     image_processing_test_sfun_registry.obj
+ 0003:0000bf98       $SG25662                   000000018001ff98     image_processing_test_sfun_registry.obj
+ 0003:0000bfc0       $SG25643                   000000018001ffc0     image_processing_test_sfun_registry.obj
+ 0003:0000c050       $SG25647                   0000000180020050     image_processing_test_sfun_registry.obj
+ 0003:0000c070       $SG25648                   0000000180020070     image_processing_test_sfun_registry.obj
+ 0003:0000c100       $SG25652                   0000000180020100     image_processing_test_sfun_registry.obj
+ 0003:0000c120       $SG25653                   0000000180020120     image_processing_test_sfun_registry.obj
+ 0003:0000c1b0       $SG25658                   00000001800201b0     image_processing_test_sfun_registry.obj
+ 0003:0000c240       $SG25663                   0000000180020240     image_processing_test_sfun_registry.obj
+ 0003:0000c2d0       $SG25667                   00000001800202d0     image_processing_test_sfun_registry.obj
+ 0003:0000c2f8       $SG25682                   00000001800202f8     image_processing_test_sfun_registry.obj
+ 0003:0000c310       $SG25668                   0000000180020310     image_processing_test_sfun_registry.obj
+ 0003:0000c3a0       $SG25672                   00000001800203a0     image_processing_test_sfun_registry.obj
+ 0003:0000c3c0       $SG25673                   00000001800203c0     image_processing_test_sfun_registry.obj
+ 0003:0000c450       $SG25677                   0000000180020450     image_processing_test_sfun_registry.obj
+ 0003:0000c470       $SG25678                   0000000180020470     image_processing_test_sfun_registry.obj
+ 0003:0000c500       $SG25683                   0000000180020500     image_processing_test_sfun_registry.obj
+ 0003:0000c590       $SG25687                   0000000180020590     image_processing_test_sfun_registry.obj
+ 0003:0000c5b0       $SG25688                   00000001800205b0     image_processing_test_sfun_registry.obj
+ 0003:0000c640       $SG25692                   0000000180020640     image_processing_test_sfun_registry.obj
+ 0003:0000c660       $SG25693                   0000000180020660     image_processing_test_sfun_registry.obj
+ 0003:0000c6f0       $SG25697                   00000001800206f0     image_processing_test_sfun_registry.obj
+ 0003:0000c710       $SG25698                   0000000180020710     image_processing_test_sfun_registry.obj
+ 0003:0000c7a0       $SG25702                   00000001800207a0     image_processing_test_sfun_registry.obj
+ 0003:0000c7c0       $SG25703                   00000001800207c0     image_processing_test_sfun_registry.obj
+ 0003:0000c850       $SG25707                   0000000180020850     image_processing_test_sfun_registry.obj
+ 0003:0000c870       $SG25708                   0000000180020870     image_processing_test_sfun_registry.obj
+ 0003:0000c900       $SG25712                   0000000180020900     image_processing_test_sfun_registry.obj
+ 0003:0000c920       $SG25713                   0000000180020920     image_processing_test_sfun_registry.obj
+ 0003:0000c9b0       $SG25718                   00000001800209b0     image_processing_test_sfun_registry.obj
+ 0003:0000c9c4       $SG25723                   00000001800209c4     image_processing_test_sfun_registry.obj
+ 0003:0000c9d0       $SG25719                   00000001800209d0     image_processing_test_sfun_registry.obj
+ 0003:0000ca60       $SG25724                   0000000180020a60     image_processing_test_sfun_registry.obj
+ 0003:0000caf0       $SG25728                   0000000180020af0     image_processing_test_sfun_registry.obj
+ 0003:0000cb08       $SG25758                   0000000180020b08     image_processing_test_sfun_registry.obj
+ 0003:0000cb20       $SG25729                   0000000180020b20     image_processing_test_sfun_registry.obj
+ 0003:0000cbb0       $SG25733                   0000000180020bb0     image_processing_test_sfun_registry.obj
+ 0003:0000cbc0       $SG25734                   0000000180020bc0     image_processing_test_sfun_registry.obj
+ 0003:0000cc50       $SG25738                   0000000180020c50     image_processing_test_sfun_registry.obj
+ 0003:0000cc70       $SG25739                   0000000180020c70     image_processing_test_sfun_registry.obj
+ 0003:0000cd00       $SG25743                   0000000180020d00     image_processing_test_sfun_registry.obj
+ 0003:0000cd20       $SG25744                   0000000180020d20     image_processing_test_sfun_registry.obj
+ 0003:0000cdb0       $SG25748                   0000000180020db0     image_processing_test_sfun_registry.obj
+ 0003:0000cdc0       $SG25749                   0000000180020dc0     image_processing_test_sfun_registry.obj
+ 0003:0000ce50       $SG25753                   0000000180020e50     image_processing_test_sfun_registry.obj
+ 0003:0000ce60       $SG25754                   0000000180020e60     image_processing_test_sfun_registry.obj
+ 0003:0000cef0       $SG25759                   0000000180020ef0     image_processing_test_sfun_registry.obj
+ 0003:0000cf80       $SG25763                   0000000180020f80     image_processing_test_sfun_registry.obj
+ 0003:0000cf98       $SG25768                   0000000180020f98     image_processing_test_sfun_registry.obj
+ 0003:0000cfa8       $SG25840                   0000000180020fa8     image_processing_test_sfun_registry.obj
+ 0003:0000cfc0       $SG25764                   0000000180020fc0     image_processing_test_sfun_registry.obj
+ 0003:0000d050       $SG25769                   0000000180021050     image_processing_test_sfun_registry.obj
+ 0003:0000d0e0       $SG25777                   00000001800210e0     image_processing_test_sfun_registry.obj
+ 0003:0000d0f0       $SG25778                   00000001800210f0     image_processing_test_sfun_registry.obj
+ 0003:0000d180       $SG25782                   0000000180021180     image_processing_test_sfun_registry.obj
+ 0003:0000d190       $SG25783                   0000000180021190     image_processing_test_sfun_registry.obj
+ 0003:0000d220       $SG25787                   0000000180021220     image_processing_test_sfun_registry.obj
+ 0003:0000d230       $SG25788                   0000000180021230     image_processing_test_sfun_registry.obj
+ 0003:0000d2c0       $SG25793                   00000001800212c0     image_processing_test_sfun_registry.obj
+ 0003:0000d2d0       $SG25794                   00000001800212d0     image_processing_test_sfun_registry.obj
+ 0003:0000d360       $SG25798                   0000000180021360     image_processing_test_sfun_registry.obj
+ 0003:0000d3e0       $SG25828                   00000001800213e0     image_processing_test_sfun_registry.obj
+ 0003:0000d4f8       $SG25850                   00000001800214f8     image_processing_test_sfun_registry.obj
+ 0003:0000d508       $SG25862                   0000000180021508     image_processing_test_sfun_registry.obj
+ 0003:0000d518       $SG25872                   0000000180021518     image_processing_test_sfun_registry.obj
+ 0003:0000d528       $SG25884                   0000000180021528     image_processing_test_sfun_registry.obj
+ 0003:0000d538       $SG25894                   0000000180021538     image_processing_test_sfun_registry.obj
+ 0003:0000d548       $SG25904                   0000000180021548     image_processing_test_sfun_registry.obj
+ 0003:0000d5b0       sRtwOptimizationInfoStruct 00000001800215b0     image_processing_test_sfun.obj
+ 0003:0000d5b8       sOptimizationInfoFlags     00000001800215b8     image_processing_test_sfun.obj
+ 0003:0000d5c0       $SG23516                   00000001800215c0     c4_image_processing_test.obj
+ 0003:0000d5c1       $SG23523                   00000001800215c1     c4_image_processing_test.obj
+ 0003:0000d5c2       $SG23530                   00000001800215c2     c4_image_processing_test.obj
+ 0003:0000d5c3       $SG23537                   00000001800215c3     c4_image_processing_test.obj
+ 0003:0000d5c4       $SG23544                   00000001800215c4     c4_image_processing_test.obj
+ 0003:0000d5c5       $SG23551                   00000001800215c5     c4_image_processing_test.obj
+ 0003:0000d5c6       $SG23558                   00000001800215c6     c4_image_processing_test.obj
+ 0003:0000d5c7       $SG23565                   00000001800215c7     c4_image_processing_test.obj
+ 0003:0000d5c8       $SG23569                   00000001800215c8     c4_image_processing_test.obj
+ 0003:0000d5c9       $SG23576                   00000001800215c9     c4_image_processing_test.obj
+ 0003:0000d5ca       $SG23580                   00000001800215ca     c4_image_processing_test.obj
+ 0003:0000d5cb       $SG23587                   00000001800215cb     c4_image_processing_test.obj
+ 0003:0000d5cc       $SG23858                   00000001800215cc     c4_image_processing_test.obj
+ 0003:0000d5cd       $SG24528                   00000001800215cd     c4_image_processing_test.obj
+ 0003:0000d5ce       $SG24529                   00000001800215ce     c4_image_processing_test.obj
+ 0003:0000d5cf       $SG24677                   00000001800215cf     c4_image_processing_test.obj
+ 0003:0000d5d0       _sfTime_                   00000001800215d0     c4_image_processing_test.obj
+ 0003:0000d5e0       ?newstr@?1??sf_c4_image_processing_test_get_post_codegen_info@@9@9 00000001800215e0     c4_image_processing_test.obj
+ 0003:0000daec       sfGlobalMdlStartCallCounts 0000000180021aec     image_processing_test_sfun_registry.obj
+ 0003:0000daf0       $SG25301                   0000000180021af0     image_processing_test_sfun_registry.obj
+ 0003:0000db00       GS_ExceptionRecord         0000000180021b00     MSVCRT:gs_report.obj
+ 0003:0000dba0       GS_ContextRecord           0000000180021ba0     MSVCRT:gs_report.obj
+ 0003:0000e070       ?__proc_attached@@3HA      0000000180022070     MSVCRT:dll_dllmain.obj
+ 0003:0000e0b0       ?is_initialized_as_dll@@3_NA 00000001800220b0     MSVCRT:utility.obj
+ 0003:0000e0b1       ?module_local_atexit_table_initialized@@3_NA 00000001800220b1     MSVCRT:utility.obj
+ 0003:0000e0b8       ?module_local_atexit_table@@3U_onexit_table_t@@A 00000001800220b8     MSVCRT:utility.obj
+ 0003:0000e0d0       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 00000001800220d0     MSVCRT:utility.obj
+ 0004:00000000       $pdata$load_image_processing_test_optimization_info 0000000180023000     image_processing_test_sfun.obj
+ 0004:0000000c       $pdata$unload_image_processing_test_optimization_info 000000018002300c     image_processing_test_sfun.obj
+ 0004:00000018       $pdata$sf_image_processing_test_method_dispatcher 0000000180023018     image_processing_test_sfun.obj
+ 0004:00000024       $pdata$sf_image_processing_test_process_check_sum_call 0000000180023024     image_processing_test_sfun.obj
+ 0004:00000030       $pdata$sf_image_processing_test_get_eml_resolved_functions_info 0000000180023030     image_processing_test_sfun.obj
+ 0004:0000003c       $pdata$sf_image_processing_test_third_party_uses_info 000000018002303c     image_processing_test_sfun.obj
+ 0004:00000048       $pdata$sf_image_processing_test_jit_fallback_info 0000000180023048     image_processing_test_sfun.obj
+ 0004:00000054       $pdata$sf_image_processing_test_get_post_codegen_info 0000000180023054     image_processing_test_sfun.obj
+ 0004:00000060       $pdata$sf_image_processing_test_updateBuildInfo_args_info 0000000180023060     image_processing_test_sfun.obj
+ 0004:0000006c       $pdata$sf_c4_image_processing_test_get_eml_resolved_functions_info 000000018002306c     c4_image_processing_test.obj
+ 0004:00000078       $pdata$sf_c4_image_processing_test_get_check_sum 0000000180023078     c4_image_processing_test.obj
+ 0004:00000084       $pdata$c4_image_processing_test_method_dispatcher 0000000180023084     c4_image_processing_test.obj
+ 0004:00000090       $pdata$initialize_c4_image_processing_test 0000000180023090     c4_image_processing_test.obj
+ 0004:0000009c       $pdata$enable_c4_image_processing_test 000000018002309c     c4_image_processing_test.obj
+ 0004:000000a8       $pdata$disable_c4_image_processing_test 00000001800230a8     c4_image_processing_test.obj
+ 0004:000000b4       $pdata$c4_do_animation_call_c4_image_processing_test 00000001800230b4     c4_image_processing_test.obj
+ 0004:000000c0       $pdata$get_sim_state_c4_image_processing_test 00000001800230c0     c4_image_processing_test.obj
+ 0004:000000cc       $pdata$set_sim_state_c4_image_processing_test 00000001800230cc     c4_image_processing_test.obj
+ 0004:000000d8       $pdata$sf_gateway_c4_image_processing_test 00000001800230d8     c4_image_processing_test.obj
+ 0004:000000e4       $pdata$mdl_setup_runtime_resources_c4_image_processing_test 00000001800230e4     c4_image_processing_test.obj
+ 0004:000000f0       $pdata$mdl_cleanup_runtime_resources_c4_image_processing_test 00000001800230f0     c4_image_processing_test.obj
+ 0004:000000fc       $pdata$c4_imclose          00000001800230fc     c4_image_processing_test.obj
+ 0004:00000108       $pdata$c4_imdilate         0000000180023108     c4_image_processing_test.obj
+ 0004:00000114       $pdata$c4_imerode          0000000180023114     c4_image_processing_test.obj
+ 0004:00000120       $pdata$c4_bwmorph          0000000180023120     c4_image_processing_test.obj
+ 0004:0000012c       $pdata$c4_bwlookup         000000018002312c     c4_image_processing_test.obj
+ 0004:00000138       $pdata$c4_emlrt_marshallIn 0000000180023138     c4_image_processing_test.obj
+ 0004:00000144       $pdata$c4_b_emlrt_marshallIn 0000000180023144     c4_image_processing_test.obj
+ 0004:00000150       $pdata$c4_c_emlrt_marshallIn 0000000180023150     c4_image_processing_test.obj
+ 0004:0000015c       $pdata$c4_d_emlrt_marshallIn 000000018002315c     c4_image_processing_test.obj
+ 0004:00000168       $pdata$c4_chart_data_browse_helper 0000000180023168     c4_image_processing_test.obj
+ 0004:00000174       $pdata$c4_b_bwmorphApplyOnce 0000000180023174     c4_image_processing_test.obj
+ 0004:00000180       $pdata$init_simulink_io_address 0000000180023180     c4_image_processing_test.obj
+ 0004:0000018c       $pdata$sf_c4_image_processing_test_third_party_uses_info 000000018002318c     c4_image_processing_test.obj
+ 0004:00000198       $pdata$sf_c4_image_processing_test_jit_fallback_info 0000000180023198     c4_image_processing_test.obj
+ 0004:000001a4       $pdata$sf_c4_image_processing_test_updateBuildInfo_args_info 00000001800231a4     c4_image_processing_test.obj
+ 0004:000001b0       $pdata$sf_get_sim_state_info_c4_image_processing_test 00000001800231b0     c4_image_processing_test.obj
+ 0004:000001bc       $pdata$sf_opaque_initialize_c4_image_processing_test 00000001800231bc     c4_image_processing_test.obj
+ 0004:000001c8       $pdata$sf_opaque_enable_c4_image_processing_test 00000001800231c8     c4_image_processing_test.obj
+ 0004:000001d4       $pdata$sf_opaque_disable_c4_image_processing_test 00000001800231d4     c4_image_processing_test.obj
+ 0004:000001e0       $pdata$sf_opaque_gateway_c4_image_processing_test 00000001800231e0     c4_image_processing_test.obj
+ 0004:000001ec       $pdata$sf_opaque_get_sim_state_c4_image_processing_test 00000001800231ec     c4_image_processing_test.obj
+ 0004:000001f8       $pdata$sf_opaque_set_sim_state_c4_image_processing_test 00000001800231f8     c4_image_processing_test.obj
+ 0004:00000204       $pdata$sf_opaque_cleanup_runtime_resources_c4_image_processing_test 0000000180023204     c4_image_processing_test.obj
+ 0004:00000210       $pdata$sf_opaque_mdl_start_c4_image_processing_test 0000000180023210     c4_image_processing_test.obj
+ 0004:0000021c       $pdata$sf_opaque_mdl_terminate_c4_image_processing_test 000000018002321c     c4_image_processing_test.obj
+ 0004:00000228       $pdata$mdlProcessParameters_c4_image_processing_test 0000000180023228     c4_image_processing_test.obj
+ 0004:00000234       $pdata$sf_c4_image_processing_test_get_post_codegen_info 0000000180023234     c4_image_processing_test.obj
+ 0004:00000240       $pdata$mdlSetWorkWidths_c4_image_processing_test 0000000180023240     c4_image_processing_test.obj
+ 0004:0000024c       $pdata$mdlRTW_c4_image_processing_test 000000018002324c     c4_image_processing_test.obj
+ 0004:00000258       $pdata$mdlSetupRuntimeResources_c4_image_processing_test 0000000180023258     c4_image_processing_test.obj
+ 0004:00000264       $pdata$mexFunction         0000000180023264     image_processing_test_sfun_registry.obj
+ 0004:00000270       $pdata$_ssSetInputPortDirectFeedThroughFcn 0000000180023270     image_processing_test_sfun_registry.obj
+ 0004:0000027c       $pdata$_ssSetRWorkValueFcn 000000018002327c     image_processing_test_sfun_registry.obj
+ 0004:00000288       $pdata$_ssGetRWorkValueFcn 0000000180023288     image_processing_test_sfun_registry.obj
+ 0004:00000294       $pdata$_ssSetIWorkValueFcn 0000000180023294     image_processing_test_sfun_registry.obj
+ 0004:000002a0       $pdata$_ssGetIWorkValueFcn 00000001800232a0     image_processing_test_sfun_registry.obj
+ 0004:000002ac       $pdata$_ssSetPWorkValueFcn 00000001800232ac     image_processing_test_sfun_registry.obj
+ 0004:000002b8       $pdata$_ssGetPWorkValueFcn 00000001800232b8     image_processing_test_sfun_registry.obj
+ 0004:000002c4       $pdata$_ssGetInputPortSignalFcn 00000001800232c4     image_processing_test_sfun_registry.obj
+ 0004:000002d0       $pdata$_ssGetInputPortBufferDstPortFcn 00000001800232d0     image_processing_test_sfun_registry.obj
+ 0004:000002dc       $pdata$_ssGetInputPortSignalPtrsFcn 00000001800232dc     image_processing_test_sfun_registry.obj
+ 0004:000002e8       $pdata$ssGetParameterTuningCompliance 00000001800232e8     image_processing_test_sfun_registry.obj
+ 0004:000002f4       $pdata$ssGetDTypeIdFromMxArray 00000001800232f4     image_processing_test_sfun_registry.obj
+ 0004:00000300       $pdata$ssWriteRTWMx2dMatParam 0000000180023300     image_processing_test_sfun_registry.obj
+ 0004:0000030c       $pdata$ssWriteRTWMxVectParam 000000018002330c     image_processing_test_sfun_registry.obj
+ 0004:00000318       $pdata$ssWriteRTWParameters 0000000180023318     image_processing_test_sfun_registry.obj
+ 0004:00000324       $pdata$ssWriteRTWParamSettings 0000000180023324     image_processing_test_sfun_registry.obj
+ 0004:00000330       $pdata$ssWriteRTWStr       0000000180023330     image_processing_test_sfun_registry.obj
+ 0004:0000033c       $pdata$ssWriteRTWWorkVect  000000018002333c     image_processing_test_sfun_registry.obj
+ 0004:00000348       $pdata$ssWarning           0000000180023348     image_processing_test_sfun_registry.obj
+ 0004:00000354       $pdata$ssWriteRTWNameValuePair 0000000180023354     image_processing_test_sfun_registry.obj
+ 0004:00000360       $pdata$_ssSetInputPortMatrixDimensions 0000000180023360     image_processing_test_sfun_registry.obj
+ 0004:0000036c       $pdata$_ssSetOutputPortMatrixDimensions 000000018002336c     image_processing_test_sfun_registry.obj
+ 0004:00000378       $pdata$_ssSetInputPortVectorDimension 0000000180023378     image_processing_test_sfun_registry.obj
+ 0004:00000384       $pdata$_ssSetOutputPortVectorDimension 0000000180023384     image_processing_test_sfun_registry.obj
+ 0004:00000390       $pdata$ssIsRunTimeParamTunable 0000000180023390     image_processing_test_sfun_registry.obj
+ 0004:0000039c       $pdata$ssGetSFuncBlockHandle 000000018002339c     image_processing_test_sfun_registry.obj
+ 0004:000003a8       $pdata$_ssGetCurrentInputPortWidth 00000001800233a8     image_processing_test_sfun_registry.obj
+ 0004:000003b4       $pdata$_ssGetCurrentOutputPortWidth 00000001800233b4     image_processing_test_sfun_registry.obj
+ 0004:000003c0       $pdata$_ssGetCallSystemNumFcnCallDestinations 00000001800233c0     image_processing_test_sfun_registry.obj
+ 0004:000003cc       $pdata$ssGetIsZeroCrossControlDisabled 00000001800233cc     image_processing_test_sfun_registry.obj
+ 0004:000003d8       $pdata$ssSetIsInputPortUsedForContZcSignal 00000001800233d8     image_processing_test_sfun_registry.obj
+ 0004:000003e4       $pdata$ssSetZcSignalIsZcElementDisc 00000001800233e4     image_processing_test_sfun_registry.obj
+ 0004:000003f0       $pdata$ssSetZcSignalName   00000001800233f0     image_processing_test_sfun_registry.obj
+ 0004:000003fc       $pdata$ssSetZcSignalWidth  00000001800233fc     image_processing_test_sfun_registry.obj
+ 0004:00000408       $pdata$ssSetZcSignalZcEventType 0000000180023408     image_processing_test_sfun_registry.obj
+ 0004:00000414       $pdata$ssSetZcSignalType   0000000180023414     image_processing_test_sfun_registry.obj
+ 0004:00000420       $pdata$ssSetZcSignalZcTol  0000000180023420     image_processing_test_sfun_registry.obj
+ 0004:0000042c       $pdata$ssSetZcSignalNeedsEventNotification 000000018002342c     image_processing_test_sfun_registry.obj
+ 0004:00000438       $pdata$ssCreateAndAddZcSignalInfo 0000000180023438     image_processing_test_sfun_registry.obj
+ 0004:00000444       $pdata$ssCloneAndAddZcSignalInfo 0000000180023444     image_processing_test_sfun_registry.obj
+ 0004:00000450       $pdata$ssGetNumZcSignals   0000000180023450     image_processing_test_sfun_registry.obj
+ 0004:0000045c       $pdata$ssGetZcSignalVector 000000018002345c     image_processing_test_sfun_registry.obj
+ 0004:00000468       $pdata$ssGetZcSignalName   0000000180023468     image_processing_test_sfun_registry.obj
+ 0004:00000474       $pdata$ssGetZcSignalWidth  0000000180023474     image_processing_test_sfun_registry.obj
+ 0004:00000480       $pdata$ssGetZcSignalZcEventType 0000000180023480     image_processing_test_sfun_registry.obj
+ 0004:0000048c       $pdata$ssGetZcSignalZcEvents 000000018002348c     image_processing_test_sfun_registry.obj
+ 0004:00000498       $pdata$ssGetZcSignalType   0000000180023498     image_processing_test_sfun_registry.obj
+ 0004:000004a4       $pdata$ssGetZcSignalZcTol  00000001800234a4     image_processing_test_sfun_registry.obj
+ 0004:000004b0       $pdata$ssGetZcSignalNeedsEventNotification 00000001800234b0     image_processing_test_sfun_registry.obj
+ 0004:000004bc       $pdata$ssGetZcSignalIsZcElementDisc 00000001800234bc     image_processing_test_sfun_registry.obj
+ 0004:000004c8       $pdata$ssGetIsInputPortElementContinuous 00000001800234c8     image_processing_test_sfun_registry.obj
+ 0004:000004d4       $pdata$_ssGetAbsTol        00000001800234d4     image_processing_test_sfun_registry.obj
+ 0004:000004e0       $pdata$_ssSetInputPortReusableFcn 00000001800234e0     image_processing_test_sfun_registry.obj
+ 0004:000004ec       $pdata$_ssSetOutputPortReusableFcn 00000001800234ec     image_processing_test_sfun_registry.obj
+ 0004:000004f8       $pdata$_ssSetSymbolicDimsSupport 00000001800234f8     image_processing_test_sfun_registry.obj
+ 0004:00000504       $pdata$_ssRegisterSymbolicDimsExpr 0000000180023504     image_processing_test_sfun_registry.obj
+ 0004:00000510       $pdata$_ssRegisterSymbolicDims 0000000180023510     image_processing_test_sfun_registry.obj
+ 0004:0000051c       $pdata$_ssRegisterSymbolicDimsString 000000018002351c     image_processing_test_sfun_registry.obj
+ 0004:00000528       $pdata$_ssRegisterSymbolicDimsIntValue 0000000180023528     image_processing_test_sfun_registry.obj
+ 0004:00000534       $pdata$_ssRegisterSymbolicDimsPlus 0000000180023534     image_processing_test_sfun_registry.obj
+ 0004:00000540       $pdata$_ssRegisterSymbolicDimsMinus 0000000180023540     image_processing_test_sfun_registry.obj
+ 0004:0000054c       $pdata$_ssRegisterSymbolicDimsMultiply 000000018002354c     image_processing_test_sfun_registry.obj
+ 0004:00000558       $pdata$_ssRegisterSymbolicDimsDivide 0000000180023558     image_processing_test_sfun_registry.obj
+ 0004:00000564       $pdata$_ssGetNumSymbolicDims 0000000180023564     image_processing_test_sfun_registry.obj
+ 0004:00000570       $pdata$_ssGetSymbolicDim   0000000180023570     image_processing_test_sfun_registry.obj
+ 0004:0000057c       $pdata$_ssSetInputPortSymbolicDimsId 000000018002357c     image_processing_test_sfun_registry.obj
+ 0004:00000588       $pdata$_ssGetCompInputPortSymbolicDimsId 0000000180023588     image_processing_test_sfun_registry.obj
+ 0004:00000594       $pdata$_ssSetCompInputPortSymbolicDimsId 0000000180023594     image_processing_test_sfun_registry.obj
+ 0004:000005a0       $pdata$_ssSetOutputPortSymbolicDimsId 00000001800235a0     image_processing_test_sfun_registry.obj
+ 0004:000005ac       $pdata$_ssGetCompOutputPortSymbolicDimsId 00000001800235ac     image_processing_test_sfun_registry.obj
+ 0004:000005b8       $pdata$_ssSetCompOutputPortSymbolicDimsId 00000001800235b8     image_processing_test_sfun_registry.obj
+ 0004:000005c4       $pdata$_ssSetCompDWorkSymbolicDimsId 00000001800235c4     image_processing_test_sfun_registry.obj
+ 0004:000005d0       $pdata$sf_process_check_sum_call 00000001800235d0     image_processing_test_sfun_registry.obj
+ 0004:000005dc       $pdata$sf_process_get_third_party_uses_info_call 00000001800235dc     image_processing_test_sfun_registry.obj
+ 0004:000005e8       $pdata$sf_process_get_jit_fallback_info_call 00000001800235e8     image_processing_test_sfun_registry.obj
+ 0004:000005f4       $pdata$sf_process_get_post_codegen_info_call 00000001800235f4     image_processing_test_sfun_registry.obj
+ 0004:00000600       $pdata$sf_process_get_updateBuildInfo_args_info_call 0000000180023600     image_processing_test_sfun_registry.obj
+ 0004:0000060c       $pdata$sf_process_get_eml_resolved_functions_info_call 000000018002360c     image_processing_test_sfun_registry.obj
+ 0004:00000618       $pdata$sf_mex_unlock_call  0000000180023618     image_processing_test_sfun_registry.obj
+ 0004:00000624       $pdata$ProcessMexSfunctionCmdLineCall 0000000180023624     image_processing_test_sfun_registry.obj
+ 0004:00000630       $pdata$sf_machine_global_initializer_called 0000000180023630     image_processing_test_sfun_registry.obj
+ 0004:0000063c       $pdata$sf_machine_global_method_dispatcher 000000018002363c     image_processing_test_sfun_registry.obj
+ 0004:00000648       $pdata$sf_machine_global_terminator 0000000180023648     image_processing_test_sfun_registry.obj
+ 0004:00000654       $pdata$sf_register_machine_exported_symbols 0000000180023654     image_processing_test_sfun_registry.obj
+ 0004:00000660       $pdata$sf_machine_global_initializer 0000000180023660     image_processing_test_sfun_registry.obj
+ 0004:0000066c       $pdata$mdlGetSimState      000000018002366c     image_processing_test_sfun_registry.obj
+ 0004:00000678       $pdata$mdlSetSimState      0000000180023678     image_processing_test_sfun_registry.obj
+ 0004:00000684       $pdata$mdlSetWorkWidths    0000000180023684     image_processing_test_sfun_registry.obj
+ 0004:00000690       $pdata$mdlProcessParameters 0000000180023690     image_processing_test_sfun_registry.obj
+ 0004:0000069c       $pdata$mdl_setup_runtime_resources_processing 000000018002369c     image_processing_test_sfun_registry.obj
+ 0004:000006a8       $pdata$mdlSetupRuntimeResources 00000001800236a8     image_processing_test_sfun_registry.obj
+ 0004:000006b4       $pdata$mdl_cleanup_runtime_resources_processing 00000001800236b4     image_processing_test_sfun_registry.obj
+ 0004:000006c0       $pdata$mdlCleanupRuntimeResources 00000001800236c0     image_processing_test_sfun_registry.obj
+ 0004:000006cc       $pdata$mdl_start_processing 00000001800236cc     image_processing_test_sfun_registry.obj
+ 0004:000006d8       $pdata$mdlStart            00000001800236d8     image_processing_test_sfun_registry.obj
+ 0004:000006e4       $pdata$mdl_terminate_processing 00000001800236e4     image_processing_test_sfun_registry.obj
+ 0004:000006f0       $pdata$mdlTerminate        00000001800236f0     image_processing_test_sfun_registry.obj
+ 0004:000006fc       $pdata$mdlInitializeSizes  00000001800236fc     image_processing_test_sfun_registry.obj
+ 0004:00000708       $pdata$mdlInitializeSampleTimes 0000000180023708     image_processing_test_sfun_registry.obj
+ 0004:00000714       $pdata$mdl_outputs_continuous_legacy 0000000180023714     image_processing_test_sfun_registry.obj
+ 0004:00000720       $pdata$mdl_outputs_processing 0000000180023720     image_processing_test_sfun_registry.obj
+ 0004:0000072c       $pdata$mdl_zeroCrossings_processing 000000018002372c     image_processing_test_sfun_registry.obj
+ 0004:00000738       $pdata$mdlZeroCrossings    0000000180023738     image_processing_test_sfun_registry.obj
+ 0004:00000744       $pdata$mdl_derivatives_processing 0000000180023744     image_processing_test_sfun_registry.obj
+ 0004:00000750       $pdata$mdlDerivatives      0000000180023750     image_processing_test_sfun_registry.obj
+ 0004:0000075c       $pdata$mdl_initialize_conditions_processing 000000018002375c     image_processing_test_sfun_registry.obj
+ 0004:00000768       $pdata$mdlInitializeConditions 0000000180023768     image_processing_test_sfun_registry.obj
+ 0004:00000774       $pdata$mdl_ext_mode_exec_processing 0000000180023774     image_processing_test_sfun_registry.obj
+ 0004:00000780       $pdata$mdlExtModeExec      0000000180023780     image_processing_test_sfun_registry.obj
+ 0004:0000078c       $pdata$mdlRTW              000000018002378c     image_processing_test_sfun_registry.obj
+ 0004:00000798       $pdata$mdl_enable_processing 0000000180023798     image_processing_test_sfun_registry.obj
+ 0004:000007a4       $pdata$mdlEnable           00000001800237a4     image_processing_test_sfun_registry.obj
+ 0004:000007b0       $pdata$mdl_disable_processing 00000001800237b0     image_processing_test_sfun_registry.obj
+ 0004:000007bc       $pdata$mdlDisable          00000001800237bc     image_processing_test_sfun_registry.obj
+ 0004:000007c8       $pdata$mdlOutputs          00000001800237c8     image_processing_test_sfun_registry.obj
+ 0004:000007d4       $pdata$mdl_update_processing 00000001800237d4     image_processing_test_sfun_registry.obj
+ 0004:000007e0       $pdata$mdlUpdate           00000001800237e0     image_processing_test_sfun_registry.obj
+ 0004:000007ec       $pdata$ProcessMexSfunctionEveryCall 00000001800237ec     image_processing_test_sfun_registry.obj
+ 0004:000007f8       $pdata$_RegNumInputPortsCB 00000001800237f8     image_processing_test_sfun_registry.obj
+ 0004:00000804       $pdata$_RegNumOutputPortsCB 0000000180023804     image_processing_test_sfun_registry.obj
+ 0004:00000810       $pdata$_CreateSimStruct    0000000180023810     image_processing_test_sfun_registry.obj
+ 0004:0000081c       $pdata$_ProcessMexSfunctionCmdLineCall 000000018002381c     image_processing_test_sfun_registry.obj
+ 0004:00000828       $pdata$ReportIndexOutOfBoundsError 0000000180023828     image_processing_test_sfun_registry.obj
+ 0004:00000834       $pdata$_vsnprintf_l        0000000180023834     image_processing_test_sfun_registry.obj
+ 0004:00000840       $pdata$_vsprintf_l         0000000180023840     image_processing_test_sfun_registry.obj
+ 0004:0000084c       $pdata$sprintf             000000018002384c     image_processing_test_sfun_registry.obj
+ 0004:00000858       $pdata$__raise_securityfailure 0000000180023858     MSVCRT:gs_report.obj
+ 0004:00000864       $pdata$__report_gsfailure  0000000180023864     MSVCRT:gs_report.obj
+ 0004:00000870       $pdata$__report_rangecheckfailure 0000000180023870     MSVCRT:gs_report.obj
+ 0004:0000087c       $pdata$__report_securityfailure 000000018002387c     MSVCRT:gs_report.obj
+ 0004:00000888       $pdata$__report_securityfailureEx 0000000180023888     MSVCRT:gs_report.obj
+ 0004:00000894       $pdata$capture_current_context 0000000180023894     MSVCRT:gs_report.obj
+ 0004:000008a0       $pdata$capture_previous_context 00000001800238a0     MSVCRT:gs_report.obj
+ 0004:000008ac       $pdata$__GSHandlerCheck    00000001800238ac     MSVCRT:gshandler.obj
+ 0004:000008b8       $pdata$__GSHandlerCheckCommon 00000001800238b8     MSVCRT:gshandler.obj
+ 0004:000008d0       $pdata$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 00000001800238d0     MSVCRT:dll_dllmain.obj
+ 0004:000008dc       $pdata$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 00000001800238dc     MSVCRT:dll_dllmain.obj
+ 0004:000008e8       $pdata$?dllmain_crt_process_detach@@YAH_N@Z 00000001800238e8     MSVCRT:dll_dllmain.obj
+ 0004:000008f4       $pdata$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 00000001800238f4     MSVCRT:dll_dllmain.obj
+ 0004:00000900       $pdata$_DllMainCRTStartup  0000000180023900     MSVCRT:dll_dllmain.obj
+ 0004:0000090c       $pdata$__get_entropy       000000018002390c     MSVCRT:gs_support.obj
+ 0004:00000918       $pdata$__security_init_cookie 0000000180023918     MSVCRT:gs_support.obj
+ 0004:00000924       $pdata$DllMain             0000000180023924     MSVCRT:dll_dllmain_stub.obj
+ 0004:00000930       $pdata$__scrt_initialize_default_local_stdio_options 0000000180023930     MSVCRT:default_local_stdio_options.obj
+ 0004:0000093c       $pdata$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018002393c     MSVCRT:utility.obj
+ 0004:00000948       $pdata$__scrt_acquire_startup_lock 0000000180023948     MSVCRT:utility.obj
+ 0004:00000954       $pdata$__scrt_dllmain_after_initialize_c 0000000180023954     MSVCRT:utility.obj
+ 0004:00000960       $pdata$__scrt_dllmain_before_initialize_c 0000000180023960     MSVCRT:utility.obj
+ 0004:0000096c       $pdata$__scrt_dllmain_crt_thread_attach 000000018002396c     MSVCRT:utility.obj
+ 0004:00000978       $pdata$__scrt_dllmain_crt_thread_detach 0000000180023978     MSVCRT:utility.obj
+ 0004:00000984       $pdata$__scrt_dllmain_exception_filter 0000000180023984     MSVCRT:utility.obj
+ 0004:00000990       $pdata$__scrt_dllmain_uninitialize_c 0000000180023990     MSVCRT:utility.obj
+ 0004:0000099c       $pdata$__scrt_dllmain_uninitialize_critical 000000018002399c     MSVCRT:utility.obj
+ 0004:000009a8       $pdata$__scrt_initialize_crt 00000001800239a8     MSVCRT:utility.obj
+ 0004:000009b4       $pdata$__scrt_initialize_onexit_tables 00000001800239b4     MSVCRT:utility.obj
+ 0004:000009c0       $pdata$__scrt_is_nonwritable_in_current_image 00000001800239c0     MSVCRT:utility.obj
+ 0004:000009cc       $pdata$__scrt_release_startup_lock 00000001800239cc     MSVCRT:utility.obj
+ 0004:000009d8       $pdata$__scrt_uninitialize_crt 00000001800239d8     MSVCRT:utility.obj
+ 0004:000009e4       $pdata$_onexit             00000001800239e4     MSVCRT:utility.obj
+ 0004:000009f0       $pdata$atexit              00000001800239f0     MSVCRT:utility.obj
+ 0004:000009fc       $pdata$__scrt_fastfail     00000001800239fc     MSVCRT:utility_desktop.obj
+ 0004:00000a08       $pdata$__scrt_get_show_window_mode 0000000180023a08     MSVCRT:utility_desktop.obj
+ 0004:00000a14       $pdata$__scrt_is_managed_app 0000000180023a14     MSVCRT:utility_desktop.obj
+ 0004:00000a20       $pdata$__scrt_unhandled_exception_filter 0000000180023a20     MSVCRT:utility_desktop.obj
+ 0004:00000a2c       $pdata$_RTC_Initialize     0000000180023a2c     MSVCRT:initsect.obj
+ 0004:00000a38       $pdata$_RTC_Terminate      0000000180023a38     MSVCRT:initsect.obj
+ 0004:00000a44       $pdata$__isa_available_init 0000000180023a44     MSVCRT:cpu_disp.obj
+ 0004:00000a5c       $pdata$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180023a5c     MSVCRT:dll_dllmain.obj
+ 0004:00000a68       $pdata$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 0000000180023a68     MSVCRT:dll_dllmain.obj
+ 0004:00000a74       $pdata$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180023a74     MSVCRT:dll_dllmain.obj
+ 0004:00000a80       $pdata$__scrt_is_nonwritable_in_current_image$filt$0 0000000180023a80     MSVCRT:utility.obj

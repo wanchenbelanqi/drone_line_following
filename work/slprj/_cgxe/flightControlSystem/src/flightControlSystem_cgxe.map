@@ -1,0 +1,1071 @@
+ flightControlSystem_cgxe
+
+ Timestamp is 61ed221e (Sun Jan 23 10:38:38 2022)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 000097d0H .text$mn                CODE
+ 0001:000097d0 00000012H .text$mn$00             CODE
+ 0001:000097e2 00000081H .text$x                 CODE
+ 0002:00000000 00000280H .idata$5                DATA
+ 0002:00000280 00000010H .00cfg                  DATA
+ 0002:00000290 00000008H .CRT$XCA                DATA
+ 0002:00000298 00000008H .CRT$XCZ                DATA
+ 0002:000002a0 00000008H .CRT$XIA                DATA
+ 0002:000002a8 00000008H .CRT$XIZ                DATA
+ 0002:000002b0 00000008H .CRT$XPA                DATA
+ 0002:000002b8 00000008H .CRT$XPZ                DATA
+ 0002:000002c0 00000008H .CRT$XTA                DATA
+ 0002:000002c8 00000008H .CRT$XTZ                DATA
+ 0002:000002d0 00000000H .gfids$y                DATA
+ 0002:000002d0 000001f0H .rdata                  DATA
+ 0002:000004c0 00000218H .rdata$zzzdbg           DATA
+ 0002:000006d8 00000008H .rtc$IAA                DATA
+ 0002:000006e0 00000008H .rtc$IZZ                DATA
+ 0002:000006e8 00000008H .rtc$TAA                DATA
+ 0002:000006f0 00000008H .rtc$TZZ                DATA
+ 0002:000006f8 00000648H .xdata                  DATA
+ 0002:00000d40 00000084H .edata                  DATA
+ 0002:00000dc4 000000c8H .idata$2                DATA
+ 0002:00000e8c 00000014H .idata$3                DATA
+ 0002:00000ea0 00000280H .idata$4                DATA
+ 0002:00001120 000006b2H .idata$6                DATA
+ 0003:00000000 00002220H .data                   DATA
+ 0003:00002220 00000610H .bss                    DATA
+ 0004:00000000 00000750H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __volatile_metadata        0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000100       __guard_flags              0000000000000100     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       mexfilerequiredapiversion  0000000180001000 f   c_mexapi_version.obj
+ 0001:00000030       cgxe_flightControlSystem_method_dispatcher 0000000180001030 f   flightControlSystem_cgxe.obj
+ 0001:000000d0       method_dispatcher_6vpsKfybcOLihhVDGpg0DF 00000001800010d0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:000004a0       cgxe_6vpsKfybcOLihhVDGpg0DF_BuildInfoUpdate 00000001800014a0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000560       cgxe_6vpsKfybcOLihhVDGpg0DF_fallback_info 0000000180001560 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000600       mexFunction                0000000180001600 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002340       _ssSetInputPortDirectFeedThroughFcn 0000000180003340 f   flightControlSystem_cgxe_registry.obj
+ 0001:000024b0       _ssSetRWorkValueFcn        00000001800034b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002530       _ssGetRWorkValueFcn        0000000180003530 f   flightControlSystem_cgxe_registry.obj
+ 0001:000025a0       _ssSetIWorkValueFcn        00000001800035a0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002620       _ssGetIWorkValueFcn        0000000180003620 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002690       _ssSetPWorkValueFcn        0000000180003690 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002710       _ssGetPWorkValueFcn        0000000180003710 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002780       _ssGetInputPortSignalFcn   0000000180003780 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002b10       _ssGetInputPortBufferDstPortFcn 0000000180003b10 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002b90       _ssGetInputPortSignalPtrsFcn 0000000180003b90 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002f20       ssGetParameterTuningCompliance 0000000180003f20 f   flightControlSystem_cgxe_registry.obj
+ 0001:00002f90       ssGetDTypeIdFromMxArray    0000000180003f90 f   flightControlSystem_cgxe_registry.obj
+ 0001:000030b0       ssWriteRTWMx2dMatParam     00000001800040b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00003140       ssWriteRTWMxVectParam      0000000180004140 f   flightControlSystem_cgxe_registry.obj
+ 0001:000031c0       ssWriteRTWParameters       00000001800041c0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00003780       ssWriteRTWParamSettings    0000000180004780 f   flightControlSystem_cgxe_registry.obj
+ 0001:00003e70       ssWriteRTWStr              0000000180004e70 f   flightControlSystem_cgxe_registry.obj
+ 0001:00003ed0       ssWriteRTWWorkVect         0000000180004ed0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004430       ssWarning                  0000000180005430 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004520       ssWriteRTWNameValuePair    0000000180005520 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004a20       _ssSetInputPortMatrixDimensions 0000000180005a20 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004b40       _ssSetOutputPortMatrixDimensions 0000000180005b40 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004c60       _ssSetInputPortVectorDimension 0000000180005c60 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004d10       _ssSetOutputPortVectorDimension 0000000180005d10 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004dc0       ssIsRunTimeParamTunable    0000000180005dc0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004e30       ssGetSFuncBlockHandle      0000000180005e30 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004ea0       _ssGetCurrentInputPortWidth 0000000180005ea0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00004fe0       _ssGetCurrentOutputPortWidth 0000000180005fe0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005120       _ssGetCallSystemNumFcnCallDestinations 0000000180006120 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005190       ssGetIsZeroCrossControlDisabled 0000000180006190 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005200       ssSetIsInputPortUsedForContZcSignal 0000000180006200 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005270       ssSetZcSignalIsZcElementDisc 0000000180006270 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005320       ssSetZcSignalName          0000000180006320 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005390       ssSetZcSignalWidth         0000000180006390 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005400       ssSetZcSignalZcEventType   0000000180006400 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005470       ssSetZcSignalType          0000000180006470 f   flightControlSystem_cgxe_registry.obj
+ 0001:000054e0       ssSetZcSignalZcTol         00000001800064e0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005550       ssSetZcSignalNeedsEventNotification 0000000180006550 f   flightControlSystem_cgxe_registry.obj
+ 0001:000055c0       ssCreateAndAddZcSignalInfo 00000001800065c0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005630       ssCloneAndAddZcSignalInfo  0000000180006630 f   flightControlSystem_cgxe_registry.obj
+ 0001:000056a0       ssGetNumZcSignals          00000001800066a0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005710       ssGetZcSignalVector        0000000180006710 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005780       ssGetZcSignalName          0000000180006780 f   flightControlSystem_cgxe_registry.obj
+ 0001:000057f0       ssGetZcSignalWidth         00000001800067f0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005860       ssGetZcSignalZcEventType   0000000180006860 f   flightControlSystem_cgxe_registry.obj
+ 0001:000058d0       ssGetZcSignalZcEvents      00000001800068d0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005940       ssGetZcSignalType          0000000180006940 f   flightControlSystem_cgxe_registry.obj
+ 0001:000059b0       ssGetZcSignalZcTol         00000001800069b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005a30       ssGetZcSignalNeedsEventNotification 0000000180006a30 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005aa0       ssGetZcSignalIsZcElementDisc 0000000180006aa0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005b40       ssGetIsInputPortElementContinuous 0000000180006b40 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005be0       _ssGetAbsTol               0000000180006be0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005c50       _ssSetStateAbsTol          0000000180006c50 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005d30       _ssSetInputPortReusableFcn 0000000180006d30 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005e30       _ssSetOutputPortReusableFcn 0000000180006e30 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005f30       _ssSetSymbolicDimsSupport  0000000180006f30 f   flightControlSystem_cgxe_registry.obj
+ 0001:00005fa0       _ssRegisterSymbolicDimsExpr 0000000180006fa0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006020       _ssRegisterSymbolicDims    0000000180007020 f   flightControlSystem_cgxe_registry.obj
+ 0001:000060c0       _ssRegisterSymbolicDimsString 00000001800070c0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006140       _ssRegisterSymbolicDimsIntValue 0000000180007140 f   flightControlSystem_cgxe_registry.obj
+ 0001:000061b0       _ssRegisterSymbolicDimsPlus 00000001800071b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006230       _ssRegisterSymbolicDimsMinus 0000000180007230 f   flightControlSystem_cgxe_registry.obj
+ 0001:000062b0       _ssRegisterSymbolicDimsMultiply 00000001800072b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006330       _ssRegisterSymbolicDimsDivide 0000000180007330 f   flightControlSystem_cgxe_registry.obj
+ 0001:000063b0       _ssGetNumSymbolicDims      00000001800073b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006420       _ssGetSymbolicDim          0000000180007420 f   flightControlSystem_cgxe_registry.obj
+ 0001:000064a0       _ssSetInputPortSymbolicDimsId 00000001800074a0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006510       _ssGetCompInputPortSymbolicDimsId 0000000180007510 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006580       _ssSetCompInputPortSymbolicDimsId 0000000180007580 f   flightControlSystem_cgxe_registry.obj
+ 0001:000065f0       _ssSetOutputPortSymbolicDimsId 00000001800075f0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006660       _ssGetCompOutputPortSymbolicDimsId 0000000180007660 f   flightControlSystem_cgxe_registry.obj
+ 0001:000066d0       _ssSetCompOutputPortSymbolicDimsId 00000001800076d0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006740       _ssSetCompDWorkSymbolicDimsId 0000000180007740 f   flightControlSystem_cgxe_registry.obj
+ 0001:000081e0       __local_stdio_printf_options 00000001800091e0 f i flightControlSystem_cgxe_registry.obj
+ 0001:000081f0       _vsnprintf_l               00000001800091f0 f i flightControlSystem_cgxe_registry.obj
+ 0001:00008270       _vsprintf_l                0000000180009270 f i flightControlSystem_cgxe_registry.obj
+ 0001:000082c0       sprintf                    00000001800092c0 f i flightControlSystem_cgxe_registry.obj
+ 0001:0000830f       mxGetPr_800                000000018000930f f   libmx:libmx.dll
+ 0001:00008315       mxSetCell_800              0000000180009315 f   libmx:libmx.dll
+ 0001:0000831b       mxSetFieldByNumber_800     000000018000931b f   libmx:libmx.dll
+ 0001:00008321       mxCreateDoubleMatrix_800   0000000180009321 f   libmx:libmx.dll
+ 0001:00008327       mxCreateString_800         0000000180009327 f   libmx:libmx.dll
+ 0001:0000832d       mxCreateCellMatrix_800     000000018000932d f   libmx:libmx.dll
+ 0001:00008333       mxCreateStructMatrix_800   0000000180009333 f   libmx:libmx.dll
+ 0001:00008339       mxCalloc_800               0000000180009339 f   libmx:libmx.dll
+ 0001:0000833f       mxGetM_800                 000000018000933f f   libmx:libmx.dll
+ 0001:00008345       mxGetClassID_800           0000000180009345 f   libmx:libmx.dll
+ 0001:0000834b       mxGetData_800              000000018000934b f   libmx:libmx.dll
+ 0001:00008351       mxIsNumeric_800            0000000180009351 f   libmx:libmx.dll
+ 0001:00008357       mxIsChar_800               0000000180009357 f   libmx:libmx.dll
+ 0001:0000835d       mxIsComplex_800            000000018000935d f   libmx:libmx.dll
+ 0001:00008363       mxGetN_800                 0000000180009363 f   libmx:libmx.dll
+ 0001:00008369       mxSetField_800             0000000180009369 f   libmx:libmx.dll
+ 0001:0000836f       mxCreateNumericMatrix_800  000000018000936f f   libmx:libmx.dll
+ 0001:00008375       mxCreateDoubleScalar_800   0000000180009375 f   libmx:libmx.dll
+ 0001:0000837b       mxGetString_800            000000018000937b f   libmx:libmx.dll
+ 0001:00008381       mexWarnMsgTxt_800          0000000180009381 f   libmex:libmex.dll
+ 0001:00008387       mexPrintf_800              0000000180009387 f   libmex:libmex.dll
+ 0001:0000838d       mexCallMATLAB_800          000000018000938d f   libmex:libmex.dll
+ 0001:00008393       mexUnlock_800              0000000180009393 f   libmex:libmex.dll
+ 0001:00008399       mexIsLocked_800            0000000180009399 f   libmex:libmex.dll
+ 0001:0000839f       cgxertGetInputPortSignal   000000018000939f f   libmwcgxert:libmwcgxert.dll
+ 0001:000083a5       cgxertGetOutputPortSignal  00000001800093a5 f   libmwcgxert:libmwcgxert.dll
+ 0001:000083ab       cgxertSetSimStateCompliance 00000001800093ab f   libmwcgxert:libmwcgxert.dll
+ 0001:000083b1       cgxertGetRuntimeInstance   00000001800093b1 f   libmwcgxert:libmwcgxert.dll
+ 0001:000083b7       cgxertSetRuntimeInstance   00000001800093b7 f   libmwcgxert:libmwcgxert.dll
+ 0001:000083bd       cgxertGetEMLRTCtx          00000001800093bd f   libmwcgxert:libmwcgxert.dll
+ 0001:000083c3       slwrap_detect_contour_simulink_uzHhFfFO3lSNI0u26KogU 00000001800093c3 f   uzHhFfFO3lSNI0u26KogU_cclib:uzHhFfFO3lSNI0u26KogU_cclib.dll
+ 0001:000083cc       __raise_securityfailure    00000001800093cc f   MSVCRT:gs_report.obj
+ 0001:00008400       __report_gsfailure         0000000180009400 f   MSVCRT:gs_report.obj
+ 0001:000084d4       __report_rangecheckfailure 00000001800094d4 f   MSVCRT:gs_report.obj
+ 0001:000084e8       __report_securityfailure   00000001800094e8 f   MSVCRT:gs_report.obj
+ 0001:00008584       __report_securityfailureEx 0000000180009584 f   MSVCRT:gs_report.obj
+ 0001:00008778       __GSHandlerCheck           0000000180009778 f   MSVCRT:gshandler.obj
+ 0001:00008798       __GSHandlerCheckCommon     0000000180009798 f   MSVCRT:gshandler.obj
+ 0001:00008810       __security_check_cookie    0000000180009810 f   MSVCRT:amdsecgs.obj
+ 0001:00008b80       _CRT_INIT                  0000000180009b80 f   MSVCRT:dll_dllmain.obj
+ 0001:00008b88       _DllMainCRTStartup         0000000180009b88 f   MSVCRT:dll_dllmain.obj
+ 0001:00008c34       __security_init_cookie     0000000180009c34 f   MSVCRT:gs_support.obj
+ 0001:00008ce0       DllMain                    0000000180009ce0 f   MSVCRT:dll_dllmain_stub.obj
+ 0001:00008d04       ?__scrt_initialize_type_info@@YAXXZ 0000000180009d04 f   MSVCRT:tncleanup.obj
+ 0001:00008d14       ?__scrt_uninitialize_type_info@@YAXXZ 0000000180009d14 f   MSVCRT:tncleanup.obj
+ 0001:00008d20       __local_stdio_scanf_options 0000000180009d20 f i MSVCRT:default_local_stdio_options.obj
+ 0001:00008d28       __scrt_initialize_default_local_stdio_options 0000000180009d28 f   MSVCRT:default_local_stdio_options.obj
+ 0001:00008d44       ??$__crt_fast_decode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 0000000180009d44 f i MSVCRT:utility.obj
+ 0001:00008d5c       ??$__crt_fast_encode_pointer@PEAP6AXXZ@@YAPEAP6AXXZQEAP6AXXZ@Z 0000000180009d5c f i MSVCRT:utility.obj
+ 0001:00008d7c       ?__crt_rotate_pointer_value@@YA_K_KH@Z 0000000180009d7c f i MSVCRT:utility.obj
+ 0001:00008d88       ?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180009d88 f i MSVCRT:utility.obj
+ 0001:00008de8       ?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ 0000000180009de8 f i MSVCRT:utility.obj
+ 0001:00008e20       NtCurrentTeb               0000000180009e20 f i MSVCRT:utility.obj
+ 0001:00008e2c       __scrt_acquire_startup_lock 0000000180009e2c f   MSVCRT:utility.obj
+ 0001:00008e68       __scrt_dllmain_after_initialize_c 0000000180009e68 f   MSVCRT:utility.obj
+ 0001:00008e9c       __scrt_dllmain_before_initialize_c 0000000180009e9c f   MSVCRT:utility.obj
+ 0001:00008eb4       __scrt_dllmain_crt_thread_attach 0000000180009eb4 f   MSVCRT:utility.obj
+ 0001:00008edc       __scrt_dllmain_crt_thread_detach 0000000180009edc f   MSVCRT:utility.obj
+ 0001:00008ef4       __scrt_dllmain_exception_filter 0000000180009ef4 f   MSVCRT:utility.obj
+ 0001:00008f54       __scrt_dllmain_uninitialize_c 0000000180009f54 f   MSVCRT:utility.obj
+ 0001:00008f84       __scrt_dllmain_uninitialize_critical 0000000180009f84 f   MSVCRT:utility.obj
+ 0001:00008f98       __scrt_initialize_crt      0000000180009f98 f   MSVCRT:utility.obj
+ 0001:00008fe4       __scrt_initialize_onexit_tables 0000000180009fe4 f   MSVCRT:utility.obj
+ 0001:000090bc       __scrt_is_nonwritable_in_current_image 000000018000a0bc f   MSVCRT:utility.obj
+ 0001:00009158       __scrt_release_startup_lock 000000018000a158 f   MSVCRT:utility.obj
+ 0001:0000917c       __scrt_uninitialize_crt    000000018000a17c f   MSVCRT:utility.obj
+ 0001:000091a8       _onexit                    000000018000a1a8 f   MSVCRT:utility.obj
+ 0001:000091f8       at_quick_exit              000000018000a1f8 f   MSVCRT:utility.obj
+ 0001:00009230       atexit                     000000018000a230 f   MSVCRT:utility.obj
+ 0001:00009248       __scrt_get_dyn_tls_init_callback 000000018000a248 f   MSVCRT:dyn_tls_init.obj
+ 0001:00009250       __crt_debugger_hook        000000018000a250 f   MSVCRT:utility_desktop.obj
+ 0001:00009258       __scrt_fastfail            000000018000a258 f   MSVCRT:utility_desktop.obj
+ 0001:000093a4       __scrt_get_show_window_mode 000000018000a3a4 f   MSVCRT:utility_desktop.obj
+ 0001:000093e0       __scrt_initialize_mta      000000018000a3e0 f   MSVCRT:utility_desktop.obj
+ 0001:000093e8       __scrt_initialize_winrt    000000018000a3e8 f   MSVCRT:utility_desktop.obj
+ 0001:000093ec       __scrt_is_managed_app      000000018000a3ec f   MSVCRT:utility_desktop.obj
+ 0001:00009440       __scrt_set_unhandled_exception_filter 000000018000a440 f   MSVCRT:utility_desktop.obj
+ 0001:00009450       __scrt_stub_for_initialize_mta 000000018000a450 f   MSVCRT:utility_desktop.obj
+ 0001:00009450       __scrt_exe_initialize_mta  000000018000a450 f   MSVCRT:utility_desktop.obj
+ 0001:00009454       __scrt_unhandled_exception_filter 000000018000a454 f   MSVCRT:utility_desktop.obj
+ 0001:0000948c       _RTC_Initialize            000000018000a48c f   MSVCRT:initsect.obj
+ 0001:000094c8       _RTC_Terminate             000000018000a4c8 f   MSVCRT:initsect.obj
+ 0001:00009504       _guard_check_icall_nop     000000018000a504 f i MSVCRT:guard_support.obj
+ 0001:00009508       ReadNoFence64              000000018000a508 f i MSVCRT:guard_support.obj
+ 0001:0000950c       ReadPointerNoFence         000000018000a50c f i MSVCRT:guard_support.obj
+ 0001:00009510       _guard_icall_checks_enforced 000000018000a510 f i MSVCRT:guard_support.obj
+ 0001:00009528       _guard_rf_checks_enforced  000000018000a528 f i MSVCRT:guard_support.obj
+ 0001:0000952c       __isa_available_init       000000018000a52c f   MSVCRT:cpu_disp.obj
+ 0001:000096a8       _get_startup_argv_mode     000000018000a6a8 f   MSVCRT:argv_mode.obj
+ 0001:000096b0       __scrt_is_ucrt_dll_in_use  000000018000a6b0 f   MSVCRT:ucrt_detection.obj
+ 0001:000096c0       RtlCaptureContext          000000018000a6c0 f   kernel32:KERNEL32.dll
+ 0001:000096c6       RtlLookupFunctionEntry     000000018000a6c6 f   kernel32:KERNEL32.dll
+ 0001:000096cc       RtlVirtualUnwind           000000018000a6cc f   kernel32:KERNEL32.dll
+ 0001:000096d2       UnhandledExceptionFilter   000000018000a6d2 f   kernel32:KERNEL32.dll
+ 0001:000096d8       SetUnhandledExceptionFilter 000000018000a6d8 f   kernel32:KERNEL32.dll
+ 0001:000096de       GetCurrentProcess          000000018000a6de f   kernel32:KERNEL32.dll
+ 0001:000096e4       TerminateProcess           000000018000a6e4 f   kernel32:KERNEL32.dll
+ 0001:000096ea       IsProcessorFeaturePresent  000000018000a6ea f   kernel32:KERNEL32.dll
+ 0001:000096f0       QueryPerformanceCounter    000000018000a6f0 f   kernel32:KERNEL32.dll
+ 0001:000096f6       GetCurrentProcessId        000000018000a6f6 f   kernel32:KERNEL32.dll
+ 0001:000096fc       GetCurrentThreadId         000000018000a6fc f   kernel32:KERNEL32.dll
+ 0001:00009702       GetSystemTimeAsFileTime    000000018000a702 f   kernel32:KERNEL32.dll
+ 0001:00009708       DisableThreadLibraryCalls  000000018000a708 f   kernel32:KERNEL32.dll
+ 0001:0000970e       InitializeSListHead        000000018000a70e f   kernel32:KERNEL32.dll
+ 0001:00009714       IsDebuggerPresent          000000018000a714 f   kernel32:KERNEL32.dll
+ 0001:0000971a       GetStartupInfoW            000000018000a71a f   kernel32:KERNEL32.dll
+ 0001:00009720       GetModuleHandleW           000000018000a720 f   kernel32:KERNEL32.dll
+ 0001:00009726       memcpy                     000000018000a726 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000972c       __C_specific_handler       000000018000a72c f   vcruntime:VCRUNTIME140.dll
+ 0001:00009732       __std_type_info_destroy_list 000000018000a732 f   vcruntime:VCRUNTIME140.dll
+ 0001:00009738       memset                     000000018000a738 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000973e       calloc                     000000018000a73e f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00009744       free                       000000018000a744 f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:0000974a       strcmp                     000000018000a74a f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00009750       strlen                     000000018000a750 f   ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0001:00009756       __stdio_common_vsprintf    000000018000a756 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:0000975c       malloc                     000000018000a75c f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:00009762       _initterm                  000000018000a762 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00009768       _initterm_e                000000018000a768 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000976e       _seh_filter_dll            000000018000a76e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00009774       _configure_narrow_argv     000000018000a774 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000977a       _initialize_narrow_environment 000000018000a77a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00009780       _initialize_onexit_table   000000018000a780 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00009786       _register_onexit_function  000000018000a786 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000978c       _execute_onexit_table      000000018000a78c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00009792       _crt_atexit                000000018000a792 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00009798       _crt_at_quick_exit         000000018000a798 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000979e       _cexit                     000000018000a79e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000097a4       terminate                  000000018000a7a4 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000097ac       __scrt_stub_for_acrt_initialize 000000018000a7ac f   MSVCRT:ucrt_stubs.obj
+ 0001:000097ac       __vcrt_initialize          000000018000a7ac f   MSVCRT:ucrt_stubs.obj
+ 0001:000097ac       __acrt_initialize          000000018000a7ac f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b0       __vcrt_thread_attach       000000018000a7b0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b0       __acrt_thread_attach       000000018000a7b0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b0       __scrt_stub_for_acrt_thread_attach 000000018000a7b0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b4       __acrt_thread_detach       000000018000a7b4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b4       __scrt_stub_for_acrt_thread_detach 000000018000a7b4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b4       __vcrt_thread_detach       000000018000a7b4 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b8       __vcrt_uninitialize        000000018000a7b8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b8       __acrt_uninitialize        000000018000a7b8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097b8       __scrt_stub_for_acrt_uninitialize 000000018000a7b8 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097bc       __acrt_uninitialize_critical 000000018000a7bc f   MSVCRT:ucrt_stubs.obj
+ 0001:000097bc       __vcrt_uninitialize_critical 000000018000a7bc f   MSVCRT:ucrt_stubs.obj
+ 0001:000097bc       __scrt_stub_for_acrt_uninitialize_critical 000000018000a7bc f   MSVCRT:ucrt_stubs.obj
+ 0001:000097c0       __scrt_stub_for_is_c_termination_complete 000000018000a7c0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097c0       _is_c_termination_complete 000000018000a7c0 f   MSVCRT:ucrt_stubs.obj
+ 0001:000097e0       _guard_dispatch_icall_nop  000000018000a7e0 f   MSVCRT:guard_dispatch.obj
+ 0002:00000000       __imp_GetCurrentProcess    000000018000b000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_UnhandledExceptionFilter 000000018000b008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_RtlVirtualUnwind     000000018000b010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_RtlLookupFunctionEntry 000000018000b018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_RtlCaptureContext    000000018000b020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_TerminateProcess     000000018000b028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_IsProcessorFeaturePresent 000000018000b030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_QueryPerformanceCounter 000000018000b038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_GetCurrentProcessId  000000018000b040     kernel32:KERNEL32.dll
+ 0002:00000048       __imp_GetCurrentThreadId   000000018000b048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp_GetSystemTimeAsFileTime 000000018000b050     kernel32:KERNEL32.dll
+ 0002:00000058       __imp_DisableThreadLibraryCalls 000000018000b058     kernel32:KERNEL32.dll
+ 0002:00000060       __imp_InitializeSListHead  000000018000b060     kernel32:KERNEL32.dll
+ 0002:00000068       __imp_IsDebuggerPresent    000000018000b068     kernel32:KERNEL32.dll
+ 0002:00000070       __imp_GetStartupInfoW      000000018000b070     kernel32:KERNEL32.dll
+ 0002:00000078       __imp_GetModuleHandleW     000000018000b078     kernel32:KERNEL32.dll
+ 0002:00000080       __imp_SetUnhandledExceptionFilter 000000018000b080     kernel32:KERNEL32.dll
+ 0002:00000088       \177KERNEL32_NULL_THUNK_DATA 000000018000b088     kernel32:KERNEL32.dll
+ 0002:00000090       __imp___std_type_info_destroy_list 000000018000b090     vcruntime:VCRUNTIME140.dll
+ 0002:00000098       __imp_memset               000000018000b098     vcruntime:VCRUNTIME140.dll
+ 0002:000000a0       __imp_memcpy               000000018000b0a0     vcruntime:VCRUNTIME140.dll
+ 0002:000000a8       __imp___C_specific_handler 000000018000b0a8     vcruntime:VCRUNTIME140.dll
+ 0002:000000b0       \177VCRUNTIME140_NULL_THUNK_DATA 000000018000b0b0     vcruntime:VCRUNTIME140.dll
+ 0002:000000b8       __imp_malloc               000000018000b0b8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c0       __imp_calloc               000000018000b0c0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000c8       __imp_free                 000000018000b0c8     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d0       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 000000018000b0d0     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:000000d8       __imp__initterm_e          000000018000b0d8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e0       __imp__initterm            000000018000b0e0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000e8       __imp__initialize_onexit_table 000000018000b0e8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f0       __imp__register_onexit_function 000000018000b0f0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000f8       __imp__execute_onexit_table 000000018000b0f8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000100       __imp__crt_atexit          000000018000b100     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000108       __imp__initialize_narrow_environment 000000018000b108     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000110       __imp__seh_filter_dll      000000018000b110     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000118       __imp__crt_at_quick_exit   000000018000b118     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000120       __imp__cexit               000000018000b120     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000128       __imp_terminate            000000018000b128     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000130       __imp__configure_narrow_argv 000000018000b130     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000138       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 000000018000b138     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000140       __imp___stdio_common_vsprintf 000000018000b140     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000148       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 000000018000b148     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000150       __imp_strlen               000000018000b150     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000158       __imp_strcmp               000000018000b158     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000160       \177api-ms-win-crt-string-l1-1-0_NULL_THUNK_DATA 000000018000b160     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000168       __imp_mexPrintf_800        000000018000b168     libmex:libmex.dll
+ 0002:00000170       __imp_mexWarnMsgTxt_800    000000018000b170     libmex:libmex.dll
+ 0002:00000178       __imp_mexUnlock_800        000000018000b178     libmex:libmex.dll
+ 0002:00000180       __imp_mexCallMATLAB_800    000000018000b180     libmex:libmex.dll
+ 0002:00000188       __imp_mexIsLocked_800      000000018000b188     libmex:libmex.dll
+ 0002:00000190       \177libmex_NULL_THUNK_DATA 000000018000b190     libmex:libmex.dll
+ 0002:00000198       __imp_cgxertGetEMLRTCtx    000000018000b198     libmwcgxert:libmwcgxert.dll
+ 0002:000001a0       __imp_cgxertGetInputPortSignal 000000018000b1a0     libmwcgxert:libmwcgxert.dll
+ 0002:000001a8       __imp_cgxertGetOutputPortSignal 000000018000b1a8     libmwcgxert:libmwcgxert.dll
+ 0002:000001b0       __imp_cgxertSetSimStateCompliance 000000018000b1b0     libmwcgxert:libmwcgxert.dll
+ 0002:000001b8       __imp_cgxertGetRuntimeInstance 000000018000b1b8     libmwcgxert:libmwcgxert.dll
+ 0002:000001c0       __imp_cgxertSetRuntimeInstance 000000018000b1c0     libmwcgxert:libmwcgxert.dll
+ 0002:000001c8       \177libmwcgxert_NULL_THUNK_DATA 000000018000b1c8     libmwcgxert:libmwcgxert.dll
+ 0002:000001d0       __imp_mxSetField_800       000000018000b1d0     libmx:libmx.dll
+ 0002:000001d8       __imp_mxGetPr_800          000000018000b1d8     libmx:libmx.dll
+ 0002:000001e0       __imp_mxCreateNumericMatrix_800 000000018000b1e0     libmx:libmx.dll
+ 0002:000001e8       __imp_mxGetString_800      000000018000b1e8     libmx:libmx.dll
+ 0002:000001f0       __imp_mxCreateDoubleScalar_800 000000018000b1f0     libmx:libmx.dll
+ 0002:000001f8       __imp_mxGetN_800           000000018000b1f8     libmx:libmx.dll
+ 0002:00000200       __imp_mxIsComplex_800      000000018000b200     libmx:libmx.dll
+ 0002:00000208       __imp_mxIsChar_800         000000018000b208     libmx:libmx.dll
+ 0002:00000210       __imp_mxIsNumeric_800      000000018000b210     libmx:libmx.dll
+ 0002:00000218       __imp_mxGetData_800        000000018000b218     libmx:libmx.dll
+ 0002:00000220       __imp_mxGetClassID_800     000000018000b220     libmx:libmx.dll
+ 0002:00000228       __imp_mxGetM_800           000000018000b228     libmx:libmx.dll
+ 0002:00000230       __imp_mxCalloc_800         000000018000b230     libmx:libmx.dll
+ 0002:00000238       __imp_mxCreateStructMatrix_800 000000018000b238     libmx:libmx.dll
+ 0002:00000240       __imp_mxCreateCellMatrix_800 000000018000b240     libmx:libmx.dll
+ 0002:00000248       __imp_mxCreateString_800   000000018000b248     libmx:libmx.dll
+ 0002:00000250       __imp_mxCreateDoubleMatrix_800 000000018000b250     libmx:libmx.dll
+ 0002:00000258       __imp_mxSetFieldByNumber_800 000000018000b258     libmx:libmx.dll
+ 0002:00000260       __imp_mxSetCell_800        000000018000b260     libmx:libmx.dll
+ 0002:00000268       \177libmx_NULL_THUNK_DATA  000000018000b268     libmx:libmx.dll
+ 0002:00000270       __imp_slwrap_detect_contour_simulink_uzHhFfFO3lSNI0u26KogU 000000018000b270     uzHhFfFO3lSNI0u26KogU_cclib:uzHhFfFO3lSNI0u26KogU_cclib.dll
+ 0002:00000278       \177uzHhFfFO3lSNI0u26KogU_cclib_NULL_THUNK_DATA 000000018000b278     uzHhFfFO3lSNI0u26KogU_cclib:uzHhFfFO3lSNI0u26KogU_cclib.dll
+ 0002:00000280       __guard_check_icall_fptr   000000018000b280     MSVCRT:guard_support.obj
+ 0002:00000288       __guard_dispatch_icall_fptr 000000018000b288     MSVCRT:guard_support.obj
+ 0002:00000290       __xc_a                     000000018000b290     MSVCRT:initializers.obj
+ 0002:00000298       __xc_z                     000000018000b298     MSVCRT:initializers.obj
+ 0002:000002a0       __xi_a                     000000018000b2a0     MSVCRT:initializers.obj
+ 0002:000002a8       __xi_z                     000000018000b2a8     MSVCRT:initializers.obj
+ 0002:000002b0       __xp_a                     000000018000b2b0     MSVCRT:initializers.obj
+ 0002:000002b8       __xp_z                     000000018000b2b8     MSVCRT:initializers.obj
+ 0002:000002c0       __xt_a                     000000018000b2c0     MSVCRT:initializers.obj
+ 0002:000002c8       __xt_z                     000000018000b2c8     MSVCRT:initializers.obj
+ 0002:000002d0       DYNAMIC_DIMENSION_DEF      000000018000b2d0     flightControlSystem_cgxe_registry.obj
+ 0002:000002e8       __real@0000000000000000    000000018000b2e8     flightControlSystem_cgxe_registry.obj
+ 0002:000002f0       __real@4010000000000000    000000018000b2f0     flightControlSystem_cgxe_registry.obj
+ 0002:000002f8       __real@4157f08540000000    000000018000b2f8     flightControlSystem_cgxe_registry.obj
+ 0002:00000300       __real@41602cbca0000000    000000018000b300     flightControlSystem_cgxe_registry.obj
+ 0002:00000308       __real@41c2c6f11f000000    000000018000b308     flightControlSystem_cgxe_registry.obj
+ 0002:00000310       __real@41ccff9864800000    000000018000b310     flightControlSystem_cgxe_registry.obj
+ 0002:00000318       __real@41d7e1cdd6000000    000000018000b318     flightControlSystem_cgxe_registry.obj
+ 0002:00000320       __real@41d89cbba2000000    000000018000b320     flightControlSystem_cgxe_registry.obj
+ 0002:00000328       __real@41db6c84e6000000    000000018000b328     flightControlSystem_cgxe_registry.obj
+ 0002:00000330       __real@41dc67f553c00000    000000018000b330     flightControlSystem_cgxe_registry.obj
+ 0002:00000338       __real@41dd341d36800000    000000018000b338     flightControlSystem_cgxe_registry.obj
+ 0002:00000340       __real@41ddb16ff3c00000    000000018000b340     flightControlSystem_cgxe_registry.obj
+ 0002:00000348       __real@41e12c901f600000    000000018000b348     flightControlSystem_cgxe_registry.obj
+ 0002:00000350       __real@41e13401bfc00000    000000018000b350     flightControlSystem_cgxe_registry.obj
+ 0002:00000358       __real@41e19582c4200000    000000018000b358     flightControlSystem_cgxe_registry.obj
+ 0002:00000360       __real@41e2069ed9a00000    000000018000b360     flightControlSystem_cgxe_registry.obj
+ 0002:00000368       __real@41e5b0b712600000    000000018000b368     flightControlSystem_cgxe_registry.obj
+ 0002:00000370       __real@41e9ca49db000000    000000018000b370     flightControlSystem_cgxe_registry.obj
+ 0002:00000378       __real@41ea4e8669200000    000000018000b378     flightControlSystem_cgxe_registry.obj
+ 0002:00000380       __real@bff0000000000000    000000018000b380     flightControlSystem_cgxe_registry.obj
+ 0002:00000398       _pDefaultRawDllMain        000000018000b398     MSVCRT:dll_dllmain.obj
+ 0002:00000398       _pRawDllMain               000000018000b398     MSVCRT:dll_dllmain.obj
+ 0002:000003c0       _load_config_used          000000018000b3c0     MSVCRT:loadcfg.obj
+ 0002:000006d8       __rtc_iaa                  000000018000b6d8     MSVCRT:initsect.obj
+ 0002:000006e0       __rtc_izz                  000000018000b6e0     MSVCRT:initsect.obj
+ 0002:000006e8       __rtc_taa                  000000018000b6e8     MSVCRT:initsect.obj
+ 0002:000006f0       __rtc_tzz                  000000018000b6f0     MSVCRT:initsect.obj
+ 0002:00000dc4       __IMPORT_DESCRIPTOR_libmx  000000018000bdc4     libmx:libmx.dll
+ 0002:00000dd8       __IMPORT_DESCRIPTOR_libmex 000000018000bdd8     libmex:libmex.dll
+ 0002:00000dec       __IMPORT_DESCRIPTOR_libmwcgxert 000000018000bdec     libmwcgxert:libmwcgxert.dll
+ 0002:00000e00       __IMPORT_DESCRIPTOR_uzHhFfFO3lSNI0u26KogU_cclib 000000018000be00     uzHhFfFO3lSNI0u26KogU_cclib:uzHhFfFO3lSNI0u26KogU_cclib.dll
+ 0002:00000e14       __IMPORT_DESCRIPTOR_KERNEL32 000000018000be14     kernel32:KERNEL32.dll
+ 0002:00000e28       __IMPORT_DESCRIPTOR_VCRUNTIME140 000000018000be28     vcruntime:VCRUNTIME140.dll
+ 0002:00000e3c       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 000000018000be3c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000e50       __IMPORT_DESCRIPTOR_api-ms-win-crt-string-l1-1-0 000000018000be50     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00000e64       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 000000018000be64     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000e78       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 000000018000be78     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000e8c       __NULL_IMPORT_DESCRIPTOR   000000018000be8c     libmx:libmx.dll
+ 0003:00000050       DYNAMIC_DIMENSION          000000018000d050     flightControlSystem_cgxe_registry.obj
+ 0003:000021e0       __security_cookie_complement 000000018000f1e0     MSVCRT:gs_cookie.obj
+ 0003:000021e8       __security_cookie          000000018000f1e8     MSVCRT:gs_cookie.obj
+ 0003:000021f0       _fltused                   000000018000f1f0     MSVCRT:fltused.obj
+ 0003:000021f4       __scrt_native_dllmain_reason 000000018000f1f4     MSVCRT:utility.obj
+ 0003:000021f8       __isa_available            000000018000f1f8     MSVCRT:cpu_disp.obj
+ 0003:000021fc       __isa_enabled              000000018000f1fc     MSVCRT:cpu_disp.obj
+ 0003:00002200       __memcpy_nt_iters          000000018000f200     MSVCRT:cpu_disp.obj
+ 0003:00002210       __scrt_ucrt_dll_is_in_use  000000018000f210     MSVCRT:ucrt_stubs.obj
+ 0003:000027b0       ?__type_info_root_node@@3U__type_info_node@@A 000000018000f7b0     MSVCRT:tncleanup.obj
+ 0003:000027c0       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 000000018000f7c0     MSVCRT:default_local_stdio_options.obj
+ 0003:000027c8       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 000000018000f7c8     MSVCRT:default_local_stdio_options.obj
+ 0003:000027d0       __scrt_current_native_startup_state 000000018000f7d0     MSVCRT:utility.obj
+ 0003:000027d8       __scrt_native_startup_lock 000000018000f7d8     MSVCRT:utility.obj
+ 0003:00002818       __scrt_debugger_hook_flag  000000018000f818     MSVCRT:utility_desktop.obj
+ 0003:0000281c       __favor                    000000018000f81c     MSVCRT:cpu_disp.obj
+ 0003:00002820       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@9 000000018000f820     <common>
+ 0003:00002828       __dyn_tls_init_callback    000000018000f828     <common>
+
+ entry point at        0001:00008b88
+
+ Static symbols
+
+ 0002:ffff5000       __guard_fids_?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180000000     MSVCRT:dll_dllmain.obj
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     flightControlSystem_cgxe.exp
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     vcruntime:VCRUNTIME140.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0002:ffff5000       __guard_fids__guard_icall_checks_enforced 0000000180000000     MSVCRT:guard_support.obj
+ 0002:ffff5000       __guard_fids__             0000000180000000     MSVCRT:guard_support.obj
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0002:ffff5000       __guard_fids___scrt_set_unhandled_exception_filter 0000000180000000     MSVCRT:utility_desktop.obj
+ 0000:00000000       .debug$S                   0000000180000000     uzHhFfFO3lSNI0u26KogU_cclib:uzHhFfFO3lSNI0u26KogU_cclib.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwcgxert:libmwcgxert.dll
+ 0001:00000120       cgxe_mdl_start             0000000180001120 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000150       cgxe_mdl_initialize        0000000180001150 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000160       cgxe_mdl_outputs           0000000180001160 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:000001a0       cgxe_mdl_update            00000001800011a0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:000001b0       cgxe_mdl_enable            00000001800011b0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:000001c0       cgxe_mdl_disable           00000001800011c0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:000001d0       cgxe_mdl_terminate         00000001800011d0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:000001e0       init_simulink_io_address   00000001800011e0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000240       mdlOutputs_6vpsKfybcOLihhVDGpg0DF 0000000180001240 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000280       mdlInitialize_6vpsKfybcOLihhVDGpg0DF 0000000180001280 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:000002b0       mdlUpdate_6vpsKfybcOLihhVDGpg0DF 00000001800012b0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:000002f0       mdlTerminate_6vpsKfybcOLihhVDGpg0DF 00000001800012f0 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000330       mdlEnable_6vpsKfybcOLihhVDGpg0DF 0000000180001330 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000360       mdlDisable_6vpsKfybcOLihhVDGpg0DF 0000000180001360 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000390       mdlStart_6vpsKfybcOLihhVDGpg0DF 0000000180001390 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00000490       mdlProcessParameters_6vpsKfybcOLihhVDGpg0DF 0000000180001490 f   m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0001:00002268       $LN140                     0000000180003268     flightControlSystem_cgxe_registry.obj
+ 0001:00003054       $LN17                      0000000180004054     flightControlSystem_cgxe_registry.obj
+ 0001:00003754       $LN26                      0000000180004754     flightControlSystem_cgxe_registry.obj
+ 0001:00003e34       $LN23                      0000000180004e34     flightControlSystem_cgxe_registry.obj
+ 0001:000049ec       $LN26                      00000001800059ec     flightControlSystem_cgxe_registry.obj
+ 0001:000067b0       mdlStart                   00000001800077b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:000067f0       mdlInitializeConditions    00000001800077f0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006810       mdlUpdate                  0000000180007810 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006840       mdlOutputs                 0000000180007840 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006870       mdlTerminate               0000000180007870 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006890       mdlInitializeSizes         0000000180007890 f   flightControlSystem_cgxe_registry.obj
+ 0001:000068a0       mdlInitializeSampleTimes   00000001800078a0 f   flightControlSystem_cgxe_registry.obj
+ 0001:000068b0       cgxe_get_supported_modules 00000001800078b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006980       cgxe_process_get_checksums 0000000180007980 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006d10       cgxe_mex_unlock_call       0000000180007d10 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006d50       cgxe_unpack_simstruct      0000000180007d50 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006df0       cgxe_get_sim_state         0000000180007df0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006e60       cgxe_set_sim_state         0000000180007e60 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006ee0       cgxe_get_BuildInfoUpdate   0000000180007ee0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00006fb0       cgxe_get_fallback_info     0000000180007fb0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00007080       ProcessMexSfunctionCmdLineCall 0000000180008080 f   flightControlSystem_cgxe_registry.obj
+ 0001:000072b0       mdlZeroCrossings           00000001800082b0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00007300       mdlGetTimeOfNextVarHit     0000000180008300 f   flightControlSystem_cgxe_registry.obj
+ 0001:00007350       _RegNumInputPortsCB        0000000180008350 f   flightControlSystem_cgxe_registry.obj
+ 0001:000073d0       _RegNumOutputPortsCB       00000001800083d0 f   flightControlSystem_cgxe_registry.obj
+ 0001:00007450       _CreateSimStruct           0000000180008450 f   flightControlSystem_cgxe_registry.obj
+ 0001:00007680       _ProcessMexSfunctionCmdLineCall 0000000180008680 f   flightControlSystem_cgxe_registry.obj
+ 0001:00008010       ReportIndexOutOfBoundsError 0000000180009010 f   flightControlSystem_cgxe_registry.obj
+ 0001:00008694       capture_current_context    0000000180009694 f   MSVCRT:gs_report.obj
+ 0001:00008704       capture_previous_context   0000000180009704 f   MSVCRT:gs_report.obj
+ 0001:00008800       $$000000                   0000000180009800     MSVCRT:amdsecgs.obj
+ 0001:00008834       ?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180009834 f   MSVCRT:dll_dllmain.obj
+ 0001:00008884       ?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 0000000180009884 f   MSVCRT:dll_dllmain.obj
+ 0001:000089a0       ?dllmain_crt_process_detach@@YAH_N@Z 00000001800099a0 f   MSVCRT:dll_dllmain.obj
+ 0001:00008a30       ?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180009a30 f   MSVCRT:dll_dllmain.obj
+ 0001:00008b64       ?dllmain_raw@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180009b64 f   MSVCRT:dll_dllmain.obj
+ 0001:00008bc8       __get_entropy              0000000180009bc8 f   MSVCRT:gs_support.obj
+ 0001:00008d9c       ?find_pe_section@@YAPEAU_IMAGE_SECTION_HEADER@@QEAE_K@Z 0000000180009d9c f   MSVCRT:utility.obj
+ 0001:00008df0       ?is_potentially_valid_image_base@@YA_NQEAX@Z 0000000180009df0 f   MSVCRT:utility.obj
+ 0001:000097d0       $$000000                   000000018000a7d0     MSVCRT:guard_dispatch.obj
+ 0001:000097e2       ?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000a7e2 f   MSVCRT:dll_dllmain.obj
+ 0001:000097f9       ?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000a7f9 f   MSVCRT:dll_dllmain.obj
+ 0001:00009815       ?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000a815 f   MSVCRT:dll_dllmain.obj
+ 0001:0000984b       __scrt_is_nonwritable_in_current_image$filt$0 000000018000a84b f   MSVCRT:utility.obj
+ 0002:00000388       GS_ExceptionPointers       000000018000b388     MSVCRT:gs_report.obj
+ 0002:000006f8       $unwind$cgxe_flightControlSystem_method_dispatcher 000000018000b6f8     flightControlSystem_cgxe.obj
+ 0002:00000700       $unwind$method_dispatcher_6vpsKfybcOLihhVDGpg0DF 000000018000b700     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000708       $unwind$cgxe_mdl_start     000000018000b708     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000710       $unwind$cgxe_mdl_outputs   000000018000b710     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000718       $unwind$init_simulink_io_address 000000018000b718     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000720       $unwind$mdlOutputs_6vpsKfybcOLihhVDGpg0DF 000000018000b720     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000728       $unwind$mdlInitialize_6vpsKfybcOLihhVDGpg0DF 000000018000b728     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000730       $unwind$mdlUpdate_6vpsKfybcOLihhVDGpg0DF 000000018000b730     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000738       $unwind$mdlTerminate_6vpsKfybcOLihhVDGpg0DF 000000018000b738     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000740       $unwind$mdlEnable_6vpsKfybcOLihhVDGpg0DF 000000018000b740     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000748       $unwind$mdlDisable_6vpsKfybcOLihhVDGpg0DF 000000018000b748     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000750       $unwind$mdlStart_6vpsKfybcOLihhVDGpg0DF 000000018000b750     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000758       $unwind$cgxe_6vpsKfybcOLihhVDGpg0DF_BuildInfoUpdate 000000018000b758     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000760       $unwind$cgxe_6vpsKfybcOLihhVDGpg0DF_fallback_info 000000018000b760     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0002:00000768       $unwind$_vsnprintf_l       000000018000b768     flightControlSystem_cgxe_registry.obj
+ 0002:00000770       $unwind$_vsprintf_l        000000018000b770     flightControlSystem_cgxe_registry.obj
+ 0002:00000778       $unwind$sprintf            000000018000b778     flightControlSystem_cgxe_registry.obj
+ 0002:00000780       $unwind$mexFunction        000000018000b780     flightControlSystem_cgxe_registry.obj
+ 0002:00000790       $unwind$_ssSetInputPortDirectFeedThroughFcn 000000018000b790     flightControlSystem_cgxe_registry.obj
+ 0002:000007a0       $unwind$_ssSetRWorkValueFcn 000000018000b7a0     flightControlSystem_cgxe_registry.obj
+ 0002:000007a8       $unwind$_ssGetRWorkValueFcn 000000018000b7a8     flightControlSystem_cgxe_registry.obj
+ 0002:000007b0       $unwind$_ssSetIWorkValueFcn 000000018000b7b0     flightControlSystem_cgxe_registry.obj
+ 0002:000007b8       $unwind$_ssGetIWorkValueFcn 000000018000b7b8     flightControlSystem_cgxe_registry.obj
+ 0002:000007c0       $unwind$_ssSetPWorkValueFcn 000000018000b7c0     flightControlSystem_cgxe_registry.obj
+ 0002:000007c8       $unwind$_ssGetPWorkValueFcn 000000018000b7c8     flightControlSystem_cgxe_registry.obj
+ 0002:000007d0       $unwind$_ssGetInputPortSignalFcn 000000018000b7d0     flightControlSystem_cgxe_registry.obj
+ 0002:000007e0       $unwind$_ssGetInputPortBufferDstPortFcn 000000018000b7e0     flightControlSystem_cgxe_registry.obj
+ 0002:000007e8       $unwind$_ssGetInputPortSignalPtrsFcn 000000018000b7e8     flightControlSystem_cgxe_registry.obj
+ 0002:000007f8       $unwind$ssGetParameterTuningCompliance 000000018000b7f8     flightControlSystem_cgxe_registry.obj
+ 0002:00000800       $unwind$ssGetDTypeIdFromMxArray 000000018000b800     flightControlSystem_cgxe_registry.obj
+ 0002:00000808       $unwind$ssWriteRTWMx2dMatParam 000000018000b808     flightControlSystem_cgxe_registry.obj
+ 0002:00000810       $unwind$ssWriteRTWMxVectParam 000000018000b810     flightControlSystem_cgxe_registry.obj
+ 0002:00000818       $unwind$ssWriteRTWParameters 000000018000b818     flightControlSystem_cgxe_registry.obj
+ 0002:00000820       $unwind$ssWriteRTWParamSettings 000000018000b820     flightControlSystem_cgxe_registry.obj
+ 0002:00000828       $unwind$ssWriteRTWStr      000000018000b828     flightControlSystem_cgxe_registry.obj
+ 0002:00000830       $unwind$ssWriteRTWWorkVect 000000018000b830     flightControlSystem_cgxe_registry.obj
+ 0002:00000844       $unwind$ssWarning          000000018000b844     flightControlSystem_cgxe_registry.obj
+ 0002:00000858       $unwind$ssWriteRTWNameValuePair 000000018000b858     flightControlSystem_cgxe_registry.obj
+ 0002:00000860       $unwind$_ssSetInputPortMatrixDimensions 000000018000b860     flightControlSystem_cgxe_registry.obj
+ 0002:0000086c       $unwind$_ssSetOutputPortMatrixDimensions 000000018000b86c     flightControlSystem_cgxe_registry.obj
+ 0002:00000878       $unwind$_ssSetInputPortVectorDimension 000000018000b878     flightControlSystem_cgxe_registry.obj
+ 0002:00000884       $unwind$_ssSetOutputPortVectorDimension 000000018000b884     flightControlSystem_cgxe_registry.obj
+ 0002:00000890       $unwind$ssIsRunTimeParamTunable 000000018000b890     flightControlSystem_cgxe_registry.obj
+ 0002:00000898       $unwind$ssGetSFuncBlockHandle 000000018000b898     flightControlSystem_cgxe_registry.obj
+ 0002:000008a0       $unwind$_ssGetCurrentInputPortWidth 000000018000b8a0     flightControlSystem_cgxe_registry.obj
+ 0002:000008a8       $unwind$_ssGetCurrentOutputPortWidth 000000018000b8a8     flightControlSystem_cgxe_registry.obj
+ 0002:000008b0       $unwind$_ssGetCallSystemNumFcnCallDestinations 000000018000b8b0     flightControlSystem_cgxe_registry.obj
+ 0002:000008b8       $unwind$ssGetIsZeroCrossControlDisabled 000000018000b8b8     flightControlSystem_cgxe_registry.obj
+ 0002:000008c0       $unwind$ssSetIsInputPortUsedForContZcSignal 000000018000b8c0     flightControlSystem_cgxe_registry.obj
+ 0002:000008c8       $unwind$ssSetZcSignalIsZcElementDisc 000000018000b8c8     flightControlSystem_cgxe_registry.obj
+ 0002:000008d8       $unwind$ssSetZcSignalName  000000018000b8d8     flightControlSystem_cgxe_registry.obj
+ 0002:000008e0       $unwind$ssSetZcSignalWidth 000000018000b8e0     flightControlSystem_cgxe_registry.obj
+ 0002:000008e8       $unwind$ssSetZcSignalZcEventType 000000018000b8e8     flightControlSystem_cgxe_registry.obj
+ 0002:000008f0       $unwind$ssSetZcSignalType  000000018000b8f0     flightControlSystem_cgxe_registry.obj
+ 0002:000008f8       $unwind$ssSetZcSignalZcTol 000000018000b8f8     flightControlSystem_cgxe_registry.obj
+ 0002:00000900       $unwind$ssSetZcSignalNeedsEventNotification 000000018000b900     flightControlSystem_cgxe_registry.obj
+ 0002:00000908       $unwind$ssCreateAndAddZcSignalInfo 000000018000b908     flightControlSystem_cgxe_registry.obj
+ 0002:00000910       $unwind$ssCloneAndAddZcSignalInfo 000000018000b910     flightControlSystem_cgxe_registry.obj
+ 0002:00000918       $unwind$ssGetNumZcSignals  000000018000b918     flightControlSystem_cgxe_registry.obj
+ 0002:00000920       $unwind$ssGetZcSignalVector 000000018000b920     flightControlSystem_cgxe_registry.obj
+ 0002:00000928       $unwind$ssGetZcSignalName  000000018000b928     flightControlSystem_cgxe_registry.obj
+ 0002:00000930       $unwind$ssGetZcSignalWidth 000000018000b930     flightControlSystem_cgxe_registry.obj
+ 0002:00000938       $unwind$ssGetZcSignalZcEventType 000000018000b938     flightControlSystem_cgxe_registry.obj
+ 0002:00000940       $unwind$ssGetZcSignalZcEvents 000000018000b940     flightControlSystem_cgxe_registry.obj
+ 0002:00000948       $unwind$ssGetZcSignalType  000000018000b948     flightControlSystem_cgxe_registry.obj
+ 0002:00000950       $unwind$ssGetZcSignalZcTol 000000018000b950     flightControlSystem_cgxe_registry.obj
+ 0002:00000958       $unwind$ssGetZcSignalNeedsEventNotification 000000018000b958     flightControlSystem_cgxe_registry.obj
+ 0002:00000960       $unwind$ssGetZcSignalIsZcElementDisc 000000018000b960     flightControlSystem_cgxe_registry.obj
+ 0002:00000970       $unwind$ssGetIsInputPortElementContinuous 000000018000b970     flightControlSystem_cgxe_registry.obj
+ 0002:00000980       $unwind$_ssGetAbsTol       000000018000b980     flightControlSystem_cgxe_registry.obj
+ 0002:00000988       $unwind$_ssSetInputPortReusableFcn 000000018000b988     flightControlSystem_cgxe_registry.obj
+ 0002:00000990       $unwind$_ssSetOutputPortReusableFcn 000000018000b990     flightControlSystem_cgxe_registry.obj
+ 0002:00000998       $unwind$_ssSetSymbolicDimsSupport 000000018000b998     flightControlSystem_cgxe_registry.obj
+ 0002:000009a0       $unwind$_ssRegisterSymbolicDimsExpr 000000018000b9a0     flightControlSystem_cgxe_registry.obj
+ 0002:000009a8       $unwind$_ssRegisterSymbolicDims 000000018000b9a8     flightControlSystem_cgxe_registry.obj
+ 0002:000009b0       $unwind$_ssRegisterSymbolicDimsString 000000018000b9b0     flightControlSystem_cgxe_registry.obj
+ 0002:000009b8       $unwind$_ssRegisterSymbolicDimsIntValue 000000018000b9b8     flightControlSystem_cgxe_registry.obj
+ 0002:000009c0       $unwind$_ssRegisterSymbolicDimsPlus 000000018000b9c0     flightControlSystem_cgxe_registry.obj
+ 0002:000009c8       $unwind$_ssRegisterSymbolicDimsMinus 000000018000b9c8     flightControlSystem_cgxe_registry.obj
+ 0002:000009d0       $unwind$_ssRegisterSymbolicDimsMultiply 000000018000b9d0     flightControlSystem_cgxe_registry.obj
+ 0002:000009d8       $unwind$_ssRegisterSymbolicDimsDivide 000000018000b9d8     flightControlSystem_cgxe_registry.obj
+ 0002:000009e0       $unwind$_ssGetNumSymbolicDims 000000018000b9e0     flightControlSystem_cgxe_registry.obj
+ 0002:000009e8       $unwind$_ssGetSymbolicDim  000000018000b9e8     flightControlSystem_cgxe_registry.obj
+ 0002:000009f0       $unwind$_ssSetInputPortSymbolicDimsId 000000018000b9f0     flightControlSystem_cgxe_registry.obj
+ 0002:000009f8       $unwind$_ssGetCompInputPortSymbolicDimsId 000000018000b9f8     flightControlSystem_cgxe_registry.obj
+ 0002:00000a00       $unwind$_ssSetCompInputPortSymbolicDimsId 000000018000ba00     flightControlSystem_cgxe_registry.obj
+ 0002:00000a08       $unwind$_ssSetOutputPortSymbolicDimsId 000000018000ba08     flightControlSystem_cgxe_registry.obj
+ 0002:00000a10       $unwind$_ssGetCompOutputPortSymbolicDimsId 000000018000ba10     flightControlSystem_cgxe_registry.obj
+ 0002:00000a18       $unwind$_ssSetCompOutputPortSymbolicDimsId 000000018000ba18     flightControlSystem_cgxe_registry.obj
+ 0002:00000a20       $unwind$_ssSetCompDWorkSymbolicDimsId 000000018000ba20     flightControlSystem_cgxe_registry.obj
+ 0002:00000a28       $unwind$mdlStart           000000018000ba28     flightControlSystem_cgxe_registry.obj
+ 0002:00000a30       $unwind$mdlInitializeConditions 000000018000ba30     flightControlSystem_cgxe_registry.obj
+ 0002:00000a38       $unwind$mdlUpdate          000000018000ba38     flightControlSystem_cgxe_registry.obj
+ 0002:00000a40       $unwind$mdlOutputs         000000018000ba40     flightControlSystem_cgxe_registry.obj
+ 0002:00000a48       $unwind$mdlTerminate       000000018000ba48     flightControlSystem_cgxe_registry.obj
+ 0002:00000a50       $unwind$cgxe_get_supported_modules 000000018000ba50     flightControlSystem_cgxe_registry.obj
+ 0002:00000a58       $unwind$cgxe_process_get_checksums 000000018000ba58     flightControlSystem_cgxe_registry.obj
+ 0002:00000a68       $unwind$cgxe_mex_unlock_call 000000018000ba68     flightControlSystem_cgxe_registry.obj
+ 0002:00000a70       $unwind$cgxe_unpack_simstruct 000000018000ba70     flightControlSystem_cgxe_registry.obj
+ 0002:00000a78       $unwind$cgxe_get_sim_state 000000018000ba78     flightControlSystem_cgxe_registry.obj
+ 0002:00000a80       $unwind$cgxe_set_sim_state 000000018000ba80     flightControlSystem_cgxe_registry.obj
+ 0002:00000a88       $unwind$cgxe_get_BuildInfoUpdate 000000018000ba88     flightControlSystem_cgxe_registry.obj
+ 0002:00000a98       $unwind$cgxe_get_fallback_info 000000018000ba98     flightControlSystem_cgxe_registry.obj
+ 0002:00000aa8       $unwind$ProcessMexSfunctionCmdLineCall 000000018000baa8     flightControlSystem_cgxe_registry.obj
+ 0002:00000ab8       $unwind$_RegNumInputPortsCB 000000018000bab8     flightControlSystem_cgxe_registry.obj
+ 0002:00000ac0       $unwind$_RegNumOutputPortsCB 000000018000bac0     flightControlSystem_cgxe_registry.obj
+ 0002:00000ac8       $unwind$_CreateSimStruct   000000018000bac8     flightControlSystem_cgxe_registry.obj
+ 0002:00000ad0       $unwind$_ProcessMexSfunctionCmdLineCall 000000018000bad0     flightControlSystem_cgxe_registry.obj
+ 0002:00000ae0       $unwind$ReportIndexOutOfBoundsError 000000018000bae0     flightControlSystem_cgxe_registry.obj
+ 0002:00000af0       $unwind$__report_securityfailure 000000018000baf0     MSVCRT:gs_report.obj
+ 0002:00000af8       $unwind$__report_securityfailureEx 000000018000baf8     MSVCRT:gs_report.obj
+ 0002:00000b00       $unwind$__report_rangecheckfailure 000000018000bb00     MSVCRT:gs_report.obj
+ 0002:00000b08       $unwind$__report_gsfailure 000000018000bb08     MSVCRT:gs_report.obj
+ 0002:00000b10       $unwind$capture_current_context 000000018000bb10     MSVCRT:gs_report.obj
+ 0002:00000b1c       $unwind$capture_previous_context 000000018000bb1c     MSVCRT:gs_report.obj
+ 0002:00000b28       $unwind$__raise_securityfailure 000000018000bb28     MSVCRT:gs_report.obj
+ 0002:00000b30       $unwind$__GSHandlerCheckCommon 000000018000bb30     MSVCRT:gshandler.obj
+ 0002:00000b38       $unwind$__GSHandlerCheck   000000018000bb38     MSVCRT:gshandler.obj
+ 0002:00000b40       $xdatasym                  000000018000bb40     MSVCRT:amdsecgs.obj
+ 0002:00000b44       $unwind$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 000000018000bb44     MSVCRT:dll_dllmain.obj
+ 0002:00000b80       $unwind$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 000000018000bb80     MSVCRT:dll_dllmain.obj
+ 0002:00000b88       $unwind$?dllmain_crt_process_detach@@YAH_N@Z 000000018000bb88     MSVCRT:dll_dllmain.obj
+ 0002:00000bc0       $unwind$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018000bbc0     MSVCRT:dll_dllmain.obj
+ 0002:00000bc8       $unwind$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000bbc8     MSVCRT:dll_dllmain.obj
+ 0002:00000bd0       $unwind$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 000000018000bbd0     MSVCRT:dll_dllmain.obj
+ 0002:00000bf8       $unwind$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 000000018000bbf8     MSVCRT:dll_dllmain.obj
+ 0002:00000c00       $unwind$_DllMainCRTStartup 000000018000bc00     MSVCRT:dll_dllmain.obj
+ 0002:00000c10       $unwind$__security_init_cookie 000000018000bc10     MSVCRT:gs_support.obj
+ 0002:00000c1c       $unwind$__get_entropy      000000018000bc1c     MSVCRT:gs_support.obj
+ 0002:00000c24       $unwind$DllMain            000000018000bc24     MSVCRT:dll_dllmain_stub.obj
+ 0002:00000c2c       $unwind$__scrt_initialize_default_local_stdio_options 000000018000bc2c     MSVCRT:default_local_stdio_options.obj
+ 0002:00000c34       $unwind$atexit             000000018000bc34     MSVCRT:utility.obj
+ 0002:00000c3c       $unwind$_onexit            000000018000bc3c     MSVCRT:utility.obj
+ 0002:00000c44       $unwind$__scrt_is_nonwritable_in_current_image 000000018000bc44     MSVCRT:utility.obj
+ 0002:00000c64       $unwind$__scrt_is_nonwritable_in_current_image$filt$0 000000018000bc64     MSVCRT:utility.obj
+ 0002:00000c6c       $unwind$__scrt_acquire_startup_lock 000000018000bc6c     MSVCRT:utility.obj
+ 0002:00000c74       $unwind$__scrt_release_startup_lock 000000018000bc74     MSVCRT:utility.obj
+ 0002:00000c7c       $unwind$__scrt_initialize_crt 000000018000bc7c     MSVCRT:utility.obj
+ 0002:00000c84       $unwind$__scrt_uninitialize_crt 000000018000bc84     MSVCRT:utility.obj
+ 0002:00000c8c       $unwind$__scrt_initialize_onexit_tables 000000018000bc8c     MSVCRT:utility.obj
+ 0002:00000c94       $unwind$__scrt_dllmain_exception_filter 000000018000bc94     MSVCRT:utility.obj
+ 0002:00000ca8       $unwind$__scrt_dllmain_before_initialize_c 000000018000bca8     MSVCRT:utility.obj
+ 0002:00000cb0       $unwind$__scrt_dllmain_after_initialize_c 000000018000bcb0     MSVCRT:utility.obj
+ 0002:00000cb8       $unwind$__scrt_dllmain_uninitialize_c 000000018000bcb8     MSVCRT:utility.obj
+ 0002:00000cc0       $unwind$__scrt_dllmain_uninitialize_critical 000000018000bcc0     MSVCRT:utility.obj
+ 0002:00000cc8       $unwind$__scrt_dllmain_crt_thread_attach 000000018000bcc8     MSVCRT:utility.obj
+ 0002:00000cd0       $unwind$__scrt_dllmain_crt_thread_detach 000000018000bcd0     MSVCRT:utility.obj
+ 0002:00000cd8       $unwind$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 000000018000bcd8     MSVCRT:utility.obj
+ 0002:00000ce0       $unwind$__scrt_get_show_window_mode 000000018000bce0     MSVCRT:utility_desktop.obj
+ 0002:00000ce8       $unwind$__scrt_is_managed_app 000000018000bce8     MSVCRT:utility_desktop.obj
+ 0002:00000cf0       $unwind$__scrt_fastfail    000000018000bcf0     MSVCRT:utility_desktop.obj
+ 0002:00000d00       $unwind$__scrt_unhandled_exception_filter 000000018000bd00     MSVCRT:utility_desktop.obj
+ 0002:00000d08       $unwind$_RTC_Initialize    000000018000bd08     MSVCRT:initsect.obj
+ 0002:00000d14       $unwind$_RTC_Terminate     000000018000bd14     MSVCRT:initsect.obj
+ 0002:00000d20       $unwind$__isa_available_init 000000018000bd20     MSVCRT:cpu_disp.obj
+ 0002:00000d30       $xdatasym                  000000018000bd30     MSVCRT:guard_dispatch.obj
+ 0002:00000d40       .edata                     000000018000bd40     flightControlSystem_cgxe.exp
+ 0002:00000d68       rgpv                       000000018000bd68     flightControlSystem_cgxe.exp
+ 0002:00000d70       rgszName                   000000018000bd70     flightControlSystem_cgxe.exp
+ 0002:00000d78       rgwOrd                     000000018000bd78     flightControlSystem_cgxe.exp
+ 0002:00000d7c       szName                     000000018000bd7c     flightControlSystem_cgxe.exp
+ 0002:00000d9c       $N00001                    000000018000bd9c     flightControlSystem_cgxe.exp
+ 0002:00000da8       $N00002                    000000018000bda8     flightControlSystem_cgxe.exp
+ 0002:000012a0       .idata$6                   000000018000c2a0     libmx:libmx.dll
+ 0002:00001304       .idata$6                   000000018000c304     libmex:libmex.dll
+ 0002:000013b2       .idata$6                   000000018000c3b2     libmwcgxert:libmwcgxert.dll
+ 0002:000013fa       .idata$6                   000000018000c3fa     uzHhFfFO3lSNI0u26KogU_cclib:uzHhFfFO3lSNI0u26KogU_cclib.dll
+ 0002:000015a6       .idata$6                   000000018000c5a6     kernel32:KERNEL32.dll
+ 0002:00001600       .idata$6                   000000018000c600     vcruntime:VCRUNTIME140.dll
+ 0002:0000174e       .idata$6                   000000018000c74e     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000176e       .idata$6                   000000018000c76e     ucrt:api-ms-win-crt-string-l1-1-0.dll
+ 0002:00001790       .idata$6                   000000018000c790     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000017b0       .idata$6                   000000018000c7b0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0003:00000000       $SG19551                   000000018000d000     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0003:00000010       $SG19553                   000000018000d010     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0003:00000028       $SG19554                   000000018000d028     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0003:00000038       $SG19555                   000000018000d038     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0003:00000058       $SG18900                   000000018000d058     flightControlSystem_cgxe_registry.obj
+ 0003:00000088       $SG18905                   000000018000d088     flightControlSystem_cgxe_registry.obj
+ 0003:000000c8       $SG18912                   000000018000d0c8     flightControlSystem_cgxe_registry.obj
+ 0003:000000fc       $SG18969                   000000018000d0fc     flightControlSystem_cgxe_registry.obj
+ 0003:00000104       $SG18973                   000000018000d104     flightControlSystem_cgxe_registry.obj
+ 0003:0000010c       $SG20615                   000000018000d10c     flightControlSystem_cgxe_registry.obj
+ 0003:00000110       $SG18919                   000000018000d110     flightControlSystem_cgxe_registry.obj
+ 0003:00000144       $SG18979                   000000018000d144     flightControlSystem_cgxe_registry.obj
+ 0003:0000014c       $SG20693                   000000018000d14c     flightControlSystem_cgxe_registry.obj
+ 0003:00000150       $SG18924                   000000018000d150     flightControlSystem_cgxe_registry.obj
+ 0003:00000188       $SG18967                   000000018000d188     flightControlSystem_cgxe_registry.obj
+ 0003:00000190       $SG18971                   000000018000d190     flightControlSystem_cgxe_registry.obj
+ 0003:000001a0       $SG18975                   000000018000d1a0     flightControlSystem_cgxe_registry.obj
+ 0003:000001a8       $SG18976                   000000018000d1a8     flightControlSystem_cgxe_registry.obj
+ 0003:000001b0       $SG18977                   000000018000d1b0     flightControlSystem_cgxe_registry.obj
+ 0003:000001b8       $SG18978                   000000018000d1b8     flightControlSystem_cgxe_registry.obj
+ 0003:000001c8       $SG18980                   000000018000d1c8     flightControlSystem_cgxe_registry.obj
+ 0003:000001d0       $SG19025                   000000018000d1d0     flightControlSystem_cgxe_registry.obj
+ 0003:00000200       $SG19040                   000000018000d200     flightControlSystem_cgxe_registry.obj
+ 0003:00000230       $SG19058                   000000018000d230     flightControlSystem_cgxe_registry.obj
+ 0003:00000248       $SG19076                   000000018000d248     flightControlSystem_cgxe_registry.obj
+ 0003:00000260       $SG19094                   000000018000d260     flightControlSystem_cgxe_registry.obj
+ 0003:00000270       $SG19096                   000000018000d270     flightControlSystem_cgxe_registry.obj
+ 0003:00000280       $SG19098                   000000018000d280     flightControlSystem_cgxe_registry.obj
+ 0003:00000290       $SG19100                   000000018000d290     flightControlSystem_cgxe_registry.obj
+ 0003:000002a0       $SG19102                   000000018000d2a0     flightControlSystem_cgxe_registry.obj
+ 0003:000002b8       $SG19104                   000000018000d2b8     flightControlSystem_cgxe_registry.obj
+ 0003:000002d0       $SG19118                   000000018000d2d0     flightControlSystem_cgxe_registry.obj
+ 0003:000002f8       _sfcnName                  000000018000d2f8     flightControlSystem_cgxe_registry.obj
+ 0003:00000330       $SG19135                   000000018000d330     flightControlSystem_cgxe_registry.obj
+ 0003:000003a8       $SG19484                   000000018000d3a8     flightControlSystem_cgxe_registry.obj
+ 0003:000003b8       $SG19675                   000000018000d3b8     flightControlSystem_cgxe_registry.obj
+ 0003:000003c0       $SG19140                   000000018000d3c0     flightControlSystem_cgxe_registry.obj
+ 0003:00000438       $SG19469                   000000018000d438     flightControlSystem_cgxe_registry.obj
+ 0003:00000458       $SG19470                   000000018000d458     flightControlSystem_cgxe_registry.obj
+ 0003:00000478       $SG19674                   000000018000d478     flightControlSystem_cgxe_registry.obj
+ 0003:000004b4       $SG19676                   000000018000d4b4     flightControlSystem_cgxe_registry.obj
+ 0003:000004c0       $SG19680                   000000018000d4c0     flightControlSystem_cgxe_registry.obj
+ 0003:00000508       $SG19681                   000000018000d508     flightControlSystem_cgxe_registry.obj
+ 0003:00000510       $SG19682                   000000018000d510     flightControlSystem_cgxe_registry.obj
+ 0003:00000518       $SG19684                   000000018000d518     flightControlSystem_cgxe_registry.obj
+ 0003:00000520       $SG19683                   000000018000d520     flightControlSystem_cgxe_registry.obj
+ 0003:00000574       $SG19685                   000000018000d574     flightControlSystem_cgxe_registry.obj
+ 0003:00000580       $SG19707                   000000018000d580     flightControlSystem_cgxe_registry.obj
+ 0003:000005c0       $SG19708                   000000018000d5c0     flightControlSystem_cgxe_registry.obj
+ 0003:000005c8       $SG19709                   000000018000d5c8     flightControlSystem_cgxe_registry.obj
+ 0003:000005d0       $SG19713                   000000018000d5d0     flightControlSystem_cgxe_registry.obj
+ 0003:00000618       $SG19714                   000000018000d618     flightControlSystem_cgxe_registry.obj
+ 0003:00000620       $SG19715                   000000018000d620     flightControlSystem_cgxe_registry.obj
+ 0003:00000628       $SG19717                   000000018000d628     flightControlSystem_cgxe_registry.obj
+ 0003:00000630       $SG19716                   000000018000d630     flightControlSystem_cgxe_registry.obj
+ 0003:00000684       $SG19718                   000000018000d684     flightControlSystem_cgxe_registry.obj
+ 0003:00000690       $SG19733                   000000018000d690     flightControlSystem_cgxe_registry.obj
+ 0003:000006e0       $SG19734                   000000018000d6e0     flightControlSystem_cgxe_registry.obj
+ 0003:000006e8       $SG19735                   000000018000d6e8     flightControlSystem_cgxe_registry.obj
+ 0003:000006f0       $SG19747                   000000018000d6f0     flightControlSystem_cgxe_registry.obj
+ 0003:00000750       $SG19748                   000000018000d750     flightControlSystem_cgxe_registry.obj
+ 0003:00000758       $SG19749                   000000018000d758     flightControlSystem_cgxe_registry.obj
+ 0003:00000760       $SG19761                   000000018000d760     flightControlSystem_cgxe_registry.obj
+ 0003:000007c0       $SG19762                   000000018000d7c0     flightControlSystem_cgxe_registry.obj
+ 0003:000007c8       $SG19763                   000000018000d7c8     flightControlSystem_cgxe_registry.obj
+ 0003:000007d0       $SG19978                   000000018000d7d0     flightControlSystem_cgxe_registry.obj
+ 0003:00000848       $SG20600                   000000018000d848     flightControlSystem_cgxe_registry.obj
+ 0003:00000860       $SG19981                   000000018000d860     flightControlSystem_cgxe_registry.obj
+ 0003:000008d4       $SG20667                   000000018000d8d4     flightControlSystem_cgxe_registry.obj
+ 0003:000008e0       $SG19986                   000000018000d8e0     flightControlSystem_cgxe_registry.obj
+ 0003:00000958       $SG20668                   000000018000d958     flightControlSystem_cgxe_registry.obj
+ 0003:00000960       $SG19994                   000000018000d960     flightControlSystem_cgxe_registry.obj
+ 0003:000009d0       $SG20269                   000000018000d9d0     flightControlSystem_cgxe_registry.obj
+ 0003:00000a48       $SG20669                   000000018000da48     flightControlSystem_cgxe_registry.obj
+ 0003:00000a50       $SG20274                   000000018000da50     flightControlSystem_cgxe_registry.obj
+ 0003:00000ac8       $SG20675                   000000018000dac8     flightControlSystem_cgxe_registry.obj
+ 0003:00000ad0       $SG20612                   000000018000dad0     flightControlSystem_cgxe_registry.obj
+ 0003:00000b48       $SG20678                   000000018000db48     flightControlSystem_cgxe_registry.obj
+ 0003:00000b50       $SG20670                   000000018000db50     flightControlSystem_cgxe_registry.obj
+ 0003:00000bc8       $SG20681                   000000018000dbc8     flightControlSystem_cgxe_registry.obj
+ 0003:00000bd0       $SG20672                   000000018000dbd0     flightControlSystem_cgxe_registry.obj
+ 0003:00000c50       $SG20682                   000000018000dc50     flightControlSystem_cgxe_registry.obj
+ 0003:00000cd0       $SG20683                   000000018000dcd0     flightControlSystem_cgxe_registry.obj
+ 0003:00000ce0       $SG20685                   000000018000dce0     flightControlSystem_cgxe_registry.obj
+ 0003:00000cec       $SG20687                   000000018000dcec     flightControlSystem_cgxe_registry.obj
+ 0003:00000cf4       $SG20689                   000000018000dcf4     flightControlSystem_cgxe_registry.obj
+ 0003:00000d00       $SG20691                   000000018000dd00     flightControlSystem_cgxe_registry.obj
+ 0003:00000d10       $SG20696                   000000018000dd10     flightControlSystem_cgxe_registry.obj
+ 0003:00000df8       $SG20801                   000000018000ddf8     flightControlSystem_cgxe_registry.obj
+ 0003:00000e28       $SG20802                   000000018000de28     flightControlSystem_cgxe_registry.obj
+ 0003:00000e30       $SG20803                   000000018000de30     flightControlSystem_cgxe_registry.obj
+ 0003:00000e38       $SG20805                   000000018000de38     flightControlSystem_cgxe_registry.obj
+ 0003:00000e70       $SG20806                   000000018000de70     flightControlSystem_cgxe_registry.obj
+ 0003:00000e78       $SG20807                   000000018000de78     flightControlSystem_cgxe_registry.obj
+ 0003:00000e80       $SG20810                   000000018000de80     flightControlSystem_cgxe_registry.obj
+ 0003:00000eb8       $SG20811                   000000018000deb8     flightControlSystem_cgxe_registry.obj
+ 0003:00000ec0       $SG20812                   000000018000dec0     flightControlSystem_cgxe_registry.obj
+ 0003:00000ec8       $SG20814                   000000018000dec8     flightControlSystem_cgxe_registry.obj
+ 0003:00000f00       $SG20815                   000000018000df00     flightControlSystem_cgxe_registry.obj
+ 0003:00000f08       $SG20816                   000000018000df08     flightControlSystem_cgxe_registry.obj
+ 0003:00000f10       $SG20818                   000000018000df10     flightControlSystem_cgxe_registry.obj
+ 0003:00000f48       $SG20819                   000000018000df48     flightControlSystem_cgxe_registry.obj
+ 0003:00000f50       $SG20820                   000000018000df50     flightControlSystem_cgxe_registry.obj
+ 0003:00000f58       $SG20823                   000000018000df58     flightControlSystem_cgxe_registry.obj
+ 0003:00000f78       $SG20825                   000000018000df78     flightControlSystem_cgxe_registry.obj
+ 0003:00000f90       $SG20826                   000000018000df90     flightControlSystem_cgxe_registry.obj
+ 0003:00000fc8       $SG20827                   000000018000dfc8     flightControlSystem_cgxe_registry.obj
+ 0003:00000fd0       $SG20828                   000000018000dfd0     flightControlSystem_cgxe_registry.obj
+ 0003:00000fd8       $SG20959                   000000018000dfd8     flightControlSystem_cgxe_registry.obj
+ 0003:00000ff8       $SG20964                   000000018000dff8     flightControlSystem_cgxe_registry.obj
+ 0003:00001010       $SG20960                   000000018000e010     flightControlSystem_cgxe_registry.obj
+ 0003:000010a0       $SG20965                   000000018000e0a0     flightControlSystem_cgxe_registry.obj
+ 0003:00001130       $SG20969                   000000018000e130     flightControlSystem_cgxe_registry.obj
+ 0003:00001148       $SG20984                   000000018000e148     flightControlSystem_cgxe_registry.obj
+ 0003:00001168       $SG20989                   000000018000e168     flightControlSystem_cgxe_registry.obj
+ 0003:00001190       $SG20970                   000000018000e190     flightControlSystem_cgxe_registry.obj
+ 0003:00001220       $SG20974                   000000018000e220     flightControlSystem_cgxe_registry.obj
+ 0003:00001240       $SG20975                   000000018000e240     flightControlSystem_cgxe_registry.obj
+ 0003:000012d0       $SG20979                   000000018000e2d0     flightControlSystem_cgxe_registry.obj
+ 0003:000012f0       $SG20980                   000000018000e2f0     flightControlSystem_cgxe_registry.obj
+ 0003:00001380       $SG20985                   000000018000e380     flightControlSystem_cgxe_registry.obj
+ 0003:00001410       $SG20990                   000000018000e410     flightControlSystem_cgxe_registry.obj
+ 0003:000014a0       $SG20994                   000000018000e4a0     flightControlSystem_cgxe_registry.obj
+ 0003:000014c8       $SG21009                   000000018000e4c8     flightControlSystem_cgxe_registry.obj
+ 0003:000014e0       $SG20995                   000000018000e4e0     flightControlSystem_cgxe_registry.obj
+ 0003:00001570       $SG20999                   000000018000e570     flightControlSystem_cgxe_registry.obj
+ 0003:00001590       $SG21000                   000000018000e590     flightControlSystem_cgxe_registry.obj
+ 0003:00001620       $SG21004                   000000018000e620     flightControlSystem_cgxe_registry.obj
+ 0003:00001640       $SG21005                   000000018000e640     flightControlSystem_cgxe_registry.obj
+ 0003:000016d0       $SG21010                   000000018000e6d0     flightControlSystem_cgxe_registry.obj
+ 0003:00001760       $SG21014                   000000018000e760     flightControlSystem_cgxe_registry.obj
+ 0003:00001780       $SG21015                   000000018000e780     flightControlSystem_cgxe_registry.obj
+ 0003:00001810       $SG21019                   000000018000e810     flightControlSystem_cgxe_registry.obj
+ 0003:00001830       $SG21020                   000000018000e830     flightControlSystem_cgxe_registry.obj
+ 0003:000018c0       $SG21024                   000000018000e8c0     flightControlSystem_cgxe_registry.obj
+ 0003:000018e0       $SG21025                   000000018000e8e0     flightControlSystem_cgxe_registry.obj
+ 0003:00001970       $SG21029                   000000018000e970     flightControlSystem_cgxe_registry.obj
+ 0003:00001990       $SG21030                   000000018000e990     flightControlSystem_cgxe_registry.obj
+ 0003:00001a20       $SG21034                   000000018000ea20     flightControlSystem_cgxe_registry.obj
+ 0003:00001a40       $SG21035                   000000018000ea40     flightControlSystem_cgxe_registry.obj
+ 0003:00001ad0       $SG21039                   000000018000ead0     flightControlSystem_cgxe_registry.obj
+ 0003:00001af0       $SG21040                   000000018000eaf0     flightControlSystem_cgxe_registry.obj
+ 0003:00001b80       $SG21045                   000000018000eb80     flightControlSystem_cgxe_registry.obj
+ 0003:00001b98       $SG21050                   000000018000eb98     flightControlSystem_cgxe_registry.obj
+ 0003:00001bb0       $SG21046                   000000018000ebb0     flightControlSystem_cgxe_registry.obj
+ 0003:00001c40       $SG21051                   000000018000ec40     flightControlSystem_cgxe_registry.obj
+ 0003:00001cd0       $SG21055                   000000018000ecd0     flightControlSystem_cgxe_registry.obj
+ 0003:00001ce0       $SG21056                   000000018000ece0     flightControlSystem_cgxe_registry.obj
+ 0003:00001d70       $SG21060                   000000018000ed70     flightControlSystem_cgxe_registry.obj
+ 0003:00001d88       $SG21120                   000000018000ed88     flightControlSystem_cgxe_registry.obj
+ 0003:00001da0       $SG21061                   000000018000eda0     flightControlSystem_cgxe_registry.obj
+ 0003:00001e30       $SG21069                   000000018000ee30     flightControlSystem_cgxe_registry.obj
+ 0003:00001e40       $SG21070                   000000018000ee40     flightControlSystem_cgxe_registry.obj
+ 0003:00001ed0       $SG21072                   000000018000eed0     flightControlSystem_cgxe_registry.obj
+ 0003:00001f50       $SG21074                   000000018000ef50     flightControlSystem_cgxe_registry.obj
+ 0003:00001fd0       $SG21078                   000000018000efd0     flightControlSystem_cgxe_registry.obj
+ 0003:00002050       $SG21108                   000000018000f050     flightControlSystem_cgxe_registry.obj
+ 0003:00002168       $SG21130                   000000018000f168     flightControlSystem_cgxe_registry.obj
+ 0003:00002178       $SG21142                   000000018000f178     flightControlSystem_cgxe_registry.obj
+ 0003:00002188       $SG21152                   000000018000f188     flightControlSystem_cgxe_registry.obj
+ 0003:00002198       $SG21164                   000000018000f198     flightControlSystem_cgxe_registry.obj
+ 0003:000021a8       $SG21174                   000000018000f1a8     flightControlSystem_cgxe_registry.obj
+ 0003:000021b8       $SG21184                   000000018000f1b8     flightControlSystem_cgxe_registry.obj
+ 0003:00002220       $SG20663                   000000018000f220     flightControlSystem_cgxe_registry.obj
+ 0003:00002230       GS_ExceptionRecord         000000018000f230     MSVCRT:gs_report.obj
+ 0003:000022d0       GS_ContextRecord           000000018000f2d0     MSVCRT:gs_report.obj
+ 0003:000027a0       ?__proc_attached@@3HA      000000018000f7a0     MSVCRT:dll_dllmain.obj
+ 0003:000027e0       ?is_initialized_as_dll@@3_NA 000000018000f7e0     MSVCRT:utility.obj
+ 0003:000027e1       ?module_local_atexit_table_initialized@@3_NA 000000018000f7e1     MSVCRT:utility.obj
+ 0003:000027e8       ?module_local_atexit_table@@3U_onexit_table_t@@A 000000018000f7e8     MSVCRT:utility.obj
+ 0003:00002800       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 000000018000f800     MSVCRT:utility.obj
+ 0004:00000000       $pdata$cgxe_flightControlSystem_method_dispatcher 0000000180010000     flightControlSystem_cgxe.obj
+ 0004:0000000c       $pdata$method_dispatcher_6vpsKfybcOLihhVDGpg0DF 000000018001000c     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000018       $pdata$cgxe_mdl_start      0000000180010018     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000024       $pdata$cgxe_mdl_outputs    0000000180010024     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000030       $pdata$init_simulink_io_address 0000000180010030     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:0000003c       $pdata$mdlOutputs_6vpsKfybcOLihhVDGpg0DF 000000018001003c     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000048       $pdata$mdlInitialize_6vpsKfybcOLihhVDGpg0DF 0000000180010048     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000054       $pdata$mdlUpdate_6vpsKfybcOLihhVDGpg0DF 0000000180010054     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000060       $pdata$mdlTerminate_6vpsKfybcOLihhVDGpg0DF 0000000180010060     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:0000006c       $pdata$mdlEnable_6vpsKfybcOLihhVDGpg0DF 000000018001006c     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000078       $pdata$mdlDisable_6vpsKfybcOLihhVDGpg0DF 0000000180010078     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000084       $pdata$mdlStart_6vpsKfybcOLihhVDGpg0DF 0000000180010084     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:00000090       $pdata$cgxe_6vpsKfybcOLihhVDGpg0DF_BuildInfoUpdate 0000000180010090     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:0000009c       $pdata$cgxe_6vpsKfybcOLihhVDGpg0DF_fallback_info 000000018001009c     m_6vpsKfybcOLihhVDGpg0DF.obj
+ 0004:000000a8       $pdata$mexFunction         00000001800100a8     flightControlSystem_cgxe_registry.obj
+ 0004:000000b4       $pdata$_ssSetInputPortDirectFeedThroughFcn 00000001800100b4     flightControlSystem_cgxe_registry.obj
+ 0004:000000c0       $pdata$_ssSetRWorkValueFcn 00000001800100c0     flightControlSystem_cgxe_registry.obj
+ 0004:000000cc       $pdata$_ssGetRWorkValueFcn 00000001800100cc     flightControlSystem_cgxe_registry.obj
+ 0004:000000d8       $pdata$_ssSetIWorkValueFcn 00000001800100d8     flightControlSystem_cgxe_registry.obj
+ 0004:000000e4       $pdata$_ssGetIWorkValueFcn 00000001800100e4     flightControlSystem_cgxe_registry.obj
+ 0004:000000f0       $pdata$_ssSetPWorkValueFcn 00000001800100f0     flightControlSystem_cgxe_registry.obj
+ 0004:000000fc       $pdata$_ssGetPWorkValueFcn 00000001800100fc     flightControlSystem_cgxe_registry.obj
+ 0004:00000108       $pdata$_ssGetInputPortSignalFcn 0000000180010108     flightControlSystem_cgxe_registry.obj
+ 0004:00000114       $pdata$_ssGetInputPortBufferDstPortFcn 0000000180010114     flightControlSystem_cgxe_registry.obj
+ 0004:00000120       $pdata$_ssGetInputPortSignalPtrsFcn 0000000180010120     flightControlSystem_cgxe_registry.obj
+ 0004:0000012c       $pdata$ssGetParameterTuningCompliance 000000018001012c     flightControlSystem_cgxe_registry.obj
+ 0004:00000138       $pdata$ssGetDTypeIdFromMxArray 0000000180010138     flightControlSystem_cgxe_registry.obj
+ 0004:00000144       $pdata$ssWriteRTWMx2dMatParam 0000000180010144     flightControlSystem_cgxe_registry.obj
+ 0004:00000150       $pdata$ssWriteRTWMxVectParam 0000000180010150     flightControlSystem_cgxe_registry.obj
+ 0004:0000015c       $pdata$ssWriteRTWParameters 000000018001015c     flightControlSystem_cgxe_registry.obj
+ 0004:00000168       $pdata$ssWriteRTWParamSettings 0000000180010168     flightControlSystem_cgxe_registry.obj
+ 0004:00000174       $pdata$ssWriteRTWStr       0000000180010174     flightControlSystem_cgxe_registry.obj
+ 0004:00000180       $pdata$ssWriteRTWWorkVect  0000000180010180     flightControlSystem_cgxe_registry.obj
+ 0004:0000018c       $pdata$ssWarning           000000018001018c     flightControlSystem_cgxe_registry.obj
+ 0004:00000198       $pdata$ssWriteRTWNameValuePair 0000000180010198     flightControlSystem_cgxe_registry.obj
+ 0004:000001a4       $pdata$_ssSetInputPortMatrixDimensions 00000001800101a4     flightControlSystem_cgxe_registry.obj
+ 0004:000001b0       $pdata$_ssSetOutputPortMatrixDimensions 00000001800101b0     flightControlSystem_cgxe_registry.obj
+ 0004:000001bc       $pdata$_ssSetInputPortVectorDimension 00000001800101bc     flightControlSystem_cgxe_registry.obj
+ 0004:000001c8       $pdata$_ssSetOutputPortVectorDimension 00000001800101c8     flightControlSystem_cgxe_registry.obj
+ 0004:000001d4       $pdata$ssIsRunTimeParamTunable 00000001800101d4     flightControlSystem_cgxe_registry.obj
+ 0004:000001e0       $pdata$ssGetSFuncBlockHandle 00000001800101e0     flightControlSystem_cgxe_registry.obj
+ 0004:000001ec       $pdata$_ssGetCurrentInputPortWidth 00000001800101ec     flightControlSystem_cgxe_registry.obj
+ 0004:000001f8       $pdata$_ssGetCurrentOutputPortWidth 00000001800101f8     flightControlSystem_cgxe_registry.obj
+ 0004:00000204       $pdata$_ssGetCallSystemNumFcnCallDestinations 0000000180010204     flightControlSystem_cgxe_registry.obj
+ 0004:00000210       $pdata$ssGetIsZeroCrossControlDisabled 0000000180010210     flightControlSystem_cgxe_registry.obj
+ 0004:0000021c       $pdata$ssSetIsInputPortUsedForContZcSignal 000000018001021c     flightControlSystem_cgxe_registry.obj
+ 0004:00000228       $pdata$ssSetZcSignalIsZcElementDisc 0000000180010228     flightControlSystem_cgxe_registry.obj
+ 0004:00000234       $pdata$ssSetZcSignalName   0000000180010234     flightControlSystem_cgxe_registry.obj
+ 0004:00000240       $pdata$ssSetZcSignalWidth  0000000180010240     flightControlSystem_cgxe_registry.obj
+ 0004:0000024c       $pdata$ssSetZcSignalZcEventType 000000018001024c     flightControlSystem_cgxe_registry.obj
+ 0004:00000258       $pdata$ssSetZcSignalType   0000000180010258     flightControlSystem_cgxe_registry.obj
+ 0004:00000264       $pdata$ssSetZcSignalZcTol  0000000180010264     flightControlSystem_cgxe_registry.obj
+ 0004:00000270       $pdata$ssSetZcSignalNeedsEventNotification 0000000180010270     flightControlSystem_cgxe_registry.obj
+ 0004:0000027c       $pdata$ssCreateAndAddZcSignalInfo 000000018001027c     flightControlSystem_cgxe_registry.obj
+ 0004:00000288       $pdata$ssCloneAndAddZcSignalInfo 0000000180010288     flightControlSystem_cgxe_registry.obj
+ 0004:00000294       $pdata$ssGetNumZcSignals   0000000180010294     flightControlSystem_cgxe_registry.obj
+ 0004:000002a0       $pdata$ssGetZcSignalVector 00000001800102a0     flightControlSystem_cgxe_registry.obj
+ 0004:000002ac       $pdata$ssGetZcSignalName   00000001800102ac     flightControlSystem_cgxe_registry.obj
+ 0004:000002b8       $pdata$ssGetZcSignalWidth  00000001800102b8     flightControlSystem_cgxe_registry.obj
+ 0004:000002c4       $pdata$ssGetZcSignalZcEventType 00000001800102c4     flightControlSystem_cgxe_registry.obj
+ 0004:000002d0       $pdata$ssGetZcSignalZcEvents 00000001800102d0     flightControlSystem_cgxe_registry.obj
+ 0004:000002dc       $pdata$ssGetZcSignalType   00000001800102dc     flightControlSystem_cgxe_registry.obj
+ 0004:000002e8       $pdata$ssGetZcSignalZcTol  00000001800102e8     flightControlSystem_cgxe_registry.obj
+ 0004:000002f4       $pdata$ssGetZcSignalNeedsEventNotification 00000001800102f4     flightControlSystem_cgxe_registry.obj
+ 0004:00000300       $pdata$ssGetZcSignalIsZcElementDisc 0000000180010300     flightControlSystem_cgxe_registry.obj
+ 0004:0000030c       $pdata$ssGetIsInputPortElementContinuous 000000018001030c     flightControlSystem_cgxe_registry.obj
+ 0004:00000318       $pdata$_ssGetAbsTol        0000000180010318     flightControlSystem_cgxe_registry.obj
+ 0004:00000324       $pdata$_ssSetInputPortReusableFcn 0000000180010324     flightControlSystem_cgxe_registry.obj
+ 0004:00000330       $pdata$_ssSetOutputPortReusableFcn 0000000180010330     flightControlSystem_cgxe_registry.obj
+ 0004:0000033c       $pdata$_ssSetSymbolicDimsSupport 000000018001033c     flightControlSystem_cgxe_registry.obj
+ 0004:00000348       $pdata$_ssRegisterSymbolicDimsExpr 0000000180010348     flightControlSystem_cgxe_registry.obj
+ 0004:00000354       $pdata$_ssRegisterSymbolicDims 0000000180010354     flightControlSystem_cgxe_registry.obj
+ 0004:00000360       $pdata$_ssRegisterSymbolicDimsString 0000000180010360     flightControlSystem_cgxe_registry.obj
+ 0004:0000036c       $pdata$_ssRegisterSymbolicDimsIntValue 000000018001036c     flightControlSystem_cgxe_registry.obj
+ 0004:00000378       $pdata$_ssRegisterSymbolicDimsPlus 0000000180010378     flightControlSystem_cgxe_registry.obj
+ 0004:00000384       $pdata$_ssRegisterSymbolicDimsMinus 0000000180010384     flightControlSystem_cgxe_registry.obj
+ 0004:00000390       $pdata$_ssRegisterSymbolicDimsMultiply 0000000180010390     flightControlSystem_cgxe_registry.obj
+ 0004:0000039c       $pdata$_ssRegisterSymbolicDimsDivide 000000018001039c     flightControlSystem_cgxe_registry.obj
+ 0004:000003a8       $pdata$_ssGetNumSymbolicDims 00000001800103a8     flightControlSystem_cgxe_registry.obj
+ 0004:000003b4       $pdata$_ssGetSymbolicDim   00000001800103b4     flightControlSystem_cgxe_registry.obj
+ 0004:000003c0       $pdata$_ssSetInputPortSymbolicDimsId 00000001800103c0     flightControlSystem_cgxe_registry.obj
+ 0004:000003cc       $pdata$_ssGetCompInputPortSymbolicDimsId 00000001800103cc     flightControlSystem_cgxe_registry.obj
+ 0004:000003d8       $pdata$_ssSetCompInputPortSymbolicDimsId 00000001800103d8     flightControlSystem_cgxe_registry.obj
+ 0004:000003e4       $pdata$_ssSetOutputPortSymbolicDimsId 00000001800103e4     flightControlSystem_cgxe_registry.obj
+ 0004:000003f0       $pdata$_ssGetCompOutputPortSymbolicDimsId 00000001800103f0     flightControlSystem_cgxe_registry.obj
+ 0004:000003fc       $pdata$_ssSetCompOutputPortSymbolicDimsId 00000001800103fc     flightControlSystem_cgxe_registry.obj
+ 0004:00000408       $pdata$_ssSetCompDWorkSymbolicDimsId 0000000180010408     flightControlSystem_cgxe_registry.obj
+ 0004:00000414       $pdata$mdlStart            0000000180010414     flightControlSystem_cgxe_registry.obj
+ 0004:00000420       $pdata$mdlInitializeConditions 0000000180010420     flightControlSystem_cgxe_registry.obj
+ 0004:0000042c       $pdata$mdlUpdate           000000018001042c     flightControlSystem_cgxe_registry.obj
+ 0004:00000438       $pdata$mdlOutputs          0000000180010438     flightControlSystem_cgxe_registry.obj
+ 0004:00000444       $pdata$mdlTerminate        0000000180010444     flightControlSystem_cgxe_registry.obj
+ 0004:00000450       $pdata$cgxe_get_supported_modules 0000000180010450     flightControlSystem_cgxe_registry.obj
+ 0004:0000045c       $pdata$cgxe_process_get_checksums 000000018001045c     flightControlSystem_cgxe_registry.obj
+ 0004:00000468       $pdata$cgxe_mex_unlock_call 0000000180010468     flightControlSystem_cgxe_registry.obj
+ 0004:00000474       $pdata$cgxe_unpack_simstruct 0000000180010474     flightControlSystem_cgxe_registry.obj
+ 0004:00000480       $pdata$cgxe_get_sim_state  0000000180010480     flightControlSystem_cgxe_registry.obj
+ 0004:0000048c       $pdata$cgxe_set_sim_state  000000018001048c     flightControlSystem_cgxe_registry.obj
+ 0004:00000498       $pdata$cgxe_get_BuildInfoUpdate 0000000180010498     flightControlSystem_cgxe_registry.obj
+ 0004:000004a4       $pdata$cgxe_get_fallback_info 00000001800104a4     flightControlSystem_cgxe_registry.obj
+ 0004:000004b0       $pdata$ProcessMexSfunctionCmdLineCall 00000001800104b0     flightControlSystem_cgxe_registry.obj
+ 0004:000004bc       $pdata$_RegNumInputPortsCB 00000001800104bc     flightControlSystem_cgxe_registry.obj
+ 0004:000004c8       $pdata$_RegNumOutputPortsCB 00000001800104c8     flightControlSystem_cgxe_registry.obj
+ 0004:000004d4       $pdata$_CreateSimStruct    00000001800104d4     flightControlSystem_cgxe_registry.obj
+ 0004:000004e0       $pdata$_ProcessMexSfunctionCmdLineCall 00000001800104e0     flightControlSystem_cgxe_registry.obj
+ 0004:000004ec       $pdata$ReportIndexOutOfBoundsError 00000001800104ec     flightControlSystem_cgxe_registry.obj
+ 0004:000004f8       $pdata$_vsnprintf_l        00000001800104f8     flightControlSystem_cgxe_registry.obj
+ 0004:00000504       $pdata$_vsprintf_l         0000000180010504     flightControlSystem_cgxe_registry.obj
+ 0004:00000510       $pdata$sprintf             0000000180010510     flightControlSystem_cgxe_registry.obj
+ 0004:0000051c       $pdata$__raise_securityfailure 000000018001051c     MSVCRT:gs_report.obj
+ 0004:00000528       $pdata$__report_gsfailure  0000000180010528     MSVCRT:gs_report.obj
+ 0004:00000534       $pdata$__report_rangecheckfailure 0000000180010534     MSVCRT:gs_report.obj
+ 0004:00000540       $pdata$__report_securityfailure 0000000180010540     MSVCRT:gs_report.obj
+ 0004:0000054c       $pdata$__report_securityfailureEx 000000018001054c     MSVCRT:gs_report.obj
+ 0004:00000558       $pdata$capture_current_context 0000000180010558     MSVCRT:gs_report.obj
+ 0004:00000564       $pdata$capture_previous_context 0000000180010564     MSVCRT:gs_report.obj
+ 0004:00000570       $pdata$__GSHandlerCheck    0000000180010570     MSVCRT:gshandler.obj
+ 0004:0000057c       $pdata$__GSHandlerCheckCommon 000000018001057c     MSVCRT:gshandler.obj
+ 0004:00000594       $pdata$?dllmain_crt_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 0000000180010594     MSVCRT:dll_dllmain.obj
+ 0004:000005a0       $pdata$?dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z 00000001800105a0     MSVCRT:dll_dllmain.obj
+ 0004:000005ac       $pdata$?dllmain_crt_process_detach@@YAH_N@Z 00000001800105ac     MSVCRT:dll_dllmain.obj
+ 0004:000005b8       $pdata$?dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z 00000001800105b8     MSVCRT:dll_dllmain.obj
+ 0004:000005c4       $pdata$_DllMainCRTStartup  00000001800105c4     MSVCRT:dll_dllmain.obj
+ 0004:000005d0       $pdata$__get_entropy       00000001800105d0     MSVCRT:gs_support.obj
+ 0004:000005dc       $pdata$__security_init_cookie 00000001800105dc     MSVCRT:gs_support.obj
+ 0004:000005e8       $pdata$DllMain             00000001800105e8     MSVCRT:dll_dllmain_stub.obj
+ 0004:000005f4       $pdata$__scrt_initialize_default_local_stdio_options 00000001800105f4     MSVCRT:default_local_stdio_options.obj
+ 0004:00000600       $pdata$?configure_argv@__scrt_narrow_argv_policy@@SAHXZ 0000000180010600     MSVCRT:utility.obj
+ 0004:0000060c       $pdata$__scrt_acquire_startup_lock 000000018001060c     MSVCRT:utility.obj
+ 0004:00000618       $pdata$__scrt_dllmain_after_initialize_c 0000000180010618     MSVCRT:utility.obj
+ 0004:00000624       $pdata$__scrt_dllmain_before_initialize_c 0000000180010624     MSVCRT:utility.obj
+ 0004:00000630       $pdata$__scrt_dllmain_crt_thread_attach 0000000180010630     MSVCRT:utility.obj
+ 0004:0000063c       $pdata$__scrt_dllmain_crt_thread_detach 000000018001063c     MSVCRT:utility.obj
+ 0004:00000648       $pdata$__scrt_dllmain_exception_filter 0000000180010648     MSVCRT:utility.obj
+ 0004:00000654       $pdata$__scrt_dllmain_uninitialize_c 0000000180010654     MSVCRT:utility.obj
+ 0004:00000660       $pdata$__scrt_dllmain_uninitialize_critical 0000000180010660     MSVCRT:utility.obj
+ 0004:0000066c       $pdata$__scrt_initialize_crt 000000018001066c     MSVCRT:utility.obj
+ 0004:00000678       $pdata$__scrt_initialize_onexit_tables 0000000180010678     MSVCRT:utility.obj
+ 0004:00000684       $pdata$__scrt_is_nonwritable_in_current_image 0000000180010684     MSVCRT:utility.obj
+ 0004:00000690       $pdata$__scrt_release_startup_lock 0000000180010690     MSVCRT:utility.obj
+ 0004:0000069c       $pdata$__scrt_uninitialize_crt 000000018001069c     MSVCRT:utility.obj
+ 0004:000006a8       $pdata$_onexit             00000001800106a8     MSVCRT:utility.obj
+ 0004:000006b4       $pdata$atexit              00000001800106b4     MSVCRT:utility.obj
+ 0004:000006c0       $pdata$__scrt_fastfail     00000001800106c0     MSVCRT:utility_desktop.obj
+ 0004:000006cc       $pdata$__scrt_get_show_window_mode 00000001800106cc     MSVCRT:utility_desktop.obj
+ 0004:000006d8       $pdata$__scrt_is_managed_app 00000001800106d8     MSVCRT:utility_desktop.obj
+ 0004:000006e4       $pdata$__scrt_unhandled_exception_filter 00000001800106e4     MSVCRT:utility_desktop.obj
+ 0004:000006f0       $pdata$_RTC_Initialize     00000001800106f0     MSVCRT:initsect.obj
+ 0004:000006fc       $pdata$_RTC_Terminate      00000001800106fc     MSVCRT:initsect.obj
+ 0004:00000708       $pdata$__isa_available_init 0000000180010708     MSVCRT:cpu_disp.obj
+ 0004:00000720       $pdata$?fin$0@?0??dllmain_crt_process_attach@@YAHQEAUHINSTANCE__@@QEAX@Z@4HA 0000000180010720     MSVCRT:dll_dllmain.obj
+ 0004:0000072c       $pdata$?fin$0@?0??dllmain_crt_process_detach@@YAH_N@Z@4HA 000000018001072c     MSVCRT:dll_dllmain.obj
+ 0004:00000738       $pdata$?filt$0@?0??dllmain_dispatch@@YAHQEAUHINSTANCE__@@KQEAX@Z@4HA 0000000180010738     MSVCRT:dll_dllmain.obj
+ 0004:00000744       $pdata$__scrt_is_nonwritable_in_current_image$filt$0 0000000180010744     MSVCRT:utility.obj
